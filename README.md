@@ -12,6 +12,8 @@ The image below is rendered with [graphviz](http://www.graphviz.org) using:
 bash ./WhatLinksToWhat.sh
 ```
 
+This script also generates the `WhatLinksToWhat.dot` file, and you can use this to then render to other formats like svg.
+
 ## links
 
 <img src=https://raw.githubusercontent.com/isdata-org/what-links-to-what/master/WhatLinksToWhat.png>
