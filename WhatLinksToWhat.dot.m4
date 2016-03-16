@@ -2,7 +2,7 @@ digraph G {
 rankdir=LR
 
 /*
-I suck at colors, someone should figure out a better scheme:
+I'm bad at colors, someone should figure out a better scheme:
 http://www.graphviz.org/doc/info/colors.html
 http://colorbrewer2.org/ helps a lot
 */
