@@ -1,10 +1,5 @@
 # what-links-to-what
 
-   * [what?](#what)
-   * [links](#links)
-   * [data sources](#data-sources)
-   * [how?](#how)
-
 ## what?
 This is an ongoing effort to map the interlinkages between various industrial & product classification systems along with other databases of interest (facility pollution, LCA, etc.).
 
