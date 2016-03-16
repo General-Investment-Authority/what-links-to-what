@@ -15,3 +15,7 @@ bash ./WhatLinksToWhat.sh
 ## links
 
 <img src=https://raw.githubusercontent.com/isdata-org/what-links-to-what/master/WhatLinksToWhat.png>
+
+## data sources
+* [RAMON - Reference And Management Of Nomenclatures: Index of Correspondence Tables](http://ec.europa.eu/eurostat/ramon/relations/index.cfm?TargetUrl=LST_REL)
+* [United National Statistics Division - Classifications Registry](http://unstats.un.org/unsd/cr/registry/regot.asp?Lg=1)
