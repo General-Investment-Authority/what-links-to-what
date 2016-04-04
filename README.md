@@ -9,6 +9,7 @@ This is an ongoing effort to map the interlinkages between various industrial & 
 
 ## Data Sources
 * [RAMON - Reference And Management Of Nomenclatures: Index of Correspondence Tables](http://ec.europa.eu/eurostat/ramon/relations/index.cfm?TargetUrl=LST_REL)
+* [RAMON - Reference And Management Of Nomenclatures: Metadata](http://ec.europa.eu/eurostat/ramon/index.cfm?TargetUrl=DSP_PUB_WELC)
 * [United National Statistics Division - Classifications Registry](http://unstats.un.org/unsd/cr/registry/regot.asp?Lg=1)
 
 ### Classifications
