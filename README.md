@@ -24,7 +24,7 @@ This is an ongoing effort to map the interlinkages between various industrial & 
 * BEC - Broad Economic Categories
 * BTN - Brussels Tariff Nomenclature
 * CCT - Common Customs Tariff
-* CN - Combined Nomenclature
+* CN - [Combined Nomenclature](http://ec.europa.eu/taxation_customs/customs/customs_duties/tariff_aspects/combined_nomenclature/index_en.htm)
 * CPA - Classification of Products by Activity
 * HS - Harmonized System
 * NAPCS - North American Product Classification System
