@@ -2,8 +2,8 @@
 options(stringsAsFactors = FALSE)
 options(java.parameters = "-Xmx4g")
 
-write_Common_Nomenclature_to_RDF <- function(cn, version, dataDir, turtlePath){
-  baseURL = paste0("http://isdata.org/Classifications/CommonNomenclature/", version, "/")
+write_CN_to_RDF <- function(cn, version, dataDir, turtlePath){
+  baseURL = paste0("http://isdata.org/Classifications/CN/", version, "/")
 
   ontStore = initialize_New_OntStore()
 
@@ -84,25 +84,27 @@ write_Common_Nomenclature_to_RDF <- function(cn, version, dataDir, turtlePath){
                     data = cn$EN[i])
   }
 
-  save.rdf(ontStore, paste0(turtlePath, "/CommonNomenclature", version, ".turtle"), format="TURTLE")
+  save.rdf(ontStore, paste0(turtlePath, "/CN", version, ".turtle"), format="TURTLE")
 }
 
 
-parse_Common_Nomenclature <- function(turtlePath){
-  dir.create(turtlePath)
-  versions = get_classification_versions("Common Nomenclature")
+parse_CN <- function(turtlePath = "./data/Turtle"){
+  dir.create(turtlePath, recursive=TRUE)
+  versions = get_classification_versions("CN")
 
   for (item in versions){
-    dir.create(item$dataDir, recursive=TRUE)
+    dataDir = paste0("./data/CN/", item$version)
+
+    dir.create(dataDir, recursive=TRUE)
     fileName = tail(strsplit(item$url, "/")[[1]], n=1)
-    filePath = paste0(item$dataDir, "/", fileName)
+    filePath = paste0(dataDir, "/", fileName)
     if (!file.exists(filePath)){
       download.file(item$url, filePath)
     }
-    unzip(filePath, exdir=item$dataDir)
-    wb <- loadWorkbook(paste0(item$dataDir, "/", item$dataFile))
+    unzip(filePath, exdir=dataDir)
+    wb <- loadWorkbook(paste0(dataDir, "/", item$dataFile))
     cn = readWorksheet(wb, 1)
     colnames(cn) = strsplit(item$colnames, ",")[[1]]
-    write_Common_Nomenclature_to_RDF(cn, item$version, item$dataDir, turtlePath)
+    write_CN_to_RDF(cn, item$version, dataDir, turtlePath)
   }
 }

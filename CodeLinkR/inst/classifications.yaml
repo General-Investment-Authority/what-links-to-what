@@ -1,30 +1,35 @@
 classifications:
-  - name: Common Nomenclature
+  - name: CN
     versions:
-    - dataDir: ./data/CommonNomenclature/2015
-      url: http://ec.europa.eu/eurostat/ramon/documents/cn_2015/CNSE_2015_DE_EN_FR.zip
+    - url: http://ec.europa.eu/eurostat/ramon/documents/cn_2015/CNSE_2015_DE_EN_FR.zip
       dataFile: CN_2015_SELF-EXPL_DE_EN_FR.xls
       version: '2015'
       colnames: 'Sorting_Key,CN_Code,EN,DE,FR'
-    - dataDir: ./data/CommonNomenclature/2016
-      url: http://ec.europa.eu/eurostat/ramon/documents/cn_2016/CN_2016_SELF-EXPL_DE_EN_FR.zip
+    - url: http://ec.europa.eu/eurostat/ramon/documents/cn_2016/CN_2016_SELF-EXPL_DE_EN_FR.zip
       dataFile: CN_2016_self-explanatory_texts_DE-EN-FR_Excel.xls
       version: '2016'
       colnames: 'Sorting_Key,CN_Code,EN,DE,FR,Update'
-  - name: Harmonized System
+  - name: HS
     versions:
-    - dataDir: ./data/HarmonizedSystem/2015
-      url: http://ec.europa.eu/eurostat/ramon/other_documents/nhm/NHM_2015_25-3-2015.zip
+    - url: http://ec.europa.eu/eurostat/ramon/other_documents/nhm/NHM_2015_25-3-2015.zip
       dataFile: NHM_EN_v1_1.xlsx
       version: '2015'
       colnames: 'Code,Description,Reference,Reference_text'
-  - name: Classification of Products by Activity
+  - name: CPA
     versions:
-    - dataDir: ./data/ClassificationOfProductsByActivity/2.1
-      url: http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=ACT_OTH_CLS_DLD&StrNom=CPA_2_1&StrFormat=CSV&StrLanguageCode=EN&IntKey=&IntLevel=&bExport=
+    - url: http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=ACT_OTH_CLS_DLD&StrNom=CPA_2_1&StrFormat=CSV&StrLanguageCode=EN&IntKey=&IntLevel=&bExport=
       dataFile: CPA_2_1.csv
       version: '2.1'
       colnames: 'Order,Level,Code,Parent,Description,This_item_includes,This_item_also_includes,Rulings,This_item_excludes'
-
-
-
+  - name: ISIC
+    versions:
+    - url: http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=ACT_OTH_CLS_DLD&StrNom=ISIC_4&StrFormat=CSV&StrLanguageCode=EN&IntKey=&IntLevel=&bExport=
+      dataFile: ISIC4.csv
+      version: '4'
+      colnames: 'Order,Level,Code,Parent,Description'
+  - name: NAICS
+    versions:
+    - url: http://www.census.gov/eos/www/naics/2012NAICS/2-digit_2012_Codes.xls
+      dataFile: 2-digit_2012_Codes.xls
+      version: '2012'
+      colnames: 'Sequence_Number,Code,Title'

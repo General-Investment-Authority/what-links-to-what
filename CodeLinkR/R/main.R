@@ -16,10 +16,14 @@
 
 turtlePath = "./data/Turtle"
 
-# Common nomenclature
-#parse_Common_Nomenclature(turtlePath)
-#parse_Harmonized_System(turtlePath)
-
 # two steps:
 # 1) creating descriptions for classifications
+
+#parse_CN()
+#parse_HS()
+#parse_CPA()
+#parse_ISIC()
+#parse_NAICS()
+
+
 # 2) creating links between classifications
