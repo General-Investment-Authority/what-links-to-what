@@ -22,13 +22,14 @@ printStatistics = FALSE
 if (createDescriptions){
   parse_CN()
   parse_CPA()
+  parse_CPC()
   parse_HS()
   parse_ISIC()
   parse_NACE()
   parse_NAICS()
   parse_NHM()
-  parse_SITC()
   parse_PRODCOM()
+  parse_SITC()
 }
 # 2) creating links between classifications
 if (createConcordances){

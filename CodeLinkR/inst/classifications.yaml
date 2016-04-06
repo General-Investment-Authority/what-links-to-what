@@ -19,6 +19,12 @@ classifications:
       dataFile: CPA_2008.csv
       version: '2008'
       colnames: 'Order,Level,Code,Parent,Description,Rulings,This_item_includes,This_item_also_includes,This_item_excludes'
+  - name: CPC
+    versions:
+    - url: http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=ACT_OTH_CLS_DLD&StrNom=CPC_2_1&StrFormat=CSV&StrLanguageCode=EN&IntKey=&IntLevel=&bExport=
+      dataFile: CPC_2_1.csv
+      version: '2.1'
+      colnames: 'Order,Level,Code,Parent,Description'
   - name: NHM
     versions:
     - url: http://ec.europa.eu/eurostat/ramon/other_documents/nhm/NHM_2015_25-3-2015.zip
