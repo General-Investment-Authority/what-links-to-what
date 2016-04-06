@@ -4,7 +4,7 @@ write_CPA_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
   ontStore = initialize_New_OntStore()
 
   for (i in c(1:nrow(ws))){
-    subjectURL = paste0(baseURL, ws$Code[i])
+    subjectURL = paste0(baseURL, gsub("\\.", "", ws$Code[i]))
 
     add.triple(ontStore,
                subject=subjectURL,
@@ -13,8 +13,8 @@ write_CPA_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
 
     higherCodeURL = ""
     if (ws$Parent[i] != ""){
-      loc = which(ws$Code == ws$Parent[i])
-      higherCodeURL = paste0(baseURL, ws$Code[loc])
+      loc = which(ws$Code == gsub("\\.", "", ws$Parent[i]))
+      higherCodeURL = paste0(baseURL, gsub("\\.", "", ws$Code[loc]))
     }
 
     if (higherCodeURL != ""){
@@ -55,7 +55,6 @@ write_CPA_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
                     predicate = "http://www.w3.org/2004/02/skos/core#description",
                     data = ws$Description[i])
   }
-
   save.rdf(ontStore, paste0(turtlePath, "/", codeAbbrev, version, ".turtle"), format="TURTLE")
 }
 

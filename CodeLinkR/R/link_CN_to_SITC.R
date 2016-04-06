@@ -1,4 +1,4 @@
-write_CN_to_CPA_to_RDF <- function(ws, versionsAbbrev, classification1, classification2, turtlePath){
+write_CN_to_SITC_to_RDF <- function(ws, versionsAbbrev, classification1, classification2, turtlePath){
   baseURL1 = paste0("http://isdata.org/Classifications/",classification1, "/")
   baseURL2 = paste0("http://isdata.org/Classifications/",classification2, "/")
 
@@ -21,8 +21,7 @@ write_CN_to_CPA_to_RDF <- function(ws, versionsAbbrev, classification1, classifi
   save.rdf(ontStore, paste0(turtlePath, "/", versionsAbbrev, ".turtle"), format="TURTLE")
 }
 
-link_CN_to_CPA <- function(concordanceAbbrev = "CN_to_CPA", turtlePath = "./data/Turtle"){
-
+link_CN_to_SITC <- function(concordanceAbbrev = "CN_to_SITC", turtlePath = "./data/Turtle"){
   dir.create(turtlePath, recursive=TRUE)
   versions = get_concordance_versions(concordanceAbbrev)
 
@@ -44,6 +43,6 @@ link_CN_to_CPA <- function(concordanceAbbrev = "CN_to_CPA", turtlePath = "./data
     ws = readWorksheet(wb, 1)
     colnames(ws) = strsplit(item$colnames, ",")[[1]]
 
-    write_CN_to_CPA_to_RDF(ws, versionsAbbrev, item$classification1, item$classification2, turtlePath)
+    write_CN_to_SITC_to_RDF(ws, versionsAbbrev, item$classification1, item$classification2, turtlePath)
   }
 }

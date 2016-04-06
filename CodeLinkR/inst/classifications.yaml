@@ -15,6 +15,10 @@ classifications:
       dataFile: CPA_2_1.csv
       version: '2.1'
       colnames: 'Order,Level,Code,Parent,Description,This_item_includes,This_item_also_includes,Rulings,This_item_excludes'
+    - url: http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=ACT_OTH_CLS_DLD&StrNom=CPA_2008&StrFormat=CSV&StrLanguageCode=EN&IntKey=&IntLevel=&bExport=
+      dataFile: CPA_2008.csv
+      version: '2008'
+      colnames: 'Order,Level,Code,Parent,Description,Rulings,This_item_includes,This_item_also_includes,This_item_excludes'
   - name: HS
     versions:
     - url: http://ec.europa.eu/eurostat/ramon/other_documents/nhm/NHM_2015_25-3-2015.zip

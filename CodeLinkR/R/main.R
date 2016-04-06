@@ -31,6 +31,7 @@ if (createDescriptions){
 # 2) creating links between classifications
 if (createConcordances){
   link_CN_to_CPA()
+  link_CN_to_SITC()
 }
 
 if(printStatistics){

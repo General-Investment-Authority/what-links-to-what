@@ -9,3 +9,14 @@ get_classification_versions <- function(name){
   return(versions)
 }
 
+get_concordance_versions <- function(name){
+  concordanceMetaData = yaml.load_file("./inst/concordances.yaml")
+  versions = c()
+  for (concordances in concordanceMetaData$concordances){
+    if (concordances$name == name){
+      versions = concordances$versions
+    }
+  }
+  return(versions)
+}
+

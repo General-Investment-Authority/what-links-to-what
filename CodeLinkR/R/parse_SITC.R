@@ -4,7 +4,7 @@ write_SITC_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
   ontStore = initialize_New_OntStore()
 
   for (i in c(1:nrow(ws))){
-    subjectURL = paste0(baseURL, ws$Code[i])
+    subjectURL = paste0(baseURL, gsub("\\.", "", ws$Code[i]))
 
     add.triple(ontStore,
                subject=subjectURL,
@@ -15,14 +15,14 @@ write_SITC_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
     # the higher code is found by chopping off characters starting from the right
     # and finding the first code that matches
     keepSearching = TRUE
-    higherCode = ws$Code[i]
+    higherCode = gsub("\\.", "", ws$Code[i])
     higherCodeURL = ""
     while(keepSearching){
       higherCode = substring(higherCode, 1,nchar(higherCode)-1)
-      higherCodeLoc = which(ws$Code == higherCode)
+      higherCodeLoc = which(gsub("\\.", "", ws$Code[i]) == higherCode)
       if (any(higherCodeLoc)){
         keepSearching = FALSE
-        higherCodeURL = paste0(baseURL, ws$Code[higherCodeLoc])
+        higherCodeURL = paste0(baseURL, gsub("\\.", "", ws$Code[higherCodeLoc]))
       }
       if (nchar(higherCode) <= 1){
         keepSearching = FALSE

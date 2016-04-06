@@ -1,0 +1,16 @@
+concordances:
+  - name: 'CN_to_CPA'
+    versions:
+    - classification1: 'CN/2016'
+      classification2: 'CPA/2008'
+      url: http://ec.europa.eu/eurostat/ramon/other_documents/combined%20nomenclature/conversion_tables/CN_CPA2008_2016.zip
+      dataFile: CN_CPA2008_2016.xls
+      colnames: 'Code1,Code2,START,END'
+  - name: 'CN_to_SITC'
+    versions:
+    - classification1: 'CN/2016'
+      classification2: 'SITC/4'
+      url: http://ec.europa.eu/eurostat/ramon/other_documents/combined%20nomenclature/conversion_tables/CN_SITC_2016.zip
+      dataFile: CN_SITC_2016.xls
+      colnames: 'Code1,Code2,START,END'
+
