@@ -13,4 +13,29 @@ concordances:
       url: http://ec.europa.eu/eurostat/ramon/other_documents/combined%20nomenclature/conversion_tables/CN_SITC_2016.zip
       dataFile: CN_SITC_2016.xls
       colnames: 'Code1,Code2,START,END'
-
+  - name: 'NAICS_to_ISIC'
+    versions:
+    - classification1: 'NAICS/2012'
+      classification2: 'ISIC/4'
+      url: http://www.census.gov/eos/www/naics/concordances/2012_NAICS_to_ISIC_4.xls
+      dataFile: 2012_NAICS_to_ISIC_4.xls
+      colnames: 'Code1,Title1,Code2,Title2,Note'
+  - name: 'NACE_to_ISIC'
+    versions:
+    - classification1: 'NACE/2'
+      classification2: 'ISIC/4'
+      url: http://ec.europa.eu/eurostat/ramon/relations/index.cfm?TargetUrl=ACT_OTH_REL_DLD&StrNomRelCode=NACE%20REV.%202%20-%20ISIC%20REV.%204&StrLanguageCode=EN&StrFormat=CSV
+      dataFile: NACE2_to_ISIC4.csv
+      colnames: 'Code1,Code2'
+  - name: 'HS_to_SITC'
+    versions:
+    - classification1: 'HS/2012'
+      classification2: 'SITC/4'
+      url: http://unstats.un.org/unsd/trade/conversions/HS%202012%20to%20SITC%20Rev.4%20Correlation%20and%20conversion%20tables.xls
+      dataFile: 'HS%202012%20to%20SITC%20Rev.4%20Correlation%20and%20conversion%20tables.xls'
+      colnames: 'Code1,Code2,Relationship'
+    - classification1: 'HS/2012'
+      classification2: 'SITC/3'
+      url: http://unstats.un.org/unsd/trade/conversions/HS%202012%20to%20SITC3%20Correlation%20and%20conversion%20tables.xls
+      dataFile: 'HS%202012%20to%20SITC3%20Correlation%20and%20conversion%20tables.xls'
+      colnames: 'Code1,Code2,Relationship'

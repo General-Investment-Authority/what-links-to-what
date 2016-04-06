@@ -8,4 +8,7 @@ print_Classification_Statistics <- function(){
   print(paste("Total number of concepts:", get_Concept_Count(ontStore)))
   print("Available Classifications:")
   print(get_Schemes(ontStore))
+
+
+
 }

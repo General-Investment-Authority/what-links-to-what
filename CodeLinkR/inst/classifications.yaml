@@ -19,7 +19,7 @@ classifications:
       dataFile: CPA_2008.csv
       version: '2008'
       colnames: 'Order,Level,Code,Parent,Description,Rulings,This_item_includes,This_item_also_includes,This_item_excludes'
-  - name: HS
+  - name: NHM
     versions:
     - url: http://ec.europa.eu/eurostat/ramon/other_documents/nhm/NHM_2015_25-3-2015.zip
       dataFile: NHM_EN_v1_1.xlsx
@@ -53,3 +53,19 @@ classifications:
       dataFile: SITC_Rev_3_english_structure.txt
       version: '3'
       colnames: 'Code,Description'
+  - name: PRODCOM
+    versions:
+    - url: http://ec.europa.eu/eurostat/ramon/documents/prodcom_2015/PRODCOM_List_2015.zip
+      dataFile: PRODCOM_List_2015.xls
+      version: '2015'
+      colnames: 'Sorting_code,CODE,LEVEL,HS_CN,UNIT,PRODTYPE,bg,cs,da,de,el,en,es,et,fi,fr,hr,hu,it,lt,lv,mt,nl,pl,pt,ro,sk,sl,sv'
+    - url: http://ec.europa.eu/eurostat/ramon/documents/prodcom_2014/PRODCOM_List_2014.zip
+      dataFile: BG_CS_DA_DE_EL_EN_ES_ET.xls
+      version: '2014'
+      colnames: 'ID,CODE,LEVEL,HS_CN,UNIT,PRODTYPE,NACE,CPA,bg,cs,da,de,el,en,es,et'
+  - name: HS
+    versions:
+    - url: http://ec.europa.eu/eurostat/ramon/documents/hs_2012/HS_2012.zip
+      dataFile: 'HS 2012 - SELF-EXPLANATORY TEXTS DE EN FR.xls'
+      version: '2012'
+      colnames: 'CNKEY,HS_CODE,SE_DESC_EN,SE_DESC_DE,SE_DESC_FR'

@@ -12,4 +12,5 @@ Depends:
   XLConnect,
   rrdf,
   yaml,
-  stringr
+  stringr,
+  SPARQL

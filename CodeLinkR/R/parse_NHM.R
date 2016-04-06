@@ -1,30 +1,31 @@
-write_HS_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
+write_NHM_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
   baseURL = paste0("http://isdata.org/Classifications/",codeAbbrev,"/", version, "/")
 
   ontStore = initialize_New_OntStore()
 
   for (i in c(1:nrow(ws))){
-    subjectURL = paste0(baseURL, gsub("\\.", "", ws$HS_CODE[i]))
+    subjectURL = paste0(baseURL, ws$Code[i])
 
     add.triple(ontStore,
                subject=subjectURL,
                predicate = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
                object = "http://www.w3.org/2004/02/skos/core#Concept")
 
-    # the higher code is found by chopping off characters starting from the right
-    # and finding the first code that matches
+    # the higher code is found by going from right to left and switching non-zero numbers to zero
+    # and seeing if there is a match
     keepSearching = TRUE
-    higherCode = gsub("\\.", "", ws$HS_CODE[i])
+    higherCode = ws$Code[i]
     higherCodeURL = ""
     while(keepSearching){
-      higherCode = substring(higherCode, 1,nchar(higherCode)-1)
-      higherCodeLoc = which(gsub("\\.", "", ws$HS_CODE) == higherCode)
+      oldHigherCode = higherCode
+      higherCode = str_replace(higherCode, "[1-9](0*)$", "0\\1")
+      if ((higherCode == oldHigherCode) | (grepl("[1-9]", higherCode) == FALSE)) {
+        keepSearching = FALSE
+      }
+      higherCodeLoc = which(ws$Code == higherCode)
       if (any(higherCodeLoc)){
         keepSearching = FALSE
-        higherCodeURL = paste0(baseURL, gsub("\\.", "", ws$HS_CODE[higherCodeLoc]))
-      }
-      if (nchar(higherCode) <= 1){
-        keepSearching = FALSE
+        higherCodeURL = paste0(baseURL, ws$Code[higherCodeLoc])
       }
     }
 
@@ -48,23 +49,23 @@ write_HS_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
     add.data.triple(ontStore,
                     subject=subjectURL,
                     predicate = "http://www.w3.org/2004/02/skos/core#notation",
-                    data = ws$HS_CODE[i])
+                    data = ws$Code[i])
 
     add.data.triple(ontStore,
                     subject=subjectURL,
                     predicate = "http://www.w3.org/2004/02/skos/core#prefLabel",
-                    data = ws$HS_CODE[i])
+                    data = ws$Code[i])
 
     add.data.triple(ontStore,
                     subject=subjectURL,
                     predicate = "http://www.w3.org/2004/02/skos/core#description",
-                    data = ws$SE_DESC_EN[i])
+                    data = ws$Description[i])
   }
 
   save.rdf(ontStore, paste0(turtlePath, "/", codeAbbrev, version, ".turtle"), format="TURTLE")
 }
 
-parse_HS <- function(codeAbbrev = "HS", turtlePath = "./data/Turtle"){
+parse_NHM <- function(codeAbbrev = "NHM", turtlePath = "./data/Turtle"){
   dir.create(turtlePath, recursive=TRUE)
   versions = get_classification_versions(codeAbbrev)
 
@@ -78,13 +79,11 @@ parse_HS <- function(codeAbbrev = "HS", turtlePath = "./data/Turtle"){
     if (!file.exists(filePath)){
       download.file(item$url, filePath)
     }
-
-    unzip(filePath, exdir = dataDir)
+    unzip(filePath, exdir=dataDir)
     wb <- loadWorkbook(paste0(dataDir, "/", item$dataFile))
     ws = readWorksheet(wb, 1)
     colnames(ws) = strsplit(item$colnames, ",")[[1]]
-
-    write_HS_to_RDF(ws, codeAbbrev, item$version, dataDir, turtlePath)
+    write_NHM_to_RDF(ws, codeAbbrev, item$version, dataDir, turtlePath)
   }
 
 }

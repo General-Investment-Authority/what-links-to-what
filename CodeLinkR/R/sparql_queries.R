@@ -1,6 +1,6 @@
 get_Prefixes <- function(){
   prefixes = "PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
+  PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
   return(prefixes)
 }
 
@@ -13,6 +13,19 @@ run_Query <- function(ontStore, queryString){
   results = sparql.rdf(ontStore, queryString)
   results = as.data.frame(results)
   return(results)
+}
+
+get_Number_of_Links_Between_Schemes <- function(ontStore){
+ #way too slow for Jena, need to use a different triplestore backend
+#  queryString = "select (count(*) as ?linkCount) ?scheme1 ?scheme2 where {
+#                    ?concept1 rdf:type skos:Concept .
+#                    ?concept1 skos:inScheme ?scheme1 .
+#                     ?concept2 rdf:type skos:Concept .
+#                     ?concept2 skos:inScheme ?scheme2 .
+#                     filter(?scheme1 != ?scheme2) .
+#                     ?concept1 skos:relatedMatch ?concept2 .
+#                   } group by ?scheme1 ?scheme2"
+#   results = run_Query(ontStore, queryString)
 }
 
 get_Concept_Count <- function(ontStore){

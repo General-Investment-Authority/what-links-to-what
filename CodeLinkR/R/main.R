@@ -26,12 +26,17 @@ if (createDescriptions){
   parse_ISIC()
   parse_NACE()
   parse_NAICS()
+  parse_NHM()
   parse_SITC()
+  parse_PRODCOM()
 }
 # 2) creating links between classifications
 if (createConcordances){
   link_CN_to_CPA()
   link_CN_to_SITC()
+  link_NAICS_to_ISIC()
+  link_NACE_to_ISIC()
+  link_HS_to_SITC()
 }
 
 if(printStatistics){
