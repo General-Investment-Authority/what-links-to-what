@@ -33,3 +33,9 @@ classifications:
       dataFile: 2-digit_2012_Codes.xls
       version: '2012'
       colnames: 'Sequence_Number,Code,Title'
+  - name: NACE
+    versions:
+    - url: http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=ACT_OTH_CLS_DLD&StrNom=NACE_REV2&StrFormat=CSV&StrLanguageCode=EN&IntKey=&IntLevel=&bExport=
+      dataFile: NACE_REV2.csv
+      version: '2'
+      colnames: 'Order,Level,Code,Parent,Description,Reference_to_ISIC_Rev_4,This_item_includes,This_item_also_includes,Rulings,This_item_excludes'

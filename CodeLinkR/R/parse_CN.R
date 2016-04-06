@@ -1,7 +1,3 @@
-#never ever ever convert strings to factors
-options(stringsAsFactors = FALSE)
-options(java.parameters = "-Xmx4g")
-
 write_CN_to_RDF <- function(cn, version, dataDir, turtlePath){
   baseURL = paste0("http://isdata.org/Classifications/CN/", version, "/")
 

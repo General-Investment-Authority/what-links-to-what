@@ -24,6 +24,7 @@ turtlePath = "./data/Turtle"
 #parse_CPA()
 #parse_ISIC()
 #parse_NAICS()
+#parse_NACE()
 
 
 # 2) creating links between classifications
