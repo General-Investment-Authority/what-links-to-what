@@ -45,3 +45,7 @@ classifications:
       dataFile: SITC4_english_structure.txt
       version: '4'
       colnames: 'Code,Description'
+    - url: http://unstats.un.org/unsd/cr/downloads/SITC_Rev_3_english.zip
+      dataFile: SITC_Rev_3_english_structure.txt
+      version: '3'
+      colnames: 'Code,Description'

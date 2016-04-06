@@ -8,8 +8,8 @@ write_CN_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
 
     add.triple(ontStore,
                subject=subjectURL,
-               predicate = "rdf:type",
-               object = "skos:Concept")
+               predicate = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+               object = "http://www.w3.org/2004/02/skos/core#Concept")
 
 
     higherCodeURL = ""
@@ -45,24 +45,24 @@ write_CN_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
       higherCodeURL = gsub(" ", "", higherCodeURL)
       add.triple(ontStore,
                  subject=higherCodeURL,
-                 predicate = "skos:narrower",
+                 predicate = "http://www.w3.org/2004/02/skos/core#narrower",
                  object = subjectURL)
 
       add.triple(ontStore,
                  subject=subjectURL,
-                 predicate = "skos:broader",
+                 predicate = "http://www.w3.org/2004/02/skos/core#broader",
                  object = higherCodeURL)
     }
 
     add.triple(ontStore,
                subject=subjectURL,
-               predicate = "skos:inScheme",
-               object = baseURL)
+               predicate = "http://www.w3.org/2004/02/skos/core#inScheme",
+               object = substring(baseURL, 1, nchar(baseURL)-1))
 
 
     add.data.triple(ontStore,
                     subject=subjectURL,
-                    predicate = "skos:altLabel",
+                    predicate = "http://www.w3.org/2004/02/skos/core#altLabel",
                     data = ws$Sorting_Key[i])
 
     code = ws$CN_Code[i]
@@ -71,17 +71,17 @@ write_CN_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
     }
     add.data.triple(ontStore,
                     subject=subjectURL,
-                    predicate = "skos:notation",
+                    predicate = "http://www.w3.org/2004/02/skos/core#notation",
                     data = code)
 
     add.data.triple(ontStore,
                     subject=subjectURL,
-                    predicate = "skos:prefLabel",
+                    predicate = "http://www.w3.org/2004/02/skos/core#prefLabel",
                     data = ws$CN_Code[i])
 
     add.data.triple(ontStore,
                     subject=subjectURL,
-                    predicate = "skos:description",
+                    predicate = "http://www.w3.org/2004/02/skos/core#description",
                     data = ws$EN[i])
   }
 

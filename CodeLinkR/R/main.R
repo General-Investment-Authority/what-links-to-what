@@ -15,6 +15,7 @@
 
 createDescriptions = FALSE
 createConcordances = FALSE
+printStatistics = FALSE
 
 # two steps:
 # 1) creating descriptions for classifications
@@ -30,4 +31,8 @@ if (createDescriptions){
 # 2) creating links between classifications
 if (createConcordances){
   link_CN_to_CPA()
+}
+
+if(printStatistics){
+  print_Classification_Statistics()
 }
