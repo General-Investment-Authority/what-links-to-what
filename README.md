@@ -27,6 +27,7 @@ This is an ongoing effort to map the interlinkages between various industrial & 
 * CCT - Common Customs Tariff
 * CN - [Combined Nomenclature](http://ec.europa.eu/taxation_customs/customs/customs_duties/tariff_aspects/combined_nomenclature/index_en.htm)
 * CPA - [Statistical Classification of Products by Activity](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=CPA_2_1&StrLanguageCode=EN&IntPcKey=&StrLayoutCode=HIERARCHIC)
+* CPC - [Central Product Classification](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=ACT_OTH_DFLT_LAYOUT&StrNom=CPC_2_1&StrLanguageCode=EN)
 * HS - Harmonized System
 * NAPCS - North American Product Classification System
 * NIMEXE - Nomenclature of Goods for the External Trade Statistics of the Community and Statistics of Trade between Member States
