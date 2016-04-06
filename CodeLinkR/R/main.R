@@ -13,18 +13,21 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
-
-turtlePath = "./data/Turtle"
+createDescriptions = FALSE
+createConcordances = FALSE
 
 # two steps:
 # 1) creating descriptions for classifications
-
-#parse_CN()
-#parse_HS()
-#parse_CPA()
-#parse_ISIC()
-#parse_NAICS()
-#parse_NACE()
-
-
+if (createDescriptions){
+  parse_CN()
+  parse_CPA()
+  parse_HS()
+  parse_ISIC()
+  parse_NACE()
+  parse_NAICS()
+  parse_SITC()
+}
 # 2) creating links between classifications
+if (createConcordances){
+  link_CN_to_CPA()
+}

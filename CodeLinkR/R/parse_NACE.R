@@ -1,10 +1,10 @@
-write_NACE_to_RDF <- function(ws, version, dataDir, turtlePath){
-  baseURL = paste0("http://isdata.org/Classifications/NACE/", version, "/")
+write_NACE_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
+  baseURL = paste0("http://isdata.org/Classifications/",codeAbbrev,"/", version, "/")
 
   ontStore = initialize_New_OntStore()
 
   for (i in c(1:nrow(ws))){
-    subjectURL = paste0(baseURL, ws$Order[i])
+    subjectURL = paste0(baseURL, ws$Code[i])
 
     add.triple(ontStore,
                subject=subjectURL,
@@ -14,7 +14,7 @@ write_NACE_to_RDF <- function(ws, version, dataDir, turtlePath){
     higherCodeURL = ""
     if (ws$Parent[i] != ""){
       loc = which(ws$Code == ws$Parent[i])
-      higherCodeURL = paste0(baseURL, ws$Order[loc])
+      higherCodeURL = paste0(baseURL, ws$Code[loc])
     }
 
     if (higherCodeURL != ""){
@@ -72,15 +72,15 @@ write_NACE_to_RDF <- function(ws, version, dataDir, turtlePath){
     }
   }
 
-  save.rdf(ontStore, paste0(turtlePath, "/NACE", version, ".turtle"), format="TURTLE")
+  save.rdf(ontStore, paste0(turtlePath, "/", codeAbbrev, version, ".turtle"), format="TURTLE")
 }
 
-parse_NACE <- function(turtlePath = "./data/Turtle"){
+parse_NACE <- function(codeAbbrev = "NACE", turtlePath = "./data/Turtle"){
   dir.create(turtlePath, recursive=TRUE)
-  versions = get_classification_versions("NACE")
+  versions = get_classification_versions(codeAbbrev)
 
   for (item in versions){
-    dataDir = paste0("./data/NACE/", item$version)
+    dataDir = paste0("./data/",codeAbbrev,"/", item$version)
 
     dir.create(dataDir, recursive=TRUE)
     filePath = paste0(dataDir, "/", item$dataFile)
@@ -90,6 +90,6 @@ parse_NACE <- function(turtlePath = "./data/Turtle"){
 
     ws = read.csv(filePath, sep=";")
     colnames(ws) = strsplit(item$colnames, ",")[[1]]
-    write_NACE_to_RDF(ws, item$version, dataDir, turtlePath)
+    write_NACE_to_RDF(ws, codeAbbrev, item$version, dataDir, turtlePath)
   }
 }

@@ -1,5 +1,5 @@
-write_NAICS_to_RDF <- function(ws, version, dataDir, turtlePath){
-  baseURL = paste0("http://isdata.org/Classifications/NAICS/", version, "/")
+write_NAICS_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
+  baseURL = paste0("http://isdata.org/Classifications/",codeAbbrev,"/", version, "/")
 
   ontStore = initialize_New_OntStore()
 
@@ -51,15 +51,15 @@ write_NAICS_to_RDF <- function(ws, version, dataDir, turtlePath){
                     data = ws$Title[i])
   }
 
-  save.rdf(ontStore, paste0(turtlePath, "/NAICS", version, ".turtle"), format="TURTLE")
+  save.rdf(ontStore, paste0(turtlePath, "/", codeAbbrev, version, ".turtle"), format="TURTLE")
 }
 
-parse_NAICS <- function(turtlePath = "./data/Turtle"){
+parse_NAICS <- function(codeAbbrev = "NAICS", turtlePath = "./data/Turtle"){
   dir.create(turtlePath, recursive=TRUE)
-  versions = get_classification_versions("NAICS")
+  versions = get_classification_versions(codeAbbrev)
 
   for (item in versions){
-    dataDir = paste0("./data/NAICS/", item$version)
+    dataDir = paste0("./data/",codeAbbrev,"/", item$version)
 
     dir.create(dataDir, recursive=TRUE)
     filePath = paste0(dataDir, "/", item$dataFile)
@@ -73,6 +73,6 @@ parse_NAICS <- function(turtlePath = "./data/Turtle"){
     # remove NA rows (1st row)
     ws = ws[which(!is.na(ws[,1])),]
 
-    write_NAICS_to_RDF(ws, item$version, dataDir, turtlePath)
+    write_NAICS_to_RDF(ws, codeAbbrev, item$version, dataDir, turtlePath)
   }
 }

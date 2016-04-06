@@ -9,33 +9,39 @@ classifications:
       dataFile: CN_2016_self-explanatory_texts_DE-EN-FR_Excel.xls
       version: '2016'
       colnames: 'Sorting_Key,CN_Code,EN,DE,FR,Update'
-  - name: HS
-    versions:
-    - url: http://ec.europa.eu/eurostat/ramon/other_documents/nhm/NHM_2015_25-3-2015.zip
-      dataFile: NHM_EN_v1_1.xlsx
-      version: '2015'
-      colnames: 'Code,Description,Reference,Reference_text'
   - name: CPA
     versions:
     - url: http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=ACT_OTH_CLS_DLD&StrNom=CPA_2_1&StrFormat=CSV&StrLanguageCode=EN&IntKey=&IntLevel=&bExport=
       dataFile: CPA_2_1.csv
       version: '2.1'
       colnames: 'Order,Level,Code,Parent,Description,This_item_includes,This_item_also_includes,Rulings,This_item_excludes'
+  - name: HS
+    versions:
+    - url: http://ec.europa.eu/eurostat/ramon/other_documents/nhm/NHM_2015_25-3-2015.zip
+      dataFile: NHM_EN_v1_1.xlsx
+      version: '2015'
+      colnames: 'Code,Description,Reference,Reference_text'
   - name: ISIC
     versions:
     - url: http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=ACT_OTH_CLS_DLD&StrNom=ISIC_4&StrFormat=CSV&StrLanguageCode=EN&IntKey=&IntLevel=&bExport=
       dataFile: ISIC4.csv
       version: '4'
       colnames: 'Order,Level,Code,Parent,Description'
-  - name: NAICS
-    versions:
-    - url: http://www.census.gov/eos/www/naics/2012NAICS/2-digit_2012_Codes.xls
-      dataFile: 2-digit_2012_Codes.xls
-      version: '2012'
-      colnames: 'Sequence_Number,Code,Title'
   - name: NACE
     versions:
     - url: http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=ACT_OTH_CLS_DLD&StrNom=NACE_REV2&StrFormat=CSV&StrLanguageCode=EN&IntKey=&IntLevel=&bExport=
       dataFile: NACE_REV2.csv
       version: '2'
       colnames: 'Order,Level,Code,Parent,Description,Reference_to_ISIC_Rev_4,This_item_includes,This_item_also_includes,Rulings,This_item_excludes'
+  - name: NAICS
+    versions:
+    - url: http://www.census.gov/eos/www/naics/2012NAICS/2-digit_2012_Codes.xls
+      dataFile: 2-digit_2012_Codes.xls
+      version: '2012'
+      colnames: 'Sequence_Number,Code,Title'
+  - name: SITC
+    versions:
+    - url: http://unstats.un.org/unsd/cr/downloads/SITC4_english.zip
+      dataFile: SITC4_english_structure.txt
+      version: '4'
+      colnames: 'Code,Description'
