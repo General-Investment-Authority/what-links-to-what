@@ -30,8 +30,8 @@ This is an ongoing effort to map the interlinkages between various industrial & 
 * CPC - [Central Product Classification](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=ACT_OTH_DFLT_LAYOUT&StrNom=CPC_2_1&StrLanguageCode=EN)
 * HS - Harmonized System
 * NAPCS - North American Product Classification System
-* NIMEXE - Nomenclature of Goods for the External Trade Statistics of the Community and Statistics of Trade between Member States
-* NST/R - Standard Goods Classification for Transport Statistics/Revised 
+* NIMEXE - [Nomenclature of Goods for the External Trade Statistics of the Community and Statistics of Trade between Member States](http://ec.europa.eu/eurostat/ramon/other_documents/ancestors/nimexe/index.cfm?TargetUrl=DSP_NIMEXE)
+* NST/R - [Standard Goods Classification for Transport Statistics/Revised](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=NSTR_1967&StrLanguageCode=EN&IntPcKey=&StrLayoutCode=HIERARCHIC)
 * PRODCOM - PRODuction COMmunautaire
 * SITC - Standard International Trade Classification
 
