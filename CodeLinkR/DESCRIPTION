@@ -15,4 +15,5 @@ Depends:
   stringr,
   SPARQL,
   readxl,
-  rjson
+  rjson,
+  elastic
