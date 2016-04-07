@@ -86,3 +86,18 @@ get_All_Concepts_In_Scheme <- function(ontStore, scheme){
   results$concept = clean_URLs(results$concept)
   return(sort(results$concept))
 }
+
+download_All_Data <- function(){
+  endpoint = "http://localhost:8890/sparql"
+  queryString = "select * where {
+                    ?concept rdf:type skos:Concept .
+                    ?concept skos:inScheme ?scheme .
+                    ?concept skos:notation ?notation .
+                    ?concept skos:prefLabel ?prefLabel .
+                    ?concept skos:description ?description .
+                    OPTIONAL{?concept skos:example ?example }.
+                    OPTIONAL{?concept skos:scopeNote ?scopeNote }.
+                }"
+  queryResults = SPARQL(url=endpoint, query=queryString, format='csv', extra=list(format='text/csv'))
+  df = queryResults$results
+}
