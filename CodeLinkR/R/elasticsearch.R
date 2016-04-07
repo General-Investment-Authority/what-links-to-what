@@ -14,3 +14,23 @@ write_to_Elasticsearch <- function(outputFile = "Elasticsearch.json"){
   # curl -XPOST 'http://localhost:9200/_bulk' --data-binary @Elasticsearch.json
 }
 
+run_elasticsearch_query <- function(query){
+  connect(es_port = 9200)
+  results = Search(index = "classifications", type = "classification", body=common_terms_query(query), asdf=TRUE)$hits$hits
+  return(results)
+}
+
+common_terms_query <- function(query, cutoff_frequency=0.01){
+  body <- paste0('{
+                   "query" : {
+                     "common": {
+                        "_all": {
+                             "query": "',query,'",
+                             "cutoff_frequency": ',cutoff_frequency,'
+                         }
+                       }
+                    }
+                  }')
+  return(body)
+}
+
