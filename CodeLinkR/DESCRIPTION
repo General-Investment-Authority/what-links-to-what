@@ -13,4 +13,5 @@ Depends:
   rrdf,
   yaml,
   stringr,
-  SPARQL
+  SPARQL,
+  readxl

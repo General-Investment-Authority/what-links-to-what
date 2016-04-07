@@ -39,3 +39,17 @@ concordances:
       url: http://unstats.un.org/unsd/trade/conversions/HS%202012%20to%20SITC3%20Correlation%20and%20conversion%20tables.xls
       dataFile: 'HS%202012%20to%20SITC3%20Correlation%20and%20conversion%20tables.xls'
       colnames: 'Code1,Code2,Relationship'
+  - name: 'NACE_to_NAICS'
+    versions:
+    - classification1: 'NACE/2'
+      classification2: 'NAICS/2012'
+      url: http://ec.europa.eu/eurostat/ramon/documents/NACE_REV2-US_NAICS_2012.zip
+      dataFile: NACE_REV2-US_NAICS_2012.xls
+      colnames: 'Code1,Name1,Code2,Name2,Notes'
+  - name: 'ISIC_to_CPC'
+    versions:
+    - classification1: 'ISIC/4'
+      classification2: 'CPC/2.1'
+      url: http://unstats.un.org/unsd/cr/downloads/ISIC4_CPCv21.zip
+      dataFile: isic4-cpc21.txt
+      colnames: 'Code1,Code1Partial,Code2,Code2Partial'
