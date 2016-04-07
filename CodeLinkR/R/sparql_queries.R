@@ -16,16 +16,18 @@ run_Query <- function(ontStore, queryString){
 }
 
 get_Number_of_Links_Between_Schemes <- function(ontStore){
- #way too slow for Jena, need to use a different triplestore backend
-#  queryString = "select (count(*) as ?linkCount) ?scheme1 ?scheme2 where {
-#                    ?concept1 rdf:type skos:Concept .
-#                    ?concept1 skos:inScheme ?scheme1 .
-#                     ?concept2 rdf:type skos:Concept .
-#                     ?concept2 skos:inScheme ?scheme2 .
-#                     filter(?scheme1 != ?scheme2) .
-#                     ?concept1 skos:relatedMatch ?concept2 .
-#                   } group by ?scheme1 ?scheme2"
-#   results = run_Query(ontStore, queryString)
+  endpoint = "http://localhost:8890/sparql"
+  queryString = "select (count(*) as ?linkCount) ?scheme1 ?scheme2 where {
+                    ?concept1 rdf:type skos:Concept .
+                    ?concept1 skos:inScheme ?scheme1 .
+                     ?concept2 rdf:type skos:Concept .
+                     ?concept2 skos:inScheme ?scheme2 .
+                     filter(?scheme1 != ?scheme2) .
+                     ?concept1 skos:relatedMatch ?concept2 .
+                   } group by ?scheme1 ?scheme2"
+  queryResults = SPARQL(url=endpoint, query=queryString, format='csv', extra=list(format='text/csv'))
+  df = queryResults$results
+  return(df)
 }
 
 get_Concept_Count <- function(ontStore){
@@ -100,4 +102,5 @@ download_All_Data <- function(){
                 }"
   queryResults = SPARQL(url=endpoint, query=queryString, format='csv', extra=list(format='text/csv'))
   df = queryResults$results
+  return(df)
 }
