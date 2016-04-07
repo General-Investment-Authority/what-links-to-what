@@ -2,7 +2,7 @@ digraph G {
 rankdir=LR
 
 /*
-I suck at colors, someone should figure out a better scheme:
+I'm bad at colors, someone should figure out a better scheme:
 http://www.graphviz.org/doc/info/colors.html
 http://colorbrewer2.org/ helps a lot
 */
@@ -31,16 +31,20 @@ JSIC /* Japanese Standard Industrial Classification */
 
 /*** Product or Flow Classifications **/
 node [fillcolor = "#fdae61", style=filled]
-EWC
-LOW
-CPA
-NAPCS
-CAS
-HS
 BEC
-SITC
+CAS
 CN
+CPA
+CPC
+EWC
+HS
+LOW
 NAPCS /** https://en.wikipedia.org/wiki/North_American_Product_Classification_System **/
+NHM
+NIMEXE
+"NST/R"
+PRODCOM
+SITC
 
 /** LCA Data Sets **/
 node [fillcolor = "#ffffbf", style=filled]
@@ -74,10 +78,10 @@ node [style=filled, fillcolor=white]
 NACE -> ISIC [dir="both"]
 NAICS -> ISIC [dir="both"]
 NACE -> NAICS [dir="both"]
-CPA -> NACE [dir="both"]
+CPA -> NACE [dir="both"]  /** TODO where does this occur? **/
 EWC -> LOW [dir="both"]
 EWC -> NACE [dir="both"]
-LOW -> NACE [dir="both"]
+LOW -> NACE [dir="both"]  /** TODO where does this occur? **/
 ANZSIC -> ISIC [dir="both"]
 NAICS -> NAPCS [dir="both"]
 /** LCA Data Sets **/

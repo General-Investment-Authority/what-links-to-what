@@ -31,16 +31,20 @@ JSIC /* Japanese Standard Industrial Classification */
 
 /*** Product or Flow Classifications **/
 node [product_classificiations_style]
-EWC
-LOW
-CPA
-NAPCS
-CAS
-HS
 BEC
-SITC
+CAS
 CN
+CPA
+CPC
+EWC
+HS
+LOW
 NAPCS /** https://en.wikipedia.org/wiki/North_American_Product_Classification_System **/
+NHM
+NIMEXE
+"NST/R"
+PRODCOM
+SITC
 
 /** LCA Data Sets **/
 node [lca_data_style]
@@ -74,10 +78,10 @@ node [style=filled, fillcolor=white]
 NACE -> ISIC [dir="both"]
 NAICS -> ISIC [dir="both"]
 NACE -> NAICS [dir="both"]
-CPA -> NACE [dir="both"]
+CPA -> NACE [dir="both"]  /** TODO where does this occur? **/
 EWC -> LOW [dir="both"]
 EWC -> NACE [dir="both"]
-LOW -> NACE [dir="both"]
+LOW -> NACE [dir="both"]  /** TODO where does this occur? **/
 ANZSIC -> ISIC [dir="both"]
 NAICS -> NAPCS [dir="both"]
 /** LCA Data Sets **/

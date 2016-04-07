@@ -37,7 +37,9 @@ if (createConcordances){
   link_CN_to_SITC()
   link_NAICS_to_ISIC()
   link_NACE_to_ISIC()
+  link_NACE_to_NAICS()
   link_HS_to_SITC()
+  link_ISIC_to_CPC()
 }
 
 if(printStatistics){
