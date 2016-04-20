@@ -16,7 +16,7 @@ This is an ongoing effort to map the interlinkages between various industrial & 
 ### Classifications
 #### Industrial
 * ANZSIC - [Australian and New Zealand Standard Industrial Classification]()
-* ISIC - International Standard Industrial Classification of All Economic Activities
+* ISIC - [International Standard Industrial Classification of All Economic Activities](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=27)
 * JSIC - Japanese Standard Industrial Classification 
 * NACE - [Statistical Classification of Economic Activities in the European Community (nomenclature statistique des activités économiques dans la Communauté européenne)](https://en.wikipedia.org/wiki/Statistical_Classification_of_Economic_Activities_in_the_European_Community)
 * NAICS - [North American Industry Classification System](https://en.wikipedia.org/wiki/North_American_Industry_Classification_System)
