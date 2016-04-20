@@ -1,0 +1,90 @@
+---
+title: "Visualizing Classification Linkages"
+author: "Chris Davis"
+date: "April 20, 2016"
+output: html_document
+---
+
+
+```{r, message=FALSE}
+library(yaml)
+library(ggplot2)
+library(cowplot)
+
+# change where the images are saved
+knitr::opts_chunk$set(
+  fig.path = "../../images/"
+)
+
+orderNames <- function(names, rev=TRUE){
+  if (rev == TRUE){
+    return(factor(names, levels = rev(sort(unique(names)))))
+  } else {
+    return(factor(names, levels = sort(unique(names))))
+  }
+}
+
+
+# from metadata files, visualize the links between classifications (concordances, re-use in datasets, etc)
+
+classificationMetaData = yaml.load_file("../inst/classifications.yaml")
+concordanceMetaData = yaml.load_file("../inst/concordances.yaml")
+
+classificationTypes = c()
+for (classification in classificationMetaData$classifications){
+  classificationTypes = rbind(classificationTypes, c(classification$name, classification$type))
+}
+classificationTypes = as.data.frame(classificationTypes)
+colnames(classificationTypes) = c("Classification", "Type")
+
+edgeList = c()
+
+for (concordances in concordanceMetaData$concordances){
+  for (version in concordances$versions){
+    c1 = version$classification1
+    c2 = version$classification2
+    edgeList = rbind(edgeList, c(c1, c2))
+    edgeList = rbind(edgeList, c(c2, c1))
+  }
+}
+
+edgeList = as.data.frame(edgeList)
+colnames(edgeList) = c("from", "to")
+
+edgeList$fromMainCode = gsub("/.*", "", edgeList$from)
+edgeList$toMainCode = gsub("/.*", "", edgeList$to)
+edgeList = merge(edgeList, classificationTypes, by.x="fromMainCode", by.y="Classification")
+edgeList = merge(edgeList, classificationTypes, by.x="toMainCode", by.y="Classification")
+edgeList$LinkType = paste(edgeList$Type.x, edgeList$Type.y, sep=" - ")
+edgeList$Type.x = NULL
+edgeList$Type.y = NULL
+
+edgeList$from = orderNames(edgeList$from, rev=TRUE)
+edgeList$to = orderNames(edgeList$to, rev=FALSE)
+edgeList$fromMainCode = orderNames(edgeList$fromMainCode, rev=TRUE)
+edgeList$toMainCode = orderNames(edgeList$toMainCode, rev=FALSE)
+
+# remove versions, leave only main classification
+simplifiedEdgeList = edgeList
+simplifiedEdgeList$from = NULL
+simplifiedEdgeList$to = NULL
+simplifiedEdgeList = simplifiedEdgeList[!duplicated(simplifiedEdgeList),]
+```
+
+```{r AdjMatrixSimplified, fig.width=6, fig.height=4}
+p1 = ggplot(simplifiedEdgeList, aes(x=toMainCode, y=fromMainCode, fill=LinkType)) + 
+  geom_tile(colour = "black", size=0.5) + 
+  xlab("") + ylab("") + 
+  ggtitle("Links Between Classification Codes")
+ggdraw(switch_axis_position(p1 + theme_gray(), axis = 'x'))
+```
+
+```{r AdjMatrix, fig.width=10, fig.height=7}
+p2 = ggplot(edgeList, aes(x=to, y=from, fill=LinkType)) + 
+  geom_tile(colour="black", size=0.5) + 
+  xlab("") + ylab("") + 
+  ggtitle("Links Between Classification Codes")
+ggdraw(switch_axis_position(p2 + theme_gray(), axis = 'x'))
+
+```
+

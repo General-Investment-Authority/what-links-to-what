@@ -25,8 +25,15 @@ concordances:
     - classification1: 'NACE/2'
       classification2: 'ISIC/4'
       url: http://ec.europa.eu/eurostat/ramon/relations/index.cfm?TargetUrl=ACT_OTH_REL_DLD&StrNomRelCode=NACE%20REV.%202%20-%20ISIC%20REV.%204&StrLanguageCode=EN&StrFormat=CSV
-      dataFile: NACE2_to_ISIC4.csv
+      dataFile: 'NACE2_to_ISIC4.csv'
       colnames: 'Code1,Code2'
+  - name: 'HS_to_ISIC'
+    versions:
+    - classification1: 'HS/2012'
+      classification2: 'ISIC/3'
+      url: http://wits.worldbank.org/data/public/concordance/Concordance_HS_to_I3.zip
+      dataFile: 'JobID-64_Concordance_HS_to_I3.CSV'
+      colnames: 'Code1,Description1,Code2,Description2'
   - name: 'HS_to_SITC'
     versions:
     - classification1: 'HS/2012'
