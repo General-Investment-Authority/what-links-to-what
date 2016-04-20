@@ -4,8 +4,18 @@
 This is an ongoing effort to map the interlinkages between various industrial & product classification systems along with other databases of interest (facility pollution, LCA, etc.).
 
 ## Visualized Links
-
+This is a rough map of all the classification and data sets that we are aware of:
 <img src=https://raw.githubusercontent.com/isdata-org/what-links-to-what/master/WhatLinksToWhat.png>
+
+In [the CodeLinkR folder](./CodeLinkR) we are working on software that can read the classifications and their concordances.  The matrices below shows the current status of these efforts.  The metadata used is stored in [classifications.yaml](./CodeLinkR/inst/classifications.yaml) and [concordances.yaml](./CodeLinkR/inst/concordances.yaml).
+
+Which classification codes have been linked:
+
+<img src=https://raw.githubusercontent.com/isdata-org/what-links-to-what/master/images/AdjMatrixSimplified-1.png width=400>
+
+Which specific versions of the classification codes have been linked:
+
+<img src=https://raw.githubusercontent.com/isdata-org/what-links-to-what/master/images/AdjMatrix-1.png width=600>
 
 ## Data Sources
 * [RAMON - Reference And Management Of Nomenclatures: Index of Correspondence Tables](http://ec.europa.eu/eurostat/ramon/relations/index.cfm?TargetUrl=LST_REL)
