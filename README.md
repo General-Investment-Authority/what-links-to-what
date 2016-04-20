@@ -1,17 +1,7 @@
 # what-links-to-what
 
-Table of Contents
-=================
-   * [What?](#what)
-   * [Visualized Links](#visualized-links)
-   * [Data Sources](#data-sources)
-     * [Classifications](#classifications)
-       * [Industrial](#industrial)
-       * [Product](#product)
-   * [How?](#how)
-
 ## What?
-This is an ongoing effort to map the interlinkages between various industrial & product classification systems along with other databases of interest (facility pollution, LCA, etc.).
+This is an effort to map the interlinkages between various industrial & product classification systems along with other databases of interest (facility pollution, LCA, etc.).
 
 ## Visualized Links
 This is a rough map of all the classification and data sets that we are aware of:
