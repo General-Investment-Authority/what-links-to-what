@@ -31,7 +31,7 @@ Which specific versions of the classification codes have been linked:
 * NACE - [Statistical Classification of Economic Activities in the European Community (nomenclature statistique des activités économiques dans la Communauté européenne)](https://en.wikipedia.org/wiki/Statistical_Classification_of_Economic_Activities_in_the_European_Community)
 * NAICS - [North American Industry Classification System](https://en.wikipedia.org/wiki/North_American_Industry_Classification_System)
 * SIC - [Standard Industrial Classification](https://en.wikipedia.org/wiki/Standard_Industrial_Classification)
- 
+
 #### Product
 * BEC - Broad Economic Categories
 * BTN - Brussels Tariff Nomenclature
@@ -46,6 +46,9 @@ Which specific versions of the classification codes have been linked:
 * NST/R - [Standard Goods Classification for Transport Statistics/Revised](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=NSTR_1967&StrLanguageCode=EN&IntPcKey=&StrLayoutCode=HIERARCHIC)
 * PRODCOM - PRODuction COMmunautaire
 * SITC - Standard International Trade Classification
+
+#### Patents
+* CPC - [Cooperative Patent Classification](http://www.uspto.gov/web/patents/classification/cpc/html/cpc-A.html).  This is used to classify patents by the USPTO.
 
 
 ## How?
