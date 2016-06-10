@@ -13,6 +13,8 @@ Which classification codes have been linked:
 
 <img src=https://raw.githubusercontent.com/isdata-org/what-links-to-what/master/images/AdjMatrixSimplified-1.png width=400>
 
+What this shows us is that if you have one dataset using Combined Nomenclature (CN), it's possible to link it to another dataset using NACE by the following set of translations: CN -> SITC -> HS -> ISIC -> NACE.
+
 Which specific versions of the classification codes have been linked:
 
 <img src=https://raw.githubusercontent.com/isdata-org/what-links-to-what/master/images/AdjMatrix-1.png width=600>
