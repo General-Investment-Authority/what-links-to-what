@@ -1,5 +1,7 @@
 trim <- function(text){
+  nonBreakingWhiteSpace <- '\xc2\xa0'
   text = gsub("[ |\n]*$", "", text)
+  text = gsub(nonBreakingWhiteSpace, '_', text)
   return(text)
 }
 
