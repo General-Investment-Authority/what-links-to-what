@@ -19,11 +19,9 @@ write_CPC_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
 
 
     higherCodeURL = ""
-    if (!is.na(ws$Parent[i]) & ws$Parent[i] != ""){
-      loc = which(ws$Code == ws$Parent[i])
-      if (length(loc) > 1){ # Code 0 appears twice, only the second one is valid
-        loc = tail(loc, n=1)
-      }
+
+    loc = which(ws$Code == substr(ws$Code[i], 1, nchar(ws$Code[i])-1))
+    if (any(loc)){
       higherCodeURL = paste0(baseURL, ws$Code[loc])
     }
 
@@ -75,12 +73,13 @@ parse_CPC <- function(codeAbbrev = "CPC", turtlePath = "./data/Turtle"){
     dir.create(dataDir, recursive=TRUE)
 
     fileName = tail(strsplit(item$url, "/")[[1]], n=1)
-    filePath = paste0(dataDir, "/", item$dataFile)
+    filePath = paste0(dataDir, "/", fileName)
     if (!file.exists(filePath)){
       download.file(item$url, filePath)
     }
+    unzip(filePath, exdir=dataDir)
 
-    ws = read.csv(paste0(dataDir, "/", item$dataFile), sep=";")
+    ws = read.csv(paste0(dataDir, "/", item$dataFile), sep=",", colClasses = c("character", "character"))
     colnames(ws) = strsplit(item$colnames, ",")[[1]]
 
     write_CPC_to_RDF(ws, codeAbbrev, item$version, dataDir, turtlePath)
