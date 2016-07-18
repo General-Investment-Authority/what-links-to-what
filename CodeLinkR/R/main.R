@@ -13,8 +13,8 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
-createDescriptions = FALSE
-createConcordances = FALSE
+createDescriptions = TRUE
+createConcordances = TRUE
 printStatistics = FALSE
 
 # two steps:

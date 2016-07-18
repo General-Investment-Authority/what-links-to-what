@@ -5,8 +5,8 @@ write_NAICS_to_ISIC_to_RDF <- function(ws, versionsAbbrev, classification1, clas
   ontStore = initialize_New_OntStore()
 
   for (i in c(1:nrow(ws))){
-    url1 = paste0(baseURL1, ws$Code1[i])
-    url2 = paste0(baseURL2, ws$Code2[i])
+    url1 = trim(paste0(baseURL1, ws$Code1[i]))
+    url2 = trim(paste0(baseURL2, ws$Code2[i]))
 
     if (ws$Code1[i] != 0){
       add.triple(ontStore,

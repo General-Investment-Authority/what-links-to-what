@@ -5,8 +5,8 @@ write_ISIC_to_CPC_to_RDF <- function(ws, versionsAbbrev, classification1, classi
   ontStore = initialize_New_OntStore()
 
   for (i in c(1:nrow(ws))){
-    url1 = paste0(baseURL1, gsub("\\.", "", ws$Code1[i]))
-    url2 = paste0(baseURL2, gsub("\\.", "", ws$Code2[i]))
+    url1 = trim(paste0(baseURL1, gsub("\\.", "", ws$Code1[i])))
+    url2 = trim(paste0(baseURL2, gsub("\\.", "", ws$Code2[i])))
 
     add.triple(ontStore,
                subject=url1,
