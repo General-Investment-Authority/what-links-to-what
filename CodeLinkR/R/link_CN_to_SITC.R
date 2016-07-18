@@ -20,6 +20,10 @@ link_CN_to_SITC <- function(concordanceAbbrev = "CN_to_SITC", turtlePath = "./da
     ws = readWorksheet(wb, 1)
     colnames(ws) = strsplit(item$colnames, ",")[[1]]
 
+    # for the SITC codes we need to put in the missing periods
+    # SITC codes consiste of five digits, want to have them in the form 000.00
+    ws$Code2 = unlist(lapply(ws$Code2, FUN=function(x){paste0(substring(x,1,3), ".", substring(x,4,5))}))
+
     write_Code1_to_Code2_to_RDF(ws, versionsAbbrev, item$classification1, item$classification2, turtlePath)
   }
 }

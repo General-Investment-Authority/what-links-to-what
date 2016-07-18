@@ -10,7 +10,7 @@ write_SITC_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
              object = "http://www.w3.org/2004/02/skos/core#skos:ConceptScheme")
 
   for (i in c(1:nrow(ws))){
-    subjectURL = paste0(baseURL, gsub("\\.", "", ws$Code[i]))
+    subjectURL = paste0(baseURL, ws$Code[i])
 
     add.triple(ontStore,
                subject=subjectURL,

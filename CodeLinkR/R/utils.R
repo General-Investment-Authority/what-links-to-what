@@ -33,11 +33,6 @@ write_Code1_to_Code2_to_RDF <- function(ws, versionsAbbrev, classification1, cla
 
   for (i in c(1:nrow(ws))){
     if (ws$Code1[i] != 0){
-      #replacement of periods found in link_HS_to_SITC.R and link_ISIC_to_CPC.R
-      # not sure if this is necessary
-      #url1 = trim(paste0(baseURL1, gsub("\\.", "", ws$Code1[i])))
-      #url2 = trim(paste0(baseURL2, gsub("\\.", "", ws$Code2[i])))
-
       url1 = trim(paste0(baseURL1, ws$Code1[i]))
       url2 = trim(paste0(baseURL2, ws$Code2[i]))
 
