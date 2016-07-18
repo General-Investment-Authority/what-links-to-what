@@ -1,26 +1,3 @@
-write_CN_to_SITC_to_RDF <- function(ws, versionsAbbrev, classification1, classification2, turtlePath){
-  baseURL1 = paste0("http://isdata.org/Classifications/",classification1, "/")
-  baseURL2 = paste0("http://isdata.org/Classifications/",classification2, "/")
-
-  ontStore = initialize_New_OntStore()
-
-  for (i in c(1:nrow(ws))){
-    url1 = paste0(baseURL1, ws$Code1[i])
-    url2 = paste0(baseURL2, ws$Code2[i])
-
-    add.triple(ontStore,
-               subject=url1,
-               predicate = "http://www.w3.org/2004/02/skos/core#relatedMatch",
-               object = url2)
-
-    add.triple(ontStore,
-               subject=url2,
-               predicate = "http://www.w3.org/2004/02/skos/core#relatedMatch",
-               object = url1)
-  }
-  save.rdf(ontStore, paste0(turtlePath, "/", versionsAbbrev, ".turtle"), format="TURTLE")
-}
-
 link_CN_to_SITC <- function(concordanceAbbrev = "CN_to_SITC", turtlePath = "./data/Turtle"){
   dir.create(turtlePath, recursive=TRUE)
   versions = get_concordance_versions(concordanceAbbrev)
@@ -43,6 +20,10 @@ link_CN_to_SITC <- function(concordanceAbbrev = "CN_to_SITC", turtlePath = "./da
     ws = readWorksheet(wb, 1)
     colnames(ws) = strsplit(item$colnames, ",")[[1]]
 
-    write_CN_to_SITC_to_RDF(ws, versionsAbbrev, item$classification1, item$classification2, turtlePath)
+    # for the SITC codes we need to put in the missing periods
+    # SITC codes consiste of five digits, want to have them in the form 000.00
+    ws$Code2 = unlist(lapply(ws$Code2, FUN=function(x){paste0(substring(x,1,3), ".", substring(x,4,5))}))
+
+    write_Code1_to_Code2_to_RDF(ws, versionsAbbrev, item$classification1, item$classification2, turtlePath)
   }
 }

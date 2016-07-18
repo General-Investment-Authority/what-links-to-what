@@ -24,10 +24,10 @@ classifications:
   - name: CPC
     type: Product
     versions:
-    - url: http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=ACT_OTH_CLS_DLD&StrNom=CPC_2_1&StrFormat=CSV&StrLanguageCode=EN&IntKey=&IntLevel=&bExport=
-      dataFile: CPC_2_1.csv
+    - url: http://unstats.un.org/unsd/cr/downloads/CPCv21_english.zip
+      dataFile: CPC_Ver.2.1_english_structure.txt
       version: '2.1'
-      colnames: 'Order,Level,Code,Parent,Description'
+      colnames: 'Code,Description'
   - name: HS
     type: Product
     versions:
