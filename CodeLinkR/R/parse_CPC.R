@@ -3,6 +3,12 @@ write_CPC_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
 
   ontStore = initialize_New_OntStore()
 
+  # add rdf:type skos:ConceptScheme
+  add.triple(ontStore,
+             subject = substring(baseURL, 1, nchar(baseURL)-1),
+             predicate = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+             object = "http://www.w3.org/2004/02/skos/core#skos:ConceptScheme")
+
   for (i in c(1:nrow(ws))){
     subjectURL = paste0(baseURL, ws$Code[i])
 
