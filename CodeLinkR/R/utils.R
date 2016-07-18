@@ -1,3 +1,76 @@
+add_neo4j_skos_concept_node <- function(conceptId, notation, description, prefLabel, altLabel, example, scopeNote){
+
+  #headerValues = ['conceptId:ID', 'notation:string', 'description:string', 'prefLabel:string', 'altLabel:string', 'example:string', 'scopeNote:string', ':LABEL']
+
+}
+
+add_skos_inScheme <- function(ontStore, subject, object){
+  add.triple(ontStore,
+             subject = subject,
+             predicate = "http://www.w3.org/2004/02/skos/core#inScheme",
+             object = object)
+}
+
+add_skos_narrower <- function(ontStore, subject, object){
+  add.triple(ontStore,
+             subject=subject,
+             predicate = "http://www.w3.org/2004/02/skos/core#narrower",
+             object = object)
+}
+
+add_skos_broader <- function(ontStore, subject, object){
+  add.triple(ontStore,
+             subject=subject,
+             predicate = "http://www.w3.org/2004/02/skos/core#broader",
+             object = object)
+}
+
+add_skos_concept_scheme <- function(ontStore, schemeID){
+  add.triple(ontStore,
+             subject = schemeID,
+             predicate = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+             object = "http://www.w3.org/2004/02/skos/core#skos:ConceptScheme")
+}
+
+# this takes care of writing to both RDF and to neo4j
+add_skos_concept_node <- function(ontStore, conceptId,
+                                  notation="", description="", prefLabel="", altLabel="", example="", scopeNote=""){
+  add.triple(ontStore,
+             subject=conceptId,
+             predicate = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+             object = "http://www.w3.org/2004/02/skos/core#Concept")
+
+  add.data.triple(ontStore,
+                  subject=conceptId,
+                  predicate = "http://www.w3.org/2004/02/skos/core#notation",
+                  data = notation)
+
+  add.data.triple(ontStore,
+                  subject=conceptId,
+                  predicate = "http://www.w3.org/2004/02/skos/core#prefLabel",
+                  data = prefLabel)
+
+  add.data.triple(ontStore,
+                  subject=conceptId,
+                  predicate = "http://www.w3.org/2004/02/skos/core#description",
+                  data = description)
+
+  add.data.triple(ontStore,
+                  subject=conceptId,
+                  predicate = "http://www.w3.org/2004/02/skos/core#altLabel",
+                  data = altLabel)
+
+  add.data.triple(ontStore,
+                  subject=conceptId,
+                  predicate = "http://www.w3.org/2004/02/skos/core#example",
+                  data = example)
+
+  add.data.triple(ontStore,
+                  subject=conceptId,
+                  predicate = "http://www.w3.org/2004/02/skos/core#scopeNote",
+                  data = scopeNote)
+}
+
 trim <- function(text){
   nonBreakingWhiteSpace <- '\xc2\xa0'
   text = gsub("[ |\n]*$", "", text)

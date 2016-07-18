@@ -4,19 +4,10 @@ write_NACE_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
   ontStore = initialize_New_OntStore()
 
   # add rdf:type skos:ConceptScheme
-  add.triple(ontStore,
-             subject = substring(baseURL, 1, nchar(baseURL)-1),
-             predicate = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-             object = "http://www.w3.org/2004/02/skos/core#skos:ConceptScheme")
-
+  add_skos_concept_scheme(ontStore, substring(baseURL, 1, nchar(baseURL)-1))
 
   for (i in c(1:nrow(ws))){
     subjectURL = paste0(baseURL, ws$Code[i])
-
-    add.triple(ontStore,
-               subject=subjectURL,
-               predicate = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-               object = "http://www.w3.org/2004/02/skos/core#Concept")
 
     higherCodeURL = ""
     if (ws$Parent[i] != ""){
@@ -25,58 +16,22 @@ write_NACE_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
     }
 
     if (higherCodeURL != ""){
-      add.triple(ontStore,
-                 subject=higherCodeURL,
-                 predicate = "http://www.w3.org/2004/02/skos/core#narrower",
-                 object = subjectURL)
-
-      add.triple(ontStore,
-                 subject=subjectURL,
-                 predicate = "http://www.w3.org/2004/02/skos/core#broader",
-                 object = higherCodeURL)
+      add_skos_narrower(ontStore, higherCodeURL, subjectURL)
+      add_skos_broader(ontStore, subjectURL, higherCodeURL)
     }
 
-    add.triple(ontStore,
-               subject=subjectURL,
-               predicate = "http://www.w3.org/2004/02/skos/core#inScheme",
-               object = substring(baseURL, 1, nchar(baseURL)-1))
+    add_skos_inScheme(ontStore, subjectURL, substring(baseURL, 1, nchar(baseURL)-1))
 
-
-    add.data.triple(ontStore,
-                    subject=subjectURL,
-                    predicate = "http://www.w3.org/2004/02/skos/core#altLabel",
-                    data = as.character(ws$Order[i]))
-
-    add.data.triple(ontStore,
-                    subject=subjectURL,
-                    predicate = "http://www.w3.org/2004/02/skos/core#notation",
-                    data = ws$Code[i])
-
-    add.data.triple(ontStore,
-                    subject=subjectURL,
-                    predicate = "http://www.w3.org/2004/02/skos/core#prefLabel",
-                    data = ws$Code[i])
-
-    add.data.triple(ontStore,
-                    subject=subjectURL,
-                    predicate = "http://www.w3.org/2004/02/skos/core#description",
-                    data = ws$Description[i])
-
-    ###
     alsoIncludes = paste(ws$This_item_includes[i], ws$This_item_also_includes[i])
-    if (alsoIncludes != ""){
-      add.data.triple(ontStore,
-                      subject=subjectURL,
-                      predicate = "http://www.w3.org/2004/02/skos/core#example",
-                      data = alsoIncludes)
-    }
 
-    if (ws$This_item_excludes[i] != ""){
-      add.data.triple(ontStore,
-                      subject=subjectURL,
-                      predicate = "http://www.w3.org/2004/02/skos/core#scopeNote",
-                      data = ws$This_item_excludes[i])
-    }
+    add_skos_concept_node(ontStore,
+                          conceptId = subjectURL,
+                          notation = ws$Code[i],
+                          description = ws$Description[i],
+                          prefLabel = ws$Code[i],
+                          altLabel = as.character(ws$Order[i]),
+                          example = alsoIncludes,
+                          scopeNote = ws$This_item_excludes[i])
   }
 
   save.rdf(ontStore, paste0(turtlePath, "/", codeAbbrev, version, ".turtle"), format="TURTLE")

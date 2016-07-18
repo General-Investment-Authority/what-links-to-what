@@ -4,59 +4,30 @@ write_NAICS_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
   ontStore = initialize_New_OntStore()
 
   # add rdf:type skos:ConceptScheme
-  add.triple(ontStore,
-             subject = substring(baseURL, 1, nchar(baseURL)-1),
-             predicate = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-             object = "http://www.w3.org/2004/02/skos/core#skos:ConceptScheme")
+  add_skos_concept_scheme(ontStore, substring(baseURL, 1, nchar(baseURL)-1))
 
   for (i in c(1:nrow(ws))){
     subjectURL = paste0(baseURL, ws$Code[i])
 
-    add.triple(ontStore,
-               subject=subjectURL,
-               predicate = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-               object = "http://www.w3.org/2004/02/skos/core#Concept")
-
     higherCodeURL = ""
-
     loc = which(ws$Code == substr(ws$Code[i], 1, nchar(ws$Code[i])-1))
     if (any(loc)){
       higherCodeURL = paste0(baseURL, ws$Code[loc])
     }
 
     if (higherCodeURL != ""){
-      add.triple(ontStore,
-                 subject=higherCodeURL,
-                 predicate = "http://www.w3.org/2004/02/skos/core#narrower",
-                 object = subjectURL)
-
-      add.triple(ontStore,
-                 subject=subjectURL,
-                 predicate = "http://www.w3.org/2004/02/skos/core#broader",
-                 object = higherCodeURL)
+      add_skos_narrower(ontStore, higherCodeURL, subjectURL)
+      add_skos_broader(ontStore, subjectURL, higherCodeURL)
     }
 
-    add.triple(ontStore,
-               subject=subjectURL,
-               predicate = "http://www.w3.org/2004/02/skos/core#inScheme",
-               object = substring(baseURL, 1, nchar(baseURL)-1))
+    add_skos_inScheme(ontStore, subjectURL, substring(baseURL, 1, nchar(baseURL)-1))
 
-    add.data.triple(ontStore,
-                    subject=subjectURL,
-                    predicate = "http://www.w3.org/2004/02/skos/core#notation",
-                    data = ws$Code[i])
-
-    add.data.triple(ontStore,
-                    subject=subjectURL,
-                    predicate = "http://www.w3.org/2004/02/skos/core#prefLabel",
-                    data = ws$Code[i])
-
-    add.data.triple(ontStore,
-                    subject=subjectURL,
-                    predicate = "http://www.w3.org/2004/02/skos/core#description",
-                    data = ws$Title[i])
+    add_skos_concept_node(ontStore,
+                          conceptId = subjectURL,
+                          notation = ws$Code[i],
+                          description = ws$Title[i],
+                          prefLabel = ws$Code[i])
   }
-
   save.rdf(ontStore, paste0(turtlePath, "/", codeAbbrev, version, ".turtle"), format="TURTLE")
 }
 
