@@ -40,35 +40,47 @@ add_skos_concept_node <- function(ontStore, conceptId,
              predicate = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
              object = "http://www.w3.org/2004/02/skos/core#Concept")
 
-  add.data.triple(ontStore,
-                  subject=conceptId,
-                  predicate = "http://www.w3.org/2004/02/skos/core#notation",
-                  data = notation)
+  if (notation != ""){
+    add.data.triple(ontStore,
+                    subject=conceptId,
+                    predicate = "http://www.w3.org/2004/02/skos/core#notation",
+                    data = notation)
+  }
 
-  add.data.triple(ontStore,
-                  subject=conceptId,
-                  predicate = "http://www.w3.org/2004/02/skos/core#prefLabel",
-                  data = prefLabel)
+  if (prefLabel != ""){
+    add.data.triple(ontStore,
+                    subject=conceptId,
+                    predicate = "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    data = prefLabel)
+  }
 
-  add.data.triple(ontStore,
-                  subject=conceptId,
-                  predicate = "http://www.w3.org/2004/02/skos/core#description",
-                  data = description)
+  if (description != ""){
+    add.data.triple(ontStore,
+                    subject=conceptId,
+                    predicate = "http://www.w3.org/2004/02/skos/core#description",
+                    data = description)
+  }
 
-  add.data.triple(ontStore,
-                  subject=conceptId,
-                  predicate = "http://www.w3.org/2004/02/skos/core#altLabel",
-                  data = altLabel)
+  if (altLabel != ""){
+    add.data.triple(ontStore,
+                    subject=conceptId,
+                    predicate = "http://www.w3.org/2004/02/skos/core#altLabel",
+                    data = altLabel)
+  }
 
-  add.data.triple(ontStore,
-                  subject=conceptId,
-                  predicate = "http://www.w3.org/2004/02/skos/core#example",
-                  data = example)
+  if (example != ""){
+    add.data.triple(ontStore,
+                    subject=conceptId,
+                    predicate = "http://www.w3.org/2004/02/skos/core#example",
+                    data = example)
+  }
 
-  add.data.triple(ontStore,
-                  subject=conceptId,
-                  predicate = "http://www.w3.org/2004/02/skos/core#scopeNote",
-                  data = scopeNote)
+  if (scopeNote != ""){
+    add.data.triple(ontStore,
+                    subject=conceptId,
+                    predicate = "http://www.w3.org/2004/02/skos/core#scopeNote",
+                    data = scopeNote)
+  }
 }
 
 trim <- function(text){

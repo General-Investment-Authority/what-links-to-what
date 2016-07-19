@@ -7,12 +7,12 @@ write_CPA_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
   add_skos_concept_scheme(ontStore, substring(baseURL, 1, nchar(baseURL)-1))
 
   for (i in c(1:nrow(ws))){
-    subjectURL = paste0(baseURL, gsub("\\.", "", ws$Code[i]))
+    subjectURL = paste0(baseURL, ws$Code[i])
 
     higherCodeURL = ""
     if (ws$Parent[i] != ""){
-      loc = which(ws$Code == gsub("\\.", "", ws$Parent[i]))
-      higherCodeURL = paste0(baseURL, gsub("\\.", "", ws$Code[loc]))
+      loc = which(ws$Code == ws$Parent[i])
+      higherCodeURL = paste0(baseURL, ws$Code[loc])
     }
 
     if (higherCodeURL != ""){

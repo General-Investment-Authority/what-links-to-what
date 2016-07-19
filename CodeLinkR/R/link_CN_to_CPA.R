@@ -21,6 +21,19 @@ link_CN_to_CPA <- function(concordanceAbbrev = "CN_to_CPA", turtlePath = "./data
     ws = readWorksheet(wb, 1)
     colnames(ws) = strsplit(item$colnames, ",")[[1]]
 
+
+    # some of these codes are weird, not sure how to process them: "23SS", "23VV", "SSSS"
+    # fix CPA codes to standard format: 00.00.00
+    # only fix if between 5 and 6 numbers, and no letters
+    locs = which(grepl("[0-9]{5,6}", ws$Code2))
+    ws$Code2[locs] = unlist(lapply(ws$Code2[locs],
+                                   FUN=function(x){
+                                     paste0(substring(x, 1,2),
+                                            ".",
+                                            substring(x, 3,4),
+                                            ".",
+                                            substring(x, 5))}))
+
     write_Code1_to_Code2_to_RDF(ws, versionsAbbrev, item$classification1, item$classification2, turtlePath)
   }
 }
