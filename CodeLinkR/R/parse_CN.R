@@ -7,7 +7,7 @@ write_CN_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
   add_skos_concept_scheme(ontStore, substring(baseURL, 1, nchar(baseURL)-1))
 
   for (i in c(1:nrow(ws))){
-    subjectURL = paste0(baseURL, gsub(" ", "", ws$CN_Code[i]))
+    subjectURL = trim(paste0(baseURL, gsub(" ", "", ws$CN_Code[i])))
 
     higherCodeURL = ""
 
@@ -39,7 +39,7 @@ write_CN_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
     }
 
     if (higherCodeURL != ""){
-      higherCodeURL = gsub(" ", "", higherCodeURL)
+      higherCodeURL = trim(gsub(" ", "", higherCodeURL))
       add_skos_narrower(ontStore, higherCodeURL, subjectURL)
       add_skos_broader(ontStore, subjectURL, higherCodeURL)
     }

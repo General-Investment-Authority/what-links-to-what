@@ -1,9 +1,3 @@
-add_neo4j_skos_concept_node <- function(conceptId, notation, description, prefLabel, altLabel, example, scopeNote){
-
-  #headerValues = ['conceptId:ID', 'notation:string', 'description:string', 'prefLabel:string', 'altLabel:string', 'example:string', 'scopeNote:string', ':LABEL']
-
-}
-
 add_skos_inScheme <- function(ontStore, subject, object){
   add.triple(ontStore,
              subject = subject,
