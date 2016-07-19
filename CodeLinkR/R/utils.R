@@ -23,7 +23,7 @@ add_skos_concept_scheme <- function(ontStore, schemeID){
   add.triple(ontStore,
              subject = schemeID,
              predicate = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-             object = "http://www.w3.org/2004/02/skos/core#skos:ConceptScheme")
+             object = "http://www.w3.org/2004/02/skos/core#ConceptScheme")
 }
 
 # this takes care of writing to both RDF and to neo4j
