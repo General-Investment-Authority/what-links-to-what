@@ -71,12 +71,20 @@ parse_SITC <- function(codeAbbrev = "SITC", turtlePath = "./data/Turtle"){
       ws = read.csv(paste0(dataDir, "/", item$dataFile), sep="\t")
     }
 
+    # If we have an empty description, that means that someone included a new line character without using quotes around the text
+    # The code is actually the description for the previous item
+    emptyDescriptionLocs = which(ws$Description == "")
+    if (any(emptyDescriptionLocs)){
+      ws$Description[emptyDescriptionLocs-1] = paste(ws$Description[emptyDescriptionLocs-1], ws$Code[emptyDescriptionLocs])
+      ws = ws[-emptyDescriptionLocs,]
+    }
+
     colnames(ws) = strsplit(item$colnames, ",")[[1]]
     # boo, invalid multibyte string
     ws$Code = gsub(" +", "", iconv(ws$Code, from="UTF-8", to="UTF-8"))
-    ws$Description = iconv(ws$Description, from="UTF-8", to="UTF-8")
-    # get rid of NA codes
-    ws = ws[which(!is.na(ws$Code)),]
+    # this gets rid of a lot of the descriptions
+
+    # ws$Description = iconv(ws$Description, from="UTF-8", to="UTF-8")
 
     # deal with ellipses - prepend text from parent category where this happens
     fixLocs = which(grepl("^\\.\\.\\.\\.", ws$Description))
