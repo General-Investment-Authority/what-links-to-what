@@ -29,6 +29,11 @@ link_HS_to_SITC <- function(concordanceAbbrev = "HS_to_SITC", turtlePath = "./da
     }
 
     colnames(ws) = strsplit(item$colnames, ",")[[1]]
+    # need to fix up all HS codes - six digits, pad with zero on left if missing
+    ws$Code1 = sprintf("%06d", ws$Code1)
+    # last two digits are decimals
+    ws$Code1 = unlist(lapply(ws$Code1, function(x){paste0(substring(x, 1, 4), ".", substring(x,5,6))}))
+
 
     write_Code1_to_Code2_to_RDF(ws, versionsAbbrev, item$classification1, item$classification2, turtlePath)
   }

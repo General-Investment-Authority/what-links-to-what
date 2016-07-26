@@ -80,6 +80,7 @@ add_skos_concept_node <- function(ontStore, conceptId,
 trim <- function(text){
   nonBreakingWhiteSpace <- '\xc2\xa0'
   text = gsub("[ |\n]*$", "", text)
+  text = gsub("^ +| +$", "", text)
   text = gsub(nonBreakingWhiteSpace, '_', text)
   return(text)
 }

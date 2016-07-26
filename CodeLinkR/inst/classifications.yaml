@@ -38,10 +38,18 @@ classifications:
   - name: ISIC
     type: Industry
     versions:
-    - url: http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=ACT_OTH_CLS_DLD&StrNom=ISIC_4&StrFormat=CSV&StrLanguageCode=EN&IntKey=&IntLevel=&bExport=
-      dataFile: ISIC4.csv
+    - url: http://unstats.un.org/unsd/cr/downloads/ISIC_Rev_4_english.zip
+      dataFile: ISIC_Rev_4_english_structure.txt
       version: '4'
-      colnames: 'Order,Level,Code,Parent,Description'
+      colnames: 'Code,Description'
+    - url: http://unstats.un.org/unsd/cr/downloads/ISIC_Rev_3_1_english.zip
+      dataFile: ISIC_Rev_3_1_english_structure.txt
+      version: '3.1'
+      colnames: 'Code,Description'
+    - url: http://unstats.un.org/unsd/cr/downloads/ISIC_Rev_3_english.zip
+      dataFile: ISIC_Rev_3_english_structure.txt
+      version: '3'
+      colnames: 'Code,Description'
   - name: NACE
     type: Industry
     versions:

@@ -3,5 +3,8 @@
 files=`ls *.turtle`
 for file in $files
 do
-	tar -czvf $file.tar.gz $file
+	# only create zip if it doesn't exist
+	if [ ! -f $file.tar.gz ]; then
+		tar -czvf $file.tar.gz $file
+	fi
 done
