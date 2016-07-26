@@ -34,7 +34,7 @@ if (createConcordances){
   link_NACE_to_ISIC()
   link_NACE_to_NAICS()
   link_HS_to_SITC()
-  link_HS_to_ISIC() # new
+  link_HS_to_ISIC()
   link_ISIC_to_CPC()
 }
 
