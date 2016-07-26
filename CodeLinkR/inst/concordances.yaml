@@ -13,6 +13,18 @@ concordances:
       url: http://ec.europa.eu/eurostat/ramon/other_documents/combined%20nomenclature/conversion_tables/CN_SITC_2016.zip
       dataFile: CN_SITC_2016.xls
       colnames: 'Code1,Code2,START,END'
+  - name: 'ISIC_to_ISIC'
+    versions:
+    - classification1: 'ISIC/3.1'
+      classification2: 'ISIC/4'
+      url: http://unstats.un.org/unsd/cr/downloads/ISIC31-ISIC4.zip
+      dataFile: ISIC31_ISIC4.txt
+      colnames: 'Code1,Partial1,Code2,Partial2,Detail'
+    - classification1: 'ISIC/3.1'
+      classification2: 'ISIC/3'
+      url: http://unstats.un.org/unsd/cr/downloads/ISIC31-ISIC3.zip
+      dataFile: ISIC_Rev_31-ISIC_Rev_3_correspondence.txt
+      colnames: 'Code1,Partial1,Code2,Partial2,Detail'
   - name: 'NAICS_to_ISIC'
     versions:
     - classification1: 'NAICS/2012'

@@ -36,6 +36,7 @@ if (createConcordances){
   link_HS_to_SITC()
   link_HS_to_ISIC()
   link_ISIC_to_CPC()
+  link_ISIC_to_ISIC()
 }
 
 if(printStatistics){
