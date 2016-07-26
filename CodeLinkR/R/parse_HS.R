@@ -7,19 +7,19 @@ write_HS_to_RDF <- function(ws, codeAbbrev, version, dataDir, turtlePath){
   add_skos_concept_scheme(ontStore, substring(baseURL, 1, nchar(baseURL)-1))
 
   for (i in c(1:nrow(ws))){
-    subjectURL = paste0(baseURL, gsub("\\.", "", ws$HS_CODE[i]))
+    subjectURL = paste0(baseURL, ws$HS_CODE[i])
 
     # the higher code is found by chopping off characters starting from the right
     # and finding the first code that matches
     keepSearching = TRUE
-    higherCode = gsub("\\.", "", ws$HS_CODE[i])
+    higherCode = ws$HS_CODE[i]
     higherCodeURL = ""
     while(keepSearching){
       higherCode = substring(higherCode, 1,nchar(higherCode)-1)
-      higherCodeLoc = which(gsub("\\.", "", ws$HS_CODE) == higherCode)
+      higherCodeLoc = which(ws$HS_CODE == higherCode)
       if (any(higherCodeLoc)){
         keepSearching = FALSE
-        higherCodeURL = paste0(baseURL, gsub("\\.", "", ws$HS_CODE[higherCodeLoc]))
+        higherCodeURL = paste0(baseURL, ws$HS_CODE[higherCodeLoc])
       }
       if (nchar(higherCode) <= 1){
         keepSearching = FALSE
