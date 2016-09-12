@@ -3,6 +3,8 @@
 ## What?
 This is an effort to map the interlinkages between various industrial & product classification systems along with other databases of interest (facility pollution, LCA, etc.).
 
+<img src=https://raw.githubusercontent.com/isdata-org/what-links-to-what/master/images/wltw_logo.png height=100>
+
 ## Visualized Links
 This is a rough map of all the classification and data sets that we are aware of:
 <img src=https://raw.githubusercontent.com/isdata-org/what-links-to-what/master/WhatLinksToWhat.png>
@@ -11,9 +13,20 @@ In [the CodeLinkR folder](./CodeLinkR) we are working on software that can read 
 
 Which classification codes have been linked:
 
+<table>
+<tr>
+<td>
 <img src=https://raw.githubusercontent.com/isdata-org/what-links-to-what/master/images/AdjMatrixSimplified-1.png width=400>
+</td>
+<td>
+<img src=https://raw.githubusercontent.com/isdata-org/what-links-to-what/master/images/wltw_product_industry_linkages.png>
+</td>
+</tr>
+</table>
 
 What this shows us is that if you have one dataset using Combined Nomenclature (CN), it's possible to link it to another dataset using NACE by the following set of translations: CN -> SITC -> HS -> ISIC -> NACE.
+
+
 
 Which specific versions of the classification codes have been linked:
 
