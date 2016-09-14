@@ -59,7 +59,7 @@ Which specific versions of the classification codes have been linked:
 * NHM - [Harmonised Commodity Code 'Nomenclature harmonisée des marchandises'](http://ec.europa.eu/eurostat/ramon/other_documents/nhm/index.cfm?TargetUrl=DSP_NHM)
 * NIMEXE - [Nomenclature of Goods for the External Trade Statistics of the Community and Statistics of Trade between Member States](http://ec.europa.eu/eurostat/ramon/other_documents/ancestors/nimexe/index.cfm?TargetUrl=DSP_NIMEXE)
 * NST/R - [Standard Goods Classification for Transport Statistics/Revised](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=NSTR_1967&StrLanguageCode=EN&IntPcKey=&StrLayoutCode=HIERARCHIC)
-* PRODCOM - PRODuction COMmunautaire
+* PRODCOM - [PRODuction COMmunautaire](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM&StrGroupCode=CLASSIFIC&StrLanguageCode=EN&IntFamilyCode=&TxtSearch=prodcom&IntCurrentPage=1)
 * SITC - Standard International Trade Classification
 
 #### Patents
