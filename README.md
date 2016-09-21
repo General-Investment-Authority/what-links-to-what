@@ -61,6 +61,7 @@ Which specific versions of the classification codes have been linked:
 * NST/R - [Standard Goods Classification for Transport Statistics/Revised](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=NSTR_1967&StrLanguageCode=EN&IntPcKey=&StrLayoutCode=HIERARCHIC)
 * PRODCOM - [PRODuction COMmunautaire](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM&StrGroupCode=CLASSIFIC&StrLanguageCode=EN&IntFamilyCode=&TxtSearch=prodcom&IntCurrentPage=1)
 * SITC - Standard International Trade Classification
+* UNSPSC - [United Nations Standard Products and Services Code](https://www.unspsc.org/)
 
 #### Patents
 * CPC - [Cooperative Patent Classification](http://www.uspto.gov/web/patents/classification/cpc/html/cpc-A.html).  This is used to classify patents by the USPTO.
