@@ -19,6 +19,14 @@ add_skos_broader <- function(ontStore, subject, object){
              object = object)
 }
 
+add_skos_example <- function(ontStore, subject, exampleText){
+  add.data.triple(ontStore,
+             subject=subject,
+             predicate = "http://www.w3.org/2004/02/skos/core#example",
+             data = exampleText)
+}
+
+
 add_skos_concept_scheme <- function(ontStore, schemeID){
   add.triple(ontStore,
              subject = schemeID,

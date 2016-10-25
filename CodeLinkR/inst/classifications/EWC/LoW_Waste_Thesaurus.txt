@@ -1,0 +1,1180 @@
+Abaca tow, noils and yarn waste	04 02 21, 04 02 22, 20 01 11
+Absorbents (n/o/s) and oil	15 02 02*
+Absorbents – oil/fuel (contaminated)	15 02 02*
+Absorbents n/o/s – halogenated	15 02 02*, 15 02 03
+Absorbents n/o/s - non-halogenated	15 02 02*, 15 02 03
+Acetic acid	07 01 01*, 11 01 05*, 11 01 06*, 20 01 14*
+Acid	01 03 04*, 05 01 04*, 05 01 07*, 05 01 12*, 05 06 01*, 06 01 01*, 06 01 02*, 06 01 03*, 06 01 04*, 06 01 05*, 06 01 06*, 06 07 04*, 10 01 09*, 11 01 05*, 11 01 06*, 16 08 05*, 20 01 14*
+Acid – acetic	07 01 01*, 11 01 05*, 11 01 06*, 20 01 14*
+Acid tars	05 01 07*, 05 06 01*
+Acid tars – organic	05 01 07*, 05 06 01*, 17 03 01*, 17 03 03*
+Acid tars n/o/s	05 01 07*, 05 06 01*, 17 03 01*, 17 03 03*
+Acids	01 03 04*, 05 01 04*, 05 01 07*, 05 01 12*, 05 06 01*, 06 01 01*, 06 01 02*, 06 01 03*, 06 01 04*, 06 01 05*, 06 01 06*, 06 07 04*, 10 01 09*, 11 01 05*, 11 01 06*, 16 08 05*, 20 01 14*
+Acrylamide	16 03 05*, 16 03 06
+Acrylate copolymers	07 02 13, 16 03 05*, 16 03 06
+Acrylate monomers	16 03 05*, 16 03 06
+Acrylic fibre	04 02 21, 04 02 22, 20 01 11
+Acrylonitrile copolymer	07 02 13
+Activated alumina	10 03 05
+Activated carbon	06 07 02*, 06 13 02*, 19 01 10*, 19 09 04
+Activated carbon – contaminated	06 07 02*, 06 13 02*, 19 01 10*
+Adhesives - non-halogenated	08 04 09*, 08 04 10
+Adhesives - solvent based	08 04 09*, 08 04 11*, 08 04 13*, 08 04 15*, 20 01 27*
+Adhesives - water-based	08 04 10, 20 01 28
+Aerosol containers – empty	15 01 04, 15 01 10*
+Aggregate – contaminated	17 01 06*
+Aggregates	01 04 08, 17 01 07
+Agricultural film	15 01 02
+Agricultural machinery	16 01 04*, 16 01 06, 16 02 13*, 16 02 14, 16 02 15*, 16 02 16
+Air bags - undischarged	16 01 10*
+Air bags – discharged	16 01 22
+Air fresheners (aerosol) - full	16 05 04*, 16 05 05
+Alcoholic drinks	02 07 04, 20 01 08
+Alcohols	07 07 04*, 16 05 06*, 20 01 08
+Aldehydes	07 01 01*, 07 01 08*, 16 03 05*, 16 03 06, 16 05 06*
+Aliphatic hydrocarbons	13 07 02*, 16 05 06*
+Alkalies	05 01 11*, 06 02 01*, 06 02 03*, 06 02 04*, 06 02 05*, 11 01 07*, 19 11 04*, 20 01 15*
+Alumina	10 03 05
+Aluminium	02 01 10, 12 01 03, 12 01 04, 15 01 04, 16 01 18, 17 04 02, 19 12 03, 20 01 40
+Aluminium cans	15 01 04
+Aluminium dross (thermal metallurgy)	10 03 04*, 10 03 05, 10 03 09*, 10 03 16
+Aluminium foil	15 01 04, 19 12 03, 20 01 40
+Aluminium skimmings	10 03 15*, 10 03 16
+Aluminium slags	10 03 04*
+Amalgam - dental	18 01 10*
+Amides	16 03 05*, 16 03 06
+Amines	16 03 05*, 16 03 06
+Amino resins	08 04 09*, 08 04 10
+Ammonia	16 03 05*, 16 03 06
+Animal bedding - soiled	02 01 06, 18 02 02*, 18 02 03
+Animal blood	02 01 02, 02 02 02
+Animal carcasses	02 01 02, 02 02 02, 18 02 02*, 18 02 03
+Animal faeces	02 01 06, 18 02 02*, 18 02 03, 20 02 01
+Animal fat	02 02 03, 20 01 25, 20 01 26*
+Animal grease	04 02 10, 19 08 09*, 19 08 10*
+Animal hair	04 01 01, 04 01 09, 04 02 21
+Animal hides	02 01 02, 02 02 02, 04 01 01
+Animal tissue - infectious	18 02 02*
+Animal tissue - non-infectious	02 01 02, 02 02 02, 18 02 03
+Anode scraps	10 03 02, 10 03 17*, 10 03 18, 10 08 12*, 10 08 13, 10 08 14, 11 02 03
+Anthracite filters	19 09 04
+Antifreeze	16 01 14*, 16 01 15
+Antimony compounds	06 03 13*, 06 03 15*, 06 04 05*, 10 11 11*
+APC residues - MSW combustion	19 01 07*
+Appliances - domestic	16 02 10*, 16 02 11*, 16 02 12*, 16 02 13*, 16 02 14
+Appliances - domestic	16 02 11*, 16 02 12*, 16 02 13*, 16 02 14
+Aromatic hydrocarbons	13 07 01*, 13 07 02*, 13 07 03*, 16 03 06
+Arsenic - elemental	01 01 01
+Arsenic compounds	06 03 13*, 06 03 15*, 06 04 03*, 06 04 05*, 10 04 03*, 10 11 11*
+Asbestos	06 07 01*, 06 13 04*, 10 13 09*, 10 13 10, 15 01 11*, 16 02 12*, 17 06 01*, 17 06 05*
+Asbestos - bonded	17 06 05*
+Asbestos - bonded	10 13 09*, 17 06 05*
+Asbestos - fibrous	06 13 04*, 16 02 12*, 17 06 01*
+Asbestos - insulation products	17 06 01*
+Asbestos lined brake shoes	16 01 11*
+Asbestos sheets - corrugated	10 13 09*, 17 06 05*
+Asbestos vehicle brake shoes	16 01 11*
+Ash – bottom	10 01 01, 10 01 14*, 10 01 15, 19 01 12
+Ash – fly	10 01 02, 10 01 03, 10 01 04*, 10 01 13*, 10 01 16*, 10 01 17, 19 01 13*, 19 01 14, 19 04 02*
+Ash – pulverised fuel (PFA)	10 01 01, 10 01 14*, 10 01 15, 19 01 12
+Asphalt (containing tar)	17 03 01*, 17 03 02, 17 03 03*
+Autoclaved clinical waste	18 01 04, 18 02 03
+Bags – plastic	15 01 02, 20 01 39
+Bags – stoma (used)	18 01 03*, 18 01 04
+Bakery waste	02 06 01
+Baled plastic waste	02 01 04, 07 02 13, 15 01 02, 17 02 03, 19 12 04, 20 01 39
+Ball mill dust	10 03 21*, 10 03 22
+Bark	03 01 01, 03 03 01, 20 02 01
+Barriers (metal) - safety	17 04 07, 19 12 02
+Bases	05 01 11*, 06 02 01*, 06 02 03*, 06 02 04*, 06 02 05*, 11 01 07*, 19 11 04*, 20 01 15*
+Batteries - alkaline	16 06 04, 20 01 34
+Batteries - car	16 06 01*
+Batteries - lead acid (drained)	16 06 01*, 20 01 33*
+Batteries - lead acid (undrained)	16 06 01*, 20 01 33*
+Batteries - lithium	16 06 04, 20 01 34
+Batteries - mercury	16 06 03*, 20 01 33*
+Batteries - metal hydrides	16 06 04, 20 01 34
+Batteries - mixed	16 06 02*, 16 06 03*, 16 06 04, 20 01 33*, 20 01 34
+Batteries - nickel cadmium	16 06 02*, 20 01 33*
+Battery - Electrolyte	16 06 06*
+Beer	02 07 04, 20 01 08
+Benzene	16 03 05*, 16 03 06
+Benzoic acid	20 01 14*
+Benzyl chlorides	16 03 05*, 16 05 06*
+Bicycles	16 01 06
+Binders - Foundary	10 09 13*, 10 09 14, 10 10 13*, 10 10 14
+Biocide production waste	07 04 01*, 07 04 03*, 07 04 04*, 07 04 07*, 07 04 08*, 07 04 09*, 07 04 10*, 07 04 11*, 07 04 12, 07 04 13*
+Biocides	02 01 08*, 03 02 01*, 03 02 02*, 06 13 01*, 20 01 19*
+Biscuits	02 06 01, 20 01 08
+Bismuth	06 04 05*, 19 12 11*
+Bismuth compounds	06 03 13*, 06 03 15*, 06 04 05*
+Bismuth waste and scrap	06 04 05*, 19 12 11*
+Bitumen	05 01 17, 17 03 01*, 17 03 02, 17 03 03*
+Blast furnace slag	10 02 01, 10 02 02, 10 09 03, 10 10 03
+Blasting grit	12 01 16*, 12 01 17
+Blood – animal	02 01 02, 02 02 02
+Blood – Human	18 01 02
+Boats	16 01 04*, 16 01 06
+Bobbins - paper	20 01 01
+Bobbins - plastic	20 01 39
+Boiler cleaning sludge	10 01 22*, 10 01 23
+Boric acid	11 01 06*, 20 01 14*
+Bottles - glass	10 11 12, 15 01 07, 20 01 02
+Bottles - plastic	15 01 02, 20 01 39
+Brake fluid	16 01 13*
+Brake fluids	16 01 13*
+Brake linings (containing asbestos)	16 01 11*
+Brake linings (not containing asbestos)	16 01 12
+Brakes – car	16 01 11*, 16 01 12
+Brass – scrap	02 01 10, 16 01 18, 17 04 01, 19 12 03, 20 01 40
+Bread	02 06 01
+Brewing waste	02 07 01, 02 07 02, 02 07 03, 02 07 04, 02 07 05
+Bricks	10 12 08, 17 01 02, 17 01 06*, 17 01 07
+Brine	01 01 02, 01 04 11
+Bromine	16 05 06*, 16 05 08*
+Bronze - scrap	02 01 10, 12 01 03, 12 01 04, 17 04 01, 19 12 03, 20 01 40
+Building rubble	17 01 01, 17 01 02, 17 01 03, 17 01 06*, 17 01 07, 17 05 03*, 17 05 04, 17 09 01*, 17 09 02*, 17 09 03*, 17 09 04
+Bulbs – Non Fluorescent	16 02 14, 20 01 36
+Bulbs – non fluorescent	16 02 14, 20 01 36
+Bulky household waste	20 03 07
+Cable stripping waste	17 04 10*, 17 04 11, 19 10 01, 19 10 02, 19 12 04
+Cadmium compounds	06 03 13*, 06 03 15*, 06 04 05*
+Cadmium waste and scrap	19 12 03, 20 01 40
+Calcium based reaction residue	06 09 03*, 06 09 04, 06 11 01, 10 01 05, 10 01 07
+Calcium carbonate	01 01 02, 01 04 08, 02 04 02
+Calcium sulphate	06 03 14, 17 08 01*, 17 08 02
+Cameras - single use	09 01 10, 09 01 11*, 09 01 12
+Cans – aluminium	15 01 04
+Cans – metal	15 01 04
+Canteen waste	20 01 08
+Capacitors (with PCBs or PCTs)	16 02 09*, 17 09 02*
+Capacitors (without PCBs or PCTs)	16 02 13*, 16 02 14, 16 02 15*, 16 02 16
+Car – Dashboards and other plastic fittings	16 01 19
+Car batteries	16 06 01*
+Car bodies	16 01 06
+Car brakes	16 01 11*, 16 01 12
+Car exhausts	16 01 21*, 16 01 22
+Carbon	06 07 02*, 06 13 02*, 06 13 03, 10 03 18, 10 08 13, 16 11 01*, 16 11 02, 19 09 04
+Carbon (activated) - contaminated	06 07 02*, 06 13 02*, 19 01 10*, 19 09 04
+Carbon - activated	06 07 02*, 06 13 02*, 19 01 10*, 19 09 04
+Carbon black	06 13 03
+Carbon fibre	04 02 21, 04 02 22
+Carbon teterachloride	07 01 03*, 07 02 03*, 07 03 03*, 07 05 03*, 07 06 03*, 07 07 03*
+Carcasses	02 01 02, 02 02 02, 18 02 02*, 18 02 03
+Cardboard	03 03 07, 03 03 08, 15 01 01, 19 12 01, 20 01 01
+Cardboard containers - contaminated	15 01 10*
+Cardboard packaging	15 01 01, 15 01 10*
+Cardboard packaging - used	15 01 01, 15 01 10*
+Carpets	04 02 22, 19 12 08, 20 01 11
+Cars	16 01 04*, 16 01 06
+Cartridges (ink jet printer remanufacturing residues)	08 03 17*, 08 03 18
+Cartridges (laser printer remanufacturing residues)	08 03 17*, 08 03 18
+Cartridges - toner	08 03 17*, 08 03 18
+Cast iron waste and scrap	16 01 17, 17 04 05, 19 01 02, 19 10 01, 19 12 02, 20 01 40
+Catalysts - molybdenum (hydrodesulphurisation)	16 08 02*, 16 08 03
+Catalysts - nickel (hydrodesulphurisation)	16 08 02*, 16 08 03
+Catalysts - precious metal bearing	16 08 01
+Catalysts - transition metal	16 08 02*, 16 08 03
+Cathode ray tubes	10 11 11*, 16 02 13*, 16 02 15*, 20 01 21*
+Caustic - fluoride	06 02 05*, 20 01 15*
+Caustic - sulphide	06 02 05*, 20 01 15*
+Cellophane - dry	07 02 13, 15 01 02, 17 02 03, 19 12 04, 20 01 39
+Cement	10 13 04, 10 13 11
+Cement - asbestos	10 13 09*, 17 06 05*
+Cement kiln dust	10 13 06
+Cement products	10 13 11, 17 01 01
+Cement slurry	10 13 14
+Cement/concrete sludge	10 13 14
+Ceramics	08 02 02, 08 02 03, 10 12 08, 17 01 03, 17 01 06*, 17 01 07
+Cesspit sludge	20 03 04
+Cesspool waste	20 03 04
+CFCs	14 06 01*, 16 02 11*, 20 01 23*
+Chairs - metal	17 04 07, 20 01 40, 20 03 07
+Chairs - plastic	17 02 03, 20 01 39, 20 03 07
+Chairs - wooden	03 01 05, 17 02 01, 19 12 07, 20 03 07
+Chalk	01 01 02, 01 04 08
+Chemical production liquors	07 01 01*, 07 01 03*, 07 01 04*, 07 02 01*, 07 02 03*, 07 02 04*, 07 03 01*, 07 03 03*, 07 03 04*, 07 04 01*, 07 04 03*, 07 04 04*, 07 05 01*, 07 05 03*, 07 05 04*, 07 06 01*, 07 06 03*, 07 06 04*, 07 07 01*, 07 07 03*, 07 07 04*
+Chemical toilet waste	20 03 04
+Chemical waste - general factory	20 03 01
+Chemicals - laboratory	16 05 06*
+Chimney sweeping waste	20 01 41
+China	10 12 08, 17 01 03
+Chipboard	03 01 04*, 03 01 05
+Chlorates	09 01 05*, 16 09 04*, 20 01 29*
+Chlorinated dioxins	19 01 05*, 19 01 13*, 19 01 15*
+Chlorinated solvents (mixed)	07 01 03*, 07 02 03*, 07 03 03*, 07 04 03*, 07 05 03*, 07 06 03*, 07 07 03*, 14 06 02*, 20 01 13*
+Chlorine	16 05 04*, 16 05 06*, 16 05 07*
+Chlorofluorocarbons	14 06 01*, 16 02 11*, 20 01 23*
+Chloroform	16 05 06*, 16 05 08*
+Chloromethanes	16 05 04*, 16 05 06*, 16 05 08*
+Chlorosilanes	06 08 02*
+Chocolate	02 06 01, 20 01 08
+Chromates	16 09 02*
+Chrome	06 03 13*, 06 03 15*, 06 04 05*, 12 01 03, 12 01 04, 16 01 18, 17 04 07, 19 12 03, 20 01 40
+Chromic acid	11 01 05*, 11 01 06*, 20 01 14*
+Chromium	06 03 13*, 06 03 15*, 06 04 05*, 12 01 03, 12 01 04, 16 01 18, 17 04 07, 19 12 03, 20 01 40
+Chromium compounds (trivalent)	04 01 04, 04 01 08, 16 09 02*
+Chromium compounds - hexavalent	16 09 02*
+Chromium waste and scrap	12 01 03, 12 01 04, 16 01 18, 17 04 07, 19 12 03, 20 01 40
+Civic amenity waste	20 01 01, 20 01 02, 20 01 11, 20 01 13*, 20 01 25, 20 01 26*, 20 01 27*, 20 01 28, 20 01 33*, 20 01 34, 20 01 35*, 20 01 36, 20 01 37*, 20 01 38, 20 01 39, 20 01 40, 20 02 01, 20 02 02, 20 03 01, 20 03 07
+Cladding - aluminum	17 04 02
+Cladding - stone	17 09 04
+Clay	01 04 09, 17 05 04
+Clay - contaminated	05 01 15*, 17 05 03*, 19 11 01*
+Clay and terracotta land drain pipes	17 01 03
+Cleaning compounds - halogenated	14 06 02*, 20 01 29*
+Cling film	07 02 13, 15 01 02, 20 01 39
+Clinical waste	18 01 01, 18 01 02, 18 01 03*, 18 01 04, 18 02 01, 18 02 02*, 18 02 03
+Clinical waste - autoclaved	18 01 01, 18 01 02, 18 01 03*, 18 01 04
+Clinical waste n/o/s	18 01 01, 18 01 02, 18 01 03*, 18 01 04
+Clothes	20 01 10
+Coal	01 01 02
+Coal tars	17 03 01*, 17 03 03*, 17 04 10*
+Coatings - paint (PVC)	08 01 11*, 08 01 17*, 20 01 27*
+Cobalt compounds	06 03 13*, 06 03 15*, 06 04 05*, 10 11 11*
+Cocoa husks	02 03 01, 02 03 04
+Cocoa shells	02 03 01, 02 03 04
+Cocoa skins	02 03 01, 02 03 04
+Coffee	02 03 01, 02 03 04
+Coke	16 03 06
+Coke - contaminated	16 03 05*
+Colliery spoil	01 01 02
+Combustion refractories	16 11 01*, 16 11 02, 16 11 03*, 16 11 04, 16 11 05*, 16 11 06
+Combustion residue (MSW) - bottom ash	19 01 12
+Commercial waste	20 03 01
+Compact discs	20 01 39
+Compacted household waste	19 12 12
+Compost - mushroom	02 03 01
+Compost - spent	02 03 01, 19 05 03
+Composted household waste	19 05 01, 19 05 03, 19 06 04
+Computer disks	20 01 39
+Computer keyboards	16 02 14, 16 02 16
+Computer screens	16 02 13*, 16 02 15*
+Computers	16 02 13*, 16 02 14, 16 02 16
+Concrete	10 13 14, 17 01 01
+Concrete - contaminated	17 01 06*
+Concrete - wet	10 13 14, 17 01 01
+Concrete blocks	10 13 14, 17 01 01
+Concrete floor tiles	10 13 14, 17 01 01
+Concrete railway sleepers	10 13 14, 17 01 01
+Concrete slurry	10 13 14, 17 01 01
+Condemned food	02 02 03, 02 03 04, 02 05 01, 02 06 01, 02 07 04, 20 01 08
+Cones (roadworks)	17 02 03
+Construction waste (contaminated) n/o/s	17 09 01*, 17 09 02*, 17 09 03*, 17 09 04
+Construction waste containg chemicals	17 09 01*, 17 09 02*, 17 09 03*, 17 09 04
+Container washings - agrochemical	02 01 08*, 02 01 09, 16 07 09*
+Containers (metal) - used	15 01 04, 15 01 10*
+Containers - aerosol - empty	15 01 04, 15 01 10*
+Containers - cardboard	15 01 01
+Containers - cardboard (contaminated)	15 01 01, 15 01 10*
+Containers - glass	10 11 12, 15 01 07, 20 01 02
+Containers - glass (contaminated)	10 11 12, 15 01 10*, 20 01 02
+Containers - metal (contaminated)	15 01 04, 15 01 10*
+Containers - paper	15 01 01
+Containers - paper (contaminated)	15 01 10*
+Containers - pesticide (metal)	02 01 08*, 02 01 09, 15 01 04, 15 01 10*
+Containers - pesticide (plastic)	02 01 08*, 02 01 09, 15 01 02, 15 01 10*
+Containers - plastic	01 03 04*, 15 01 02
+Containers - plastic (contaminated)	15 01 10*
+Containers - wooden	15 01 03
+Containers - wooden (contaminated)	15 01 10*
+Contaminated filter paper	15 02 02*, 15 02 03
+Contaminated grit	13 05 01*, 13 05 08*
+Contaminated paper wipes	15 02 02*, 15 02 03
+Contaminated railway ballast	17 05 07*, 17 05 08
+Contaminated rock	01 04 07*, 17 05 03*, 17 05 07*
+Contaminated sand	01 04 09, 17 05 03*
+Contaminated silt	17 05 05*, 17 05 06
+Contaminated silt and dredgings	17 05 05*, 17 05 06
+Contaminated soil (all types of soil)	17 05 03*, 17 05 04
+Cookers	16 02 12*, 16 02 14
+Cookers - microwave	16 02 13*, 16 02 14
+Cooking oil	20 01 25, 20 01 26*
+Cooling column waste (coal treatment)	05 06 04
+Cooling column waste (petroleum refining)	05 01 14
+Cooling water (containing oil)	10 02 11*, 10 03 27*, 10 04 09*, 10 05 08*, 10 06 09*, 10 07 07*, 10 08 19*
+Cooling water (not containing oil)	10 01 26, 10 03 28, 10 04 10, 10 06 10, 10 07 08, 10 08 20
+Copolymers - acrylate	07 02 13, 16 03 05*, 16 03 06
+Copper - scrap	17 04 01, 19 10 02, 19 12 03, 20 01 40
+Copper ashes and residues	10 06 04
+Copper compounds	06 03 13*, 06 03 15*, 06 04 05*, 10 11 11*
+Copper dross (thermal metallurgy)	10 06 02
+Copper slags	10 06 01
+Copper waste and scrap	17 04 01, 19 10 02, 19 12 03, 20 01 40
+Cork	03 01 01, 17 02 01, 20 01 38
+Corrugated plastic sheets	17 02 03
+Cosmetic products	16 03 05*, 16 03 06
+Cotton	04 02 21, 04 02 22, 15 01 09, 19 12 08, 20 01 11
+Cotton wool	04 02 21, 04 02 22, 15 01 09, 19 12 08, 20 01 11
+Cows	02 01 02, 02 02 02, 02 02 03
+Crack indicating agents (thermal metallurgy)	10 09 15*, 10 09 16, 10 10 15*, 10 10 16
+Crates - plastic	15 01 02
+Crates - wooden	15 01 03
+Crop spraying waste	02 01 08*, 02 01 09
+Crops, Crop waste	02 01 03
+Crude oil tank cleaning residues	16 07 08*, 16 07 09*, 16 07 99
+Crushed fluorescent tubes	20 01 21*
+Cushions	04 02 21, 04 02 22, 15 01 09, 19 12 08, 20 01 11
+Cyanides	06 03 11*, 11 03 01*
+Cyclone deposits	19 02 03, 19 02 04*
+Dairy products	02 05 01, 02 05 02, 20 01 08
+Dairy products (solids)	02 05 01, 02 05 02, 20 01 08
+Dairy products (liquids)	02 05 01, 02 05 02, 20 01 08
+De-inking sludge	03 03 05
+Dead pets	18 02 02*, 18 02 03
+Decant oil tank cleaning residues	16 07 08*, 16 07 09*, 16 07 99
+Degreaser compounds	04 01 03*, 11 01 13*, 11 01 14, 12 03 02*
+Demolition waste - contaminated	17 09 01*, 17 09 02*, 17 09 03*, 17 09 04
+Derv	13 07 01*
+Detergents	20 01 29*, 20 01 30
+Dichloroethane	16 05 06*, 16 05 08*
+Dichloromethane	16 05 06*, 16 05 08*
+Diesel	13 07 01*
+Diesel and petrol (mixed)	13 07 03*
+Diphenyl methane diisocyanate (MDI) – solid	16 05 06*, 16 05 08*
+Distillate tank cleaning residues	05 01 03*
+Distillation residues	02 07 02, 07 01 07*, 07 01 08*, 07 02 07*, 07 02 08*, 07 03 07*, 07 03 08*, 07 04 07*, 07 04 08*, 07 05 07*, 07 05 08*, 07 06 07*, 07 06 08*, 07 07 07*, 07 07 08*
+Dog poo	18 02 02*, 18 02 03
+Domestic appliances (electrical)	16 02 11*, 16 02 12*, 16 02 13*, 16 02 14
+Domestic appliances (gas powered)	20 01 40, 20 03 07
+Domestic appliances (mechanical)	20 01 40, 20 03 07
+Domestic appliances CFCs extracted	16 02 14
+Domestic appliances CFCs not extracted	16 02 11*
+Domestic waste	20 03 01
+Doors (metal)	17 04 05
+Dredgings	17 05 05*, 17 05 06
+Dredgings and silt - contaminated	17 05 05*, 17 05 06
+Dressings - soiled	18 01 03*, 18 01 04
+Drilling muds - water based	01 05 04, 01 05 05*, 01 05 06*, 01 05 07, 01 05 08
+Dross - aluminium (thermal metallurgy)	10 03 09*, 10 03 15*, 10 03 16
+Dross - copper (thermal metallurgy)	10 06 02
+Dross - lead (thermal metallurgy)	10 04 02*
+Dross - magnesium	10 08 10*, 10 08 11
+Dross - silver (thermal metallurgy)	10 07 02
+Dross - zinc (thermal metallurgy)	10 05 10*, 10 05 11
+Drugs - controlled	07 05 13*, 07 05 14, 18 01 08*, 18 01 09, 18 02 07*, 18 02 08, 20 01 31*, 20 01 32
+Drugs - cytotoxic	07 05 13*, 07 05 14, 18 01 08*, 18 02 07*, 20 01 31*
+Drugs - prescribed	07 05 13*, 07 05 14, 18 01 08*, 18 01 09, 18 02 07*, 18 02 08, 20 01 31*, 20 01 32
+Drums - steel	15 01 04, 15 01 10*
+Drums n/o/s	15 01 02, 15 01 04, 15 01 10*
+Ducting and piping - contaminated	17 02 04*
+Dust - asbestos	06 13 04*, 10 13 09*	
+Dust - flue gas	10 01 04*, 10 03 19*, 10 03 20, 10 04 04*, 10 05 03*, 10 06 03*, 10 08 15*, 10 08 16, 10 09 09*, 10 09 10, 10 10 09*, 10 10 10, 10 12 03
+Dust - furnace (foundries)	10 01 01, 10 01 04*, 10 01 14*, 10 01 15, 19 01 15*, 19 01 16
+Dust - grinding	01 03 08, 01 04 10, 10 03 21*, 10 03 22, 12 01 02, 12 01 04
+Dust - sander	03 01 04*, 03 01 05, 12 01 02, 12 01 04
+Dyestuffs	04 02 16*, 04 02 17
+Effluent - septic tank	20 03 04
+Effluent treatment sludge - biological (dewatered)	02 02 04, 02 03 05, 02 04 03, 02 05 02, 02 06 03, 02 07 05, 03 03 11, 04 01 06, 04 01 07, 04 02 19*, 04 02 20, 05 01 09*, 05 01 10, 06 05 02*, 06 05 03, 07 01 11*, 07 01 12, 07 02 11*, 07 02 12, 07 03 11*, 07 03 12, 07 04 11*, 07 04 12, 07 05 11*, 07 05 12, 07 06 11*, 07 06 12, 07 07 11*, 07 07 12, 10 01 20*, 10 01 21, 10 11 19*, 10 11 20, 10 12 13, 19 11 05*, 19 11 06
+Electric motors (decontaminated)	16 01 22, 16 02 14
+Electrical absorption fridges	16 02 11*, 16 02 14
+Electrical appliances	16 02 10*, 16 02 11*, 16 02 12*, 16 02 13*, 16 02 14
+Electrical cable	16 02 15*, 16 02 16, 17 04 10*, 17 04 11
+Electrical components	16 02 15*, 16 02 16
+Electrical domestic appliances	16 02 10*, 16 02 11*, 16 02 12*, 16 02 13*, 16 02 14
+Electrical wire	16 02 15*, 16 02 16, 17 04 10*, 17 04 11
+Electronic appliances	16 02 13*, 16 02 14
+Electronic components	16 02 15*, 16 02 16
+Electronic equipment	16 02 13*, 16 02 14
+Electronic fixtures/fittings	16 02 15*, 16 02 16
+Electronic scrap	16 02 15*, 16 02 16
+Empty aerosol containers	15 01 04, 15 01 10*
+Empty used containers	15 01 01, 15 01 02, 15 01 03, 15 01 04, 15 01 05, 15 01 06, 15 01 10*
+Emulsions (oil) - chlorinated	12 01 08*, 13 01 04*
+Emulsions (oil) - non-chlorinated	12 01 09*, 13 01 05*
+Enamels	08 02 01, 20 01 28
+Engine oil	13 02 04*, 13 02 05*, 13 02 06*, 13 02 07*, 13 02 08*
+Engine oil - chlorinated	13 02 04*
+Engine oil - non-chlorinated	13 01 10*
+Engines	16 01 21*, 16 01 22
+Epoxy resin	08 04 09*, 08 04 10, 08 04 11*, 08 04 12
+Epoxy/polyester powder paint	08 01 11*, 08 01 13*, 20 01 27*, 20 01 28
+Etching acid	08 03 16*
+Ethanol	16 05 06*, 16 05 08*, 18 01 06*, 18 02 05*
+Ethers	16 05 06*, 16 05 08*
+Ethoxylated alkyphenol (surfactant)	16 05 06*, 16 05 08*
+Ethyl benzene	16 05 06*, 16 05 08*
+Ethylene glycol	16 01 14*
+Excrement - animal	02 01 06, 18 02 02*, 18 02 03, 20 02 01
+Feathers	02 02 02
+Feedwater sludge (petroleum refining)	05 01 13
+Feminine hygiene waste	18 01 04
+Fermentation waste	02 07 01, 02 07 02, 02 07 03, 02 07 04, 02 07 05
+Ferrous and non-ferrous (mixed) scrap	02 01 10, 15 01 04, 17 04 07, 20 01 40
+Ferrous metal scrap	02 01 10, 12 01 01, 12 01 02, 15 01 04, 16 01 17, 17 04 05, 17 04 09*, 19 01 02, 19 10 01, 19 12 02, 20 01 40
+Ferrous metal turnings	12 01 01, 17 04 05, 17 04 09*, 19 10 01, 19 12 02, 20 01 40
+Ferrous swarf	12 01 01, 17 04 05, 17 04 09*, 19 10 01, 19 12 02, 20 01 40
+Fertiliser waste	06 10 02*
+Fibre - acrylic	04 02 21, 04 02 22, 15 01 09, 19 12 08, 20 01 11
+Fibre - glass	10 11 03, 16 01 20, 17 02 02, 17 02 04*
+Fibreboard	10 11 03
+Fibreglass	10 11 03, 16 01 20, 17 02 02, 17 02 04*, 20 01 02
+Fibres - textile (processed) - synthetic	04 02 22, 15 01 09, 19 12 08, 20 01 11
+Fibres - textile (unprocessed) - synthetic	04 02 21
+Fibres man made	04 02 22, 15 01 09, 19 12 08, 20 01 11
+Film - plastic	07 02 13, 15 01 02, 20 01 39
+Filter cake - dewatered	07 01 09*, 07 01 10*, 07 02 09*, 07 02 10*, 07 03 09*, 07 03 10*, 07 04 09*, 07 04 10*, 07 05 09*, 07 05 10*, 07 06 09*, 07 06 10*, 07 07 09*, 07 07 10*, 10 02 13*, 10 02 14, 10 02 15, 10 03 25*, 10 03 26, 10 04 07*, 10 05 06*, 10 06 07*, 10 07 05, 10 08 17*, 10 08 18, 10 11 17*, 10 11 18, 10 12 05, 10 13 07, 11 01 09*, 11 01 10, 19 01 05*
+Filter cake - phenolic	07 01 09*, 07 01 10*, 07 02 09*, 07 02 10*, 07 03 09*, 07 03 10*, 07 04 09*, 07 04 10*, 07 05 09*, 07 05 10*, 07 06 09*, 07 06 10*, 07 07 09*, 07 07 10*, 10 02 13*, 10 03 25*, 10 04 07*, 10 05 06*, 10 06 07*, 10 08 17*, 10 11 17*, 11 01 09*
+Filter cake n/o/s	07 01 09*, 07 01 10*, 07 02 09*, 07 02 10*, 07 03 09*, 07 03 10*, 07 04 09*, 07 04 10*, 07 05 09*, 07 05 10*, 07 06 09*, 07 06 10*, 07 07 09*, 07 07 10*, 10 02 13*, 10 02 14, 10 02 15, 10 03 25*, 10 03 26, 10 04 07*, 10 05 06*, 10 06 07*, 10 07 05, 10 08 17*, 10 08 18, 10 11 17*, 10 11 18, 10 12 05, 10 13 07, 11 01 09*, 11 01 10, 19 01 05*
+Filter clay	05 01 15*, 15 02 02*, 15 02 03
+Filter cloths	15 02 02*, 15 02 03
+Filter paper	15 02 02*, 15 02 03
+Filter paper - contaminated	15 02 02*, 15 02 03
+Filters - anthracite	19 09 04
+Filters - contaminated	15 02 02*, 15 02 03
+Filters - oil	16 01 07*
+Filters - oil (crushed)	16 01 07*
+Filters - spray booth	15 02 02*, 15 02 03
+Fireworks	16 04 02*
+Fish - processing waste	02 01 02, 02 02 02, 02 02 03, 20 01 08
+Fish carcasses	02 01 02, 02 02 02, 02 02 03, 20 01 08
+Fixer - photographic	09 01 04*, 09 01 05*
+Flesh - animal	02 01 02, 02 02 02, 20 01 08
+Floor sweepings	20 03 01
+Flue cleanings - boiler	10 01 04*, 10 03 19*, 10 03 20, 10 04 04*, 10 05 03*, 10 06 03*, 10 08 15*, 10 08 16, 10 09 09*, 10 09 10, 10 10 09*, 10 10 10, 10 12 03
+Flue gas dust	10 01 04*, 10 03 19*, 10 03 20, 10 04 04*, 10 05 03*, 10 06 03*, 10 08 15*, 10 08 16, 10 09 09*, 10 09 10, 10 10 09*, 10 10 10, 10 12 03
+Fluid - brake	16 01 13*
+Fluorescent tubes	20 01 21*
+Fluorescent tubes - crushed	20 01 21*
+Fly ash - coal	10 01 02, 10 01 03, 10 01 04*, 10 01 13*, 10 01 16*, 10 01 17, 19 01 13*, 19 01 14, 19 04 02*
+Fly ash - oil	10 01 02, 10 01 03, 10 01 04*, 10 01 13*, 10 01 16*, 10 01 17, 19 01 13*, 19 01 14, 19 04 02*
+Fly ash - peat	10 01 02, 10 01 03, 10 01 04*, 10 01 13*, 10 01 16*, 10 01 17, 19 01 13*, 19 01 14, 19 04 02*
+Foam rubber	04 02 22, 20 01 11, 20 03 07
+Foil - aluminium	15 01 04, 19 12 03, 20 01 40
+Food - canteen waste	20 01 08
+Food - condemned	02 02 03, 02 03 04, 02 05 01, 02 06 01, 02 07 04, 20 01 08
+Food - domestic	20 01 08
+Food processing waste	02 01 01, 02 01 02, 02 01 03, 02 02 01, 02 02 02, 02 02 03, 02 02 04, 02 03 01, 02 03 04, 02 05 01, 02 06 01, 02 07 01, 02 07 04, 20 01 08
+Food washing waste	02 01 01, 02 01 06, 02 02 01, 02 03 01, 02 04 01, 02 07 01
+Forestry waste	02 01 07
+Formaldehyde	16 03 05*, 16 05 06*
+Formic acid	08 03 16*, 16 05 06*, 16 05 08*, 20 01 14*
+Foundry furnace ash	10 01 01, 10 01 14*, 10 01 15, 11 05 02, 19 01 12
+Foundry sand - non-phenolic	10 09 05*, 10 09 06, 10 09 07*, 10 09 08, 10 10 05*, 10 10 06, 10 10 07*, 10 10 08, 10 12 06
+Foundry sand - phenolic	10 09 05*, 10 09 07*, 10 10 05*, 10 10 07*
+Fragmentiser residues	19 10 01, 19 10 02, 19 10 03*, 19 10 04, 19 10 05*, 19 10 06
+Freezers	16 02 11*, 16 02 13*, 20 01 23*
+Fridges	16 02 11*, 16 02 13*, 20 01 23*
+Fridges - compression	16 02 11*, 16 02 13*
+Fridges - electrical (absorption)	16 02 11*, 16 02 13*
+Frit	10 11 03, 10 11 11*, 19 12 05
+Fruit	02 03 04, 20 01 08
+Fuel - Cleaning waste	05 01 11*
+Fuel - paraffin	13 07 01*
+Fungicides	02 01 08*, 03 02 01*, 03 02 02*, 06 13 01*, 20 01 19*
+Fur - degreasing waste	04 01 03*
+Furnace ash (foundries)	10 01 01, 10 01 14*, 10 01 15, 11 05 02, 19 01 12
+Furnace bottom ash	10 01 01, 10 01 14*, 10 01 15, 19 01 12
+Furnace dust (foundries)	10 01 04*, 10 03 19*, 10 03 20, 10 04 04*, 10 05 03*, 10 06 03*, 10 08 15*, 10 08 16, 10 09 09*, 10 09 10, 10 10 09*, 10 10 10, 10 12 03
+Furnace linings	16 11 01*, 16 11 02, 16 11 03*, 16 11 04, 16 11 05*, 16 11 06
+Furnace slag	06 09 02, 10 01 01, 10 01 14*, 10 01 15, 10 02 01, 10 02 02, 10 03 04*, 10 03 08*, 10 03 29*, 10 03 30, 10 04 01*, 10 05 01, 10 06 01, 10 07 01, 10 08 09, 10 09 03, 10 10 03, 19 01 12
+Furniture - metal	17 04 07, 20 01 40, 20 03 07
+Furniture - Off specification, redunant stock	03 01 05
+Furniture - office	20 03 07
+Galvanizing slab zinc bottom dross	11 05 01
+Garden waste	20 02 01, 20 02 02
+Gas cylinders	16 05 04*, 16 05 05
+Gas powered domestic appliances	20 03 07
+Gas purification waste	05 07 01*, 05 07 02
+Gas tank (LPG vehicles)	16 01 16
+Gas treatment waste	10 02 07*, 10 02 08, 10 03 23*, 10 03 24, 10 04 06*, 10 05 05*, 10 06 06*, 10 07 03, 10 11 15*, 10 11 16, 10 12 09*, 10 12 10, 10 13 12*, 10 13 13, 11 05 03*, 19 01 07*
+General administration waste	20 03 01
+General commercial waste	20 03 01
+General demolition waste	17 09 03*, 17 09 04
+General industrial waste	20 03 01
+General office waste	20 03 01
+General waste restaurant	20 03 01
+General waste retail	20 03 01
+Genklene	20 01 30
+Geotextiles	04 02 22, 20 01 11
+Glass	10 11 03, 10 11 11*, 10 11 12, 15 01 07, 16 01 20, 17 02 02, 17 02 04*, 19 12 05, 20 01 02
+Glass – cullet	19 12 05
+Glass – powdered	10 11 11*
+Glass bottles	10 11 12, 15 01 07, 20 01 02
+Glass containers	10 11 12, 15 01 07, 20 01 02
+Glass containers - contaminated	15 01 10*
+Glass fibre	10 11 03, 16 01 20, 17 02 02, 17 02 04*, 20 01 02
+Glass pots	10 11 12, 15 01 07, 20 01 02
+Glassware - contaminated	10 11 11*, 10 11 13*, 17 02 04*
+Glaze	10 12 11*, 10 12 12
+Gloves - plastic	20 01 39
+Glue – epoxy-based	08 04 09*, 08 04 11*, 08 04 13*, 08 04 15*, 20 01 27*
+Glue waste - animal based	08 04 10, 20 01 28
+Glue waste - casein based	08 04 09*, 08 04 10
+Glycol	16 01 14*
+Gold skimmings (thermal metallurgy)	10 07 02
+Gold slags	10 07 01
+Granules of rubber	19 12 04
+Graphite	01 01 02
+Grass	20 02 01
+Grate ash - MSW combustion residue	19 01 12
+Gravel	01 04 08, 17 01 06*, 17 01 07
+Greases	04 02 10, 19 08 09*, 19 08 10*
+Green liquor	03 03 02
+Green waste	02 01 03, 02 01 07, 20 02 01
+Grinding bodies	12 01 20*, 12 01 21
+Grinding sludge	10 11 13*, 12 01 18*
+Grit – blasting	12 01 16*, 12 01 17
+Grit – contaminated	12 01 16*, 12 01 17, 13 05 01*, 13 05 08*
+Gully emptyings	13 05 02*, 13 05 03*, 13 05 07*, 13 05 08*, 20 03 03
+Guns	20 01 40
+Gypsum (calcium sulphate)	07 01 10*, 07 03 10*, 07 04 10*, 07 05 10*, 07 06 10*, 07 07 10*, 17 08 01*, 17 08 02
+Gypsum plasterboard	17 08 01*, 17 08 02
+Hair – human	18 01 04
+Hair products and shampoo	16 03 06, 20 01 30
+Halide (metal) - lamps	16 02 13*
+Halogenated adhesives	08 04 09*, 08 04 11*
+Halogenated organics n/o/s	07 01 03*, 07 01 07*, 07 01 09*, 07 02 03*, 07 02 07*, 07 02 09*, 07 03 03*, 07 03 07*, 07 03 09*, 07 04 03*, 07 04 07*, 07 04 09*, 07 05 03*, 07 05 07*, 07 05 09*, 07 06 03*, 07 06 07*, 07 06 09*, 07 07 03*, 07 07 07*, 07 07 09*, 14 06 02*, 14 06 04*
+Halon	14 06 01*, 14 06 02*
+Hardboard	03 01 04*, 03 01 05, 17 02 01
+Hardcore	17 01 07
+Hardened adhesives	08 04 10, 20 01 28
+Hardened sealants	08 04 10, 20 01 28
+HCFCs	14 06 01*
+Healthcare risk waste	18 01 03*, 18 02 02*
+Herbicides	02 01 08*, 06 13 01*, 20 01 19*
+Hides – animal	02 01 02, 02 02 02, 04 01 01
+High density polyethylene	02 01 04, 07 02 13, 15 01 02, 17 02 03, 19 12 04, 20 01 39
+Hoovers	16 02 14
+Horticultural waste	02 01 03, 20 02 01
+Hospital – clinical waste	18 01 01, 18 01 02, 18 01 03*, 18 01 04, 18 01 08*, 18 01 09, 18 01 10*, 18 02 01, 18 02 02*, 18 02 03, 18 02 07*, 18 02 08
+Hospital waste - clinical	18 01 01, 18 01 02, 18 01 03*, 18 01 04, 18 01 08*, 18 01 09, 18 01 10*, 18 02 01, 18 02 02*, 18 02 03, 18 02 07*, 18 02 08
+Hospital waste - domestic	18 01 04, 20 01 08, 20 03 01
+Hot melt – adhesives	08 04 10
+House clearance waste	20 03 01
+Household waste	20 03 01
+Household waste - bulky	20 03 07
+Household waste - compacted	19 12 12
+Household waste - dustbin	20 03 01
+Human hair	18 01 04
+Human tissue	18 01 02, 18 01 03*
+Hydrobromic acid	16 05 06*, 16 05 07*, 20 01 14*
+Hydrocarbons - aliphatic	16 03 05*, 16 03 06
+Hydrocarbons - refrigerants	14 06 01*, 16 02 11*, 20 01 23*
+Hydrochloric acid	06 01 02*, 20 01 14*
+Hydrofluoric acid	06 01 03*, 20 01 14*
+Hydroxides	06 02 01*, 06 02 03*, 06 02 04*
+Ilmenite extraction residues	01 01 01
+Incontinence pads (used)	18 01 03*, 18 01 04
+Industrial machinery (heavy)	16 02 09*, 16 02 10*, 16 02 11*, 16 02 12*, 16 02 13*, 16 02 14, 16 02 15*, 16 02 16
+Industrial machinery (light)	16 02 09*, 16 02 10*, 16 02 11*, 16 02 12*, 16 02 13*, 16 02 14, 16 02 15*, 16 02 16
+Industrial waste	20 03 01
+Infected animal parts	18 02 02*
+Infectious linen (clinical)	18 01 03*, 18 01 04
+Infectious materials (clinical)	18 01 03*, 18 01 04
+Ink – halogenated	08 03 12*, 08 03 14*, 20 01 27*
+Ink - non-halogenated	08 03 07, 08 03 08, 08 03 12*, 08 03 13, 08 03 14*, 08 03 15, 20 01 27*, 20 01 28
+Ink - water based	08 03 13, 08 03 15, 20 01 28
+Ink jet printer cartridges remanufacturing residues	08 03 17*, 08 03 18
+Ink sludge	08 03 07, 08 03 08, 08 03 14*, 08 03 15
+Inorganic acids	06 01 01*, 06 01 02*, 06 01 03*, 06 01 04*, 06 01 05*, 06 07 04*, 10 01 09*, 11 01 05*, 11 01 06*, 16 08 05*, 20 01 14*
+Inorganic cyanides	06 03 11*, 11 03 01*
+Inorganic rocket propellants	16 04 03*
+Inorganic wood preservatives	03 02 04*, 06 13 01*
+Ion exchange resin	11 01 16*, 19 08 06*, 19 09 05
+Iron - scrap	02 01 10, 12 01 01, 12 01 02, 15 01 04, 16 01 17, 17 04 05, 17 04 09*, 19 01 02, 19 10 01, 19 12 02, 20 01 40
+Iron chloride	16 03 04
+Iron corrugated sheets	02 01 10, 12 01 01, 12 01 02, 15 01 04, 16 01 17, 17 04 05, 17 04 09*, 19 01 02, 19 10 01, 19 12 02, 20 01 40
+Isocyanates	08 05 01*
+Isopropanol	14 06 03*
+Jam	02 03 04, 20 01 08
+Jelly - petroleum	16 03 06
+Jute	04 02 22, 15 01 09, 19 12 08, 20 01 11
+Kerosene	13 07 03*
+Ketones	16 03 05*, 16 03 06
+Kieselguhr	15 02 02*, 15 02 03
+Kitchen waste	02 02 03, 02 03 04, 20 01 08
+Laboratory chemicals	16 05 06*
+Laboratory smalls	16 05 06*
+Lacquer	08 01 11*, 08 01 12, 08 01 17*, 08 01 18, 20 01 27*, 20 01 28
+Laminates – plastic	07 02 13, 16 01 19, 17 02 03, 19 12 04, 20 01 39
+Lamps	16 02 14
+Lamps – sodium	16 02 13*
+Lamps/tubes - mercury vapour	16 02 13*, 20 01 21*
+Landfill gas condensate	10 01 18*, 10 01 19
+Lanolin	04 02 10
+Laser printer cartridges remanufacturing residues	08 03 17*, 08 03 18
+Latex	07 02 13, 15 01 02, 19 12 04, 20 01 39
+Latex and rubber (mixed)	07 02 13, 15 01 02, 19 12 04, 20 01 39
+Leachate – landfill	19 07 02*, 19 07 03
+Lead – scrap	17 04 03, 19 12 03, 20 01 40
+Lead acid batteries (undrained)	16 06 01*
+Lead compounds	06 03 13*, 06 03 15*, 06 04 05*, 10 11 11*
+Lead dross (thermal metallurgy)	10 04 02*
+Lead slags	10 04 01*
+Lead waste and scrap	17 04 03, 19 12 03, 20 01 40
+Leather	04 01 08, 04 01 09, 19 12 08, 20 01 11
+Leather (dyed) - dust	04 01 08
+Leather – degreasing waste	04 01 03*
+Leather cuttings	04 01 08, 04 01 09, 19 12 08, 20 01 11
+Light Bulbs (fluorescent)	20 01 21*
+Light bulbs (non fluorescent)	16 02 14, 20 01 36
+Lime - spent	03 03 09, 04 01 02, 10 13 04, 17 09 03*
+Lime sludge	03 03 09, 04 01 02, 10 13 04, 17 09 03*
+Linen	04 02 22, 15 01 09, 19 12 08, 20 01 11
+Linings (plastic container) - contaminated	15 01 10*
+Linings - furnace	16 11 01*, 16 11 02, 16 11 03*, 16 11 04, 16 11 05*, 16 11 06
+Lithium compounds	16 05 06*, 16 05 07*
+Litter	20 03 03
+Litter bin waste	20 03 01
+Lorry bodies	16 01 06
+Low density polyethylene	02 01 04, 07 02 13, 15 01 02, 17 02 03, 19 12 04, 20 01 39
+LPG (motor vehicle) tanks	16 01 16
+Machinery	16 02 09*, 16 02 10*, 16 02 11*, 16 02 12*, 16 02 13*, 16 02 14, 16 02 15*, 16 02 16
+Machinery - heavy industrial	16 02 09*, 16 02 10*, 16 02 11*, 16 02 12*, 16 02 13*, 16 02 14, 16 02 15*, 16 02 16
+Machinery - light industrial	16 02 09*, 16 02 10*, 16 02 11*, 16 02 12*, 16 02 13*, 16 02 14, 16 02 15*, 16 02 16
+Magnesium carbonate	16 05 06*, 16 05 07*
+Magnesium compounds	06 03 14, 06 03 16
+Magnesium oxide	16 05 06*, 16 05 07*
+Magnesium sulphate	16 05 06*, 16 05 07*
+Manganese compounds	06 03 13*, 06 03 15*, 06 04 05*
+Manure - animal	02 01 06, 18 02 02*, 18 02 03, 20 02 01
+Mastic	05 01 17, 17 03 01*, 17 03 02
+Materials - infected (clinical)	18 01 01, 18 01 02, 18 01 03*, 18 01 04
+Mattresses	04 02 22, 20 03 07
+Meat - unfit for consumption	02 02 02, 02 02 03, 20 01 08
+Mechanical parts (metal)	16 02 10*, 16 02 11*, 16 02 12*, 16 02 13*, 16 02 14, 16 02 15*, 16 02 16
+Medicines - non-prescription	18 01 09, 18 02 08, 20 01 32
+Medicines - prescription	18 01 08*, 18 01 09, 18 02 07*, 18 02 08, 20 01 31*, 20 01 32
+Mercury - elemental	16 01 08*, 17 09 01*
+Mercury compounds	05 07 01*, 06 03 13*, 06 03 15*, 06 04 04*, 06 04 05*
+Mercury waste and residues	05 07 01*, 06 03 13*, 06 03 15*, 06 04 04*, 06 04 05*, 06 07 03*, 10 14 01*, 16 01 08*, 16 06 03*, 17 09 01*, 20 01 21*
+Metal - fragmentised	19 10 01, 19 10 02
+Metal - scrap	02 01 10, 12 01 01, 12 01 02, 12 01 03, 12 01 04, 15 01 04, 15 01 11*, 16 01 17, 16 01 18, 17 04 05, 17 04 07, 17 04 09*, 19 01 02, 19 10 01, 19 10 02, 19 12 02, 19 12 03, 20 01 40
+Metal - scrap (ferrous)	02 01 10, 12 01 01, 12 01 02, 15 01 04, 15 01 11*, 16 01 17, 17 04 05, 17 04 07, 17 04 09*, 19 01 02, 19 10 01, 19 12 02, 20 01 40
+Metal - scrap (non-ferrous)	02 01 10, 12 01 03, 12 01 04, 15 01 04, 15 01 11*, 16 01 18, 17 04 07, 17 04 09*, 19 10 02, 19 12 03, 20 01 40
+Metal chairs	16 01 17, 17 04 07, 20 01 40
+Metal containers - contaminated	15 01 04, 15 01 10*
+Metal containers - used	15 01 04
+Metal doors	17 04 05
+Metal furniture	17 04 05, 19 12 02
+Metal packaging	15 01 04, 15 01 10*, 15 01 11*
+Metal parts - mechanical	16 01 17, 16 01 18, 16 02 13*, 16 02 14, 20 01 40
+Metal pesticide containers	15 01 10*
+Metal windows	17 04 05
+Metalliferous mineral tailings	01 03 04*, 01 03 05*, 01 03 06
+Methacrylate	16 05 08*
+Methanol	16 05 06*, 16 05 08*
+Methyl bromide	16 05 06*, 16 05 08*
+Methyl methacrylate	16 05 06*, 16 05 08*
+Methylated spirit	14 06 03*
+Methylene chloride	16 05 06*, 16 05 08*
+Microbiological waste	18 01 03*, 18 01 04
+Microwave cookers	16 02 12*, 16 02 14
+Milk	02 05 01, 20 01 08
+Mill scales	10 02 10
+Mine waste	01 01 01, 01 01 02
+Mineral processing waste	01 03 04*, 01 03 05*, 01 03 06, 01 03 07*, 01 03 08, 01 03 09, 01 04 07*, 01 04 08, 01 04 09, 01 04 10, 01 04 11, 01 04 12, 01 04 13
+Miscellaneous non-combustible waste	20 03 01
+Miscible cutting oils - water	12 01 08*, 12 01 09*
+Mixed brickwork and mortar	17 09 04
+Mixed ferrous and non-ferrous scrap	02 01 10, 12 01 01, 12 01 02, 12 01 03, 12 01 04, 15 01 04, 15 01 11*, 16 01 17, 16 01 18, 17 04 05, 17 04 07, 17 04 09*, 19 01 02, 19 10 01, 19 10 02, 19 12 02, 19 12 03, 20 01 40
+Mixed oil and sand	15 02 02*
+Mixed oil and sawdust	15 02 02*
+Mixed plastics	02 01 04, 07 02 13, 12 01 05, 15 01 02, 16 01 19, 17 02 03, 17 02 04*, 19 12 04, 20 01 39
+Mixed scrap metal	02 01 10, 12 01 01, 12 01 02, 12 01 03, 12 01 04, 15 01 04, 15 01 11*, 16 01 17, 16 01 18, 17 04 05, 17 04 07, 17 04 09*, 19 01 02, 19 10 01, 19 10 02, 19 12 02, 19 12 03, 20 01 40
+Mixed waste (non hazardous)	20 03 01
+Molybdenum compounds	06 03 13*, 06 03 15*, 06 04 05*, 10 11 11*
+Mother liquors	07 01 01*, 07 01 03*, 07 01 04*, 07 02 01*, 07 02 03*, 07 02 04*, 07 03 01*, 07 03 03*, 07 03 04*, 07 04 01*, 07 04 03*, 07 04 04*, 07 05 01*, 07 05 03*, 07 05 04*, 07 06 01*, 07 06 03*, 07 06 04*, 07 07 01*, 07 07 03*, 07 07 04*
+Motor vehicles	16 01 04*, 16 01 06
+Moulding sand	10 09 05*, 10 09 06, 10 09 07*, 10 09 08, 10 10 05*, 10 10 06, 10 10 07*, 10 10 08, 10 12 06
+Moulds - calcium sulphate	10 09 05*, 10 09 06, 10 09 07*, 10 09 08, 10 10 05*, 10 10 06, 10 10 07*, 10 10 08, 10 12 06
+Moulds - plaster	10 09 05*, 10 09 06, 10 09 07*, 10 09 08, 10 10 05*, 10 10 06, 10 10 07*, 10 10 08, 10 12 06
+MSW combustion residue - heat recovery system ash	19 01 12, 19 01 13*, 19 01 14
+Mud (oil containing)	01 05 05*
+Mud - brine	01 05 08
+Mud - drilling	01 05 04, 01 05 05*, 01 05 06*, 01 05 07, 01 05 08
+Mud - red (Alumina)	01 03 09
+Munitions	16 04 01*
+N/o/s textiles	04 02 09, 04 02 21, 04 02 22, 15 01 09, 19 12 08, 20 01 10, 20 01 11
+Nappies (used)	18 01 03*, 18 01 04
+Nappy liners	18 01 03*, 18 01 04
+Napthalene	16 05 06*, 16 05 08*
+Needles (clinical)	18 01 01, 18 01 03*, 18 02 01, 18 02 02*
+Newspaper	03 03 08, 19 12 01, 20 01 01
+Nickel compounds	06 03 13*, 06 03 15*, 06 04 05*, 10 11 11*
+Nickel waste and scrap	17 04 07, 19 12 03, 20 01 40
+Nitrates	16 05 06*, 16 05 07*
+Nitric acid	06 01 05*, 11 01 05*, 11 01 06*, 20 01 14*
+Nitriles	16 05 06*, 16 05 07*
+Nitrites	16 05 06*, 16 05 07*
+Noils of wool	04 02 22, 19 12 08
+Non-chlorinated solvents (mixed)	14 06 03*
+Non-ferrous scrap metal	02 01 10, 12 01 03, 12 01 04, 15 01 04, 15 01 11*, 16 01 18, 17 04 07, 17 04 09*, 19 10 02, 19 12 03, 20 01 40
+Non-ferrous swarf	12 01 03
+Non-halogenated adhesives	08 04 09*, 08 04 10, 20 01 27*, 20 01 28
+Non-halogenated paint waste	08 01 11*, 08 01 12, 08 01 17*, 08 01 18, 20 01 27*, 20 01 28
+Non-halogenated sealants	08 04 09*, 08 04 10
+Nylon	04 02 22, 07 02 13, 15 01 09, 19 12 08, 20 01 11
+Offal	02 02 02
+Office paper	19 12 01, 20 01 01
+Oil (n/o/s) and water	13 04 01*, 13 04 02*, 13 04 03*, 13 05 06*, 13 05 07*, 16 07 08*
+Oil – acid cracking waste	05 01 12*
+Oil – bilge	13 04 01*, 13 04 02*, 13 04 03*
+Oil – contaminated	12 01 06*, 12 01 07*, 13 01 01*
+Oil – cooking	19 08 09*, 20 01 25
+Oil – cutting	12 01 08*, 12 01 09*
+Oil – engine	13 02 04*, 13 02 05*, 13 02 06*, 13 02 07*, 13 02 08*
+Oil – engine (chlorinated)	13 02 04*
+Oil – engine (non-chlorinated)	13 02 05*
+Oil – fuel	13 07 01*
+Oil – garage	13 02 04*, 13 02 05*, 13 02 06*, 13 02 07*, 13 02 08*
+Oil – gear	13 02 04*, 13 02 05*, 13 02 06*, 13 02 07*, 13 02 08*
+Oil – gear (non-chlorinated)	13 02 05*
+Oil – heat transfer (mineral)	13 03 06*, 13 03 07*
+Oil – heavy fuel	13 07 01*
+Oil – hydraulic	13 01 01*, 13 01 09*, 13 01 10*, 13 01 11*, 13 01 12*, 13 01 13*
+Oil – hydraulic (chlorinated)	13 01 09*
+Oil – hydraulic (containing PCBs)	13 01 01*
+Oil – hydraulic (non-chlorinated)	13 01 10*
+Oil – insulating (mineral)	13 03 06*, 13 03 07*
+Oil – insulating (synthetic)	13 03 08*, 13 03 09*
+Oil – insulating containing PCB or PCT	13 03 01*
+Oil – light fuel	13 07 01*
+Oil – lubricating	13 02 04*, 13 02 05*, 13 02 06*, 13 02 07*, 13 02 08*
+Oil – lubricating (chlorinated)	13 02 04*
+Oil – lubricating (non-chlorinated)	13 02 05*
+Oil – machine (halogenated)	12 01 06*
+Oil – machine (non-halogenated)	12 01 07*
+Oil – machine (synthetic)	12 01 10*
+Oil – mineral	12 01 06*, 12 01 07*, 13 01 09*, 13 01 10*, 13 02 04*, 13 02 05*, 13 03 06*, 13 03 07*
+Oil – mixed	13 01 13*, 13 02 08*, 13 03 10*, 13 07 03*
+Oil – refinery spillage	05 01 05*
+Oil – vegetable	02 03 04, 19 08 09*, 20 01 25
+Oil – wool	04 02 10
+Oil –disperse	08 03 19*
+Oil and n/o/s absorbents	15 02 02*
+Oil and sand (mixed)	15 02 02*
+Oil emulsions - non-chlorinated	12 01 09*, 13 01 05*, 13 08 02*
+Oil filters	16 01 07*
+Oil filters - used	16 01 07*
+Oil fly ash	10 01 04*
+Oil interceptor waste	13 05 03*
+Oil/water mixtures	13 04 01*, 13 04 02*, 13 04 03*, 13 05 07*, 16 07 08*
+Oils (miscible cutting) - water	12 01 08*, 12 01 09*
+Oily rags	15 02 02*
+Ordnance	16 04 01*
+Ore processing waste	01 03 07*, 01 03 08
+Organic acids (mixed)	16 05 06*, 16 05 08*
+Overburden	01 01 01, 01 01 02
+Oxalic acid	11 01 06*
+Packaging (mixed) - used	15 01 06, 15 01 10*
+Packaging - cardboard	15 01 01, 15 01 10*
+Packaging - contaminated (cleanable)	15 01 06, 15 01 10*
+Packaging - contaminated (not cleanable)	15 01 06, 15 01 10*
+Packaging - metal	15 01 04, 15 01 10*, 15 01 11*
+Packaging - paper	15 01 01, 15 01 10*
+Packaging - plastic	15 01 02, 15 01 10*
+Packaging - wooden	15 01 03, 15 01 10*
+Paint - aqueous suspensions	08 01 19*, 08 01 20
+Paint - halogenated	08 01 11*, 08 01 17*, 20 01 27*
+Paint - non-halogenated	08 01 11*, 08 01 12, 08 01 17*, 08 01 18, 20 01 27*, 20 01 28
+Paint - oil based	08 01 11*, 08 01 17*, 20 01 27*
+Paint - solvent based	08 01 11*, 08 01 17*, 20 01 27*
+Paint - solvent based	08 01 11*, 08 01 17*, 20 01 27*
+Paint - water based	08 01 12, 08 01 18, 20 01 28
+Paint coatings - PVC	08 01 11*, 08 01 17*, 20 01 27*
+Paint powders	08 01 12, 08 02 01, 20 01 28
+Paint remover	08 01 21*
+Paint sludge (water based)	08 01 15*, 08 01 16
+Paint spraying - gunwash	14 06 05*
+Paint thinner	14 06 03*
+Paint tins	15 01 02, 15 01 04, 15 01 10*
+Paints/Polyurethane (non-halogenated solvents)	08 01 11*, 08 01 12, 08 01 17*, 08 01 18, 20 01 27*, 20 01 28
+Pallets	15 01 03
+Paper	03 03 07, 03 03 08, 19 12 01, 20 01 01
+Paper - computer	19 12 01, 20 01 01
+Paper - fibre	03 03 10
+Paper - filter	15 02 02*, 15 02 03
+Paper - filter (contaminated)	15 02 02*, 15 02 03
+Paper - office	19 12 01, 20 01 01
+Paper - photographic	09 01 07, 09 01 08
+Paper and cardboard (mixed)	19 12 01, 20 01 01
+Paper containers	15 01 01, 15 01 10*
+Paper containers - contaminated	15 01 01, 15 01 10*
+Paper packaging	15 01 01, 15 01 10*
+Paper pulp	03 03 07, 03 03 10
+Paper pulp - de-inked	03 03 07, 03 03 10
+Paper sacks	15 01 01, 15 01 10*, 20 01 01
+Paper sludge	03 03 02, 03 03 05
+Paper towels (used)	18 01 03*, 18 01 04, 18 02 02*, 18 02 03, 20 01 01
+Paper wipes - contaminated	15 02 02*, 15 02 03, 18 01 03*, 18 01 04, 18 02 02*, 18 02 03, 20 01 01
+Paraffin	13 07 01*
+Paraffin - fuel	13 07 01*
+Paraffin wax	16 03 06
+Parks and garden waste	20 02 01, 20 02 02
+Parts - vehicle	16 01 08*, 16 01 09*, 16 01 21*, 16 01 22
+PCBs	13 01 01*, 13 03 01*, 16 01 09*, 16 02 09*, 16 02 10*, 17 09 02*
+Peat	10 01 03
+Pencils	19 12 07, 20 01 38
+Perchloroethylene	16 05 06*, 16 05 08*
+Perfume (reject)	16 03 06
+Permanganates	16 09 01*
+Peroxides - organic	16 09 03*
+Pesticide containers - metal	15 01 10*
+Pesticide containers - plastic	15 01 10*
+Pesticides	06 13 01*, 16 03 03*, 16 03 05*, 16 05 06*, 16 05 07*, 16 05 08*, 20 01 19*
+Petrol	13 07 02*
+Petrol and diesel (mixed)	13 07 03*
+Petroleum jelly	16 03 06
+Petroleum wax	16 03 06
+PFA	10 01 01, 10 01 14*, 10 01 15, 19 01 12
+Pharmaceutical products	18 01 08*, 18 01 09, 18 02 07*, 18 02 08, 20 01 31*, 20 01 32
+Pharmaceutical waste	07 05 01*, 07 05 03*, 07 05 04*, 07 05 07*, 07 05 08*, 07 05 09*, 07 05 10*, 07 05 11*, 07 05 12, 07 05 13*, 07 05 14, 18 01 08*, 18 01 09, 18 02 07*, 18 02 08, 20 01 31*, 20 01 32
+Phosphoric acid	06 01 04*
+Phosphorous acid	06 01 04*
+Phosphorus slag	06 09 02
+Photocopiers	16 02 13*, 16 02 14
+Photographic chemicals	09 01 01*, 09 01 02*, 09 01 03*, 09 01 04*, 09 01 05*, 09 01 06*, 09 01 13*, 20 01 17*
+Photographic paper	09 01 07, 09 01 08
+Pickling liquors (metal pickling)	11 01 05*
+Pigments	04 02 16*, 04 02 17
+Pigs	02 01 02, 02 02 02, 02 02 03
+Pipes (lead)	17 04 03, 19 12 03, 20 01 40
+Pitch	17 03 01*, 17 03 02, 17 03 03*
+Plant tissue	02 01 03, 02 01 07, 20 02 01
+Plastic bottles	15 01 02, 19 12 04
+Plastic containers	15 01 02, 19 12 04
+Plastic containers - contaminated	15 01 02, 15 01 10*
+Plastic film	02 01 04, 07 02 13, 15 01 02, 17 02 03, 19 12 04, 20 01 39
+Plastic gloves	20 01 39
+Plastic granules	07 02 13, 19 12 04
+Plastic packaging	15 01 02, 15 01 10*, 19 12 04
+Plastic pesticide containers	15 01 10*
+Plastic pipes	17 02 03
+Plastic plant pots	15 01 02, 20 01 39
+Plastic sheeting	02 01 04, 15 01 02, 17 02 03, 19 12 04, 20 01 39
+Plastic windows	17 02 03
+Plastic wrapping	02 01 04, 15 01 02, 17 02 03, 19 12 04, 20 01 39
+Plastics	02 01 04, 07 02 13, 12 01 05, 15 01 02, 16 01 19, 17 02 03, 17 02 04*, 19 12 04, 20 01 39
+Polishes (aerosol)	15 01 04, 15 01 10*
+Polyester	04 02 21, 04 02 22, 19 12 08, 20 01 11
+Polyester resins	07 02 13
+Polymer wastes	04 02 21, 07 02 13
+Polymerisation catalyst - phosphoric acid/silica base	16 08 05*
+Polymers - synthetic	04 02 21, 07 02 13
+Polypropylene	02 01 04, 07 02 13, 12 01 05, 15 01 02, 16 01 19, 17 02 03, 17 02 04*, 19 12 04, 20 01 39
+Polypropylene film	02 01 04, 15 01 02, 17 02 03, 19 12 04, 20 01 39
+Polysiloxanes (silicones)	07 02 16*
+Polystyrene	02 01 04, 07 02 13, 12 01 05, 15 01 02, 16 01 19, 17 02 03, 17 02 04*, 19 12 04, 20 01 39
+Polythene	02 01 04, 07 02 13, 12 01 05, 15 01 02, 16 01 19, 17 02 03, 17 02 04*, 19 12 04, 20 01 39
+Polythene sheets	02 01 04, 15 01 02, 17 02 03, 19 12 04, 20 01 39
+Polyurethane	02 01 04, 07 02 13, 12 01 05, 15 01 02, 16 01 19, 17 02 03, 17 02 04*, 19 12 04, 20 01 39
+Polyurethane resin	07 02 13
+Polyvinyl acetate	08 04 09*, 20 01 27*
+Polyvinyl alcohol	16 05 06*, 16 05 08*
+Polyvinyl chloride	07 02 13, 16 01 19, 17 02 03, 19 12 04, 20 01 39
+Potassium cyanide	06 03 11*, 11 03 01*
+Potassium hydroxide	06 02 04*, 20 01 15*
+Potatoes	02 03 04, 20 01 08
+Pottery	10 12 08
+Poultry waste	02 01 02, 02 02 02, 02 02 03, 20 01 08
+Powders - paint	08 01 12, 08 02 01, 20 01 28
+Precious metal bearing catalysts	16 08 01
+Precious metal dust	10 07 04
+Preservatives	02 03 02, 02 06 02, 03 02 01*, 03 02 02*, 03 02 03*, 03 02 04*, 03 02 05*, 03 02 99, 06 13 01*
+Preserving agents	02 03 02, 02 06 02
+Primary sludge	19 08 05, 19 08 11*, 19 08 12
+Printed circuit boards	16 02 15*, 16 02 16
+Processed textile fibres - synthetic	04 02 22, 19 12 08, 20 01 11
+PTFE	07 02 13, 16 01 19, 17 02 03, 19 12 04, 20 01 39
+PVC	07 02 13, 16 01 19, 17 02 03, 19 12 04, 20 01 39
+Pyrotechnics	16 04 02*
+Quarry spoil	01 01 01, 01 01 02
+Quicklime	10 13 04
+Radio sets	16 02 14
+Rags (used)	15 02 02*, 15 02 03
+Rags - contaminated (solvent)	15 02 02*, 15 02 03
+Rags - oily	15 02 02*, 15 02 03
+Rails (iron and steel) - used	17 04 05
+Railway ballast	17 05 07*, 17 05 08
+Railway carriages	16 01 04*, 16 01 06
+Railway sleepers (concrete)	17 01 01
+Railway sleepers (timber)	17 02 01
+Red mud (Alumina)	01 03 09
+Refractories from combustion	16 11 01*, 16 11 02, 16 11 03*, 16 11 04, 16 11 05*, 16 11 06
+Refrigerants - CFC	14 06 01*, 16 02 11*, 20 01 23*
+Refrigerants - HCFCs	14 06 01*, 16 02 11*, 20 01 23*
+Refrigerants - HFCs	14 06 01*, 16 02 11*, 20 01 23*
+Refrigerators	16 02 11*, 16 02 14
+Residue - shot blast	12 01 16*, 12 01 17
+Residues - additive tank cleaning	16 07 09*, 16 07 99
+Resin - polyurethane	07 02 13
+Resin-reinforced glass fibre products	10 11 03, 16 01 20, 17 02 02, 17 02 04*
+Resins - acrylic polymer	07 02 13
+Resins - epoxy	08 04 09*, 08 04 10, 08 04 11*, 08 04 12
+Resins - polyester	07 02 13
+Resins - polyester saturated	07 02 13
+Resins - polyurethane	07 02 13
+Resins - styrene polymer	07 02 13
+Resins - vinyl acetate polymer	07 02 13
+Rhenium waste and scrap	16 08 01
+Road metal	10 02 02, 17 01 07
+Road sweepings	20 03 03
+Road tanker washings	16 07 08*, 16 07 09*
+Rock - crushed	01 04 08, 17 05 03*, 17 05 04
+Rock - excavated	01 04 08, 17 05 03*, 17 05 04
+Rubber (not including tyres)	07 02 13, 19 12 04
+Rubber adhesive	08 04 09*, 08 04 10, 20 01 27*, 20 01 28
+Rubber and fibre additives	07 02 14*, 07 02 15
+Rubber granules	07 02 13, 19 12 04
+Rubble	17 01 07
+Rubble - contaminated	17 09 03*, 17 09 04
+Sacks - contaminated	15 01 10*
+Sacks - hessian	15 01 09
+Sacks - paper	15 01 01
+Sacks - woven	15 01 09
+Safety barriers (metal)	17 04 07, 19 12 02
+Sand	01 04 09, 10 01 24, 17 05 03*, 17 05 04, 19 01 19, 19 12 09
+Sand - contaminated	17 09 03*
+Sand and oil (mixed)	15 02 02*
+Sanitary towels (used)	18 01 03*, 18 01 04
+Sawdust	03 01 04*, 03 01 05
+Sawdust - contaminated	03 01 04*, 03 01 05
+Sawdust and oil (mixed)	15 02 02*
+Scrap aluminium	02 01 10, 12 01 03, 12 01 04, 15 01 04, 16 01 18, 17 04 02, 19 10 02, 19 12 03, 20 01 40
+Scrap metal	02 01 10, 12 01 01, 12 01 02, 12 01 03, 12 01 04, 15 01 04, 15 01 11*, 16 01 17, 16 01 18, 17 04 05, 17 04 07, 17 04 09*, 19 01 02, 19 10 01, 19 10 02, 19 12 02, 19 12 03, 20 01 40
+Scrap metal (mixed)	02 01 10, 12 01 01, 12 01 02, 12 01 03, 12 01 04, 15 01 04, 15 01 11*, 16 01 17, 16 01 18, 17 04 05, 17 04 07, 17 04 09*, 19 01 02, 19 10 01, 19 10 02, 19 12 02, 19 12 03, 20 01 40
+Scrap metal - ferrous	02 01 10, 12 01 01, 12 01 02, 15 01 04, 16 01 17, 17 04 05, 17 04 09*, 19 01 02, 19 10 01, 19 12 02, 20 01 40
+Scrap metal - mechanical parts	16 02 10*, 16 02 11*, 16 02 12*, 16 02 13*, 16 02 14, 16 02 15*, 16 02 16
+Scrap metal - mixed ferrous and non-ferrous	02 01 10, 12 01 01, 12 01 02, 12 01 03, 12 01 04, 15 01 04, 15 01 11*, 16 01 17, 16 01 18, 17 04 05, 17 04 07, 17 04 09*, 19 01 02, 19 10 01, 19 10 02, 19 12 02, 19 12 03, 20 01 40
+Scrap metal - non-ferrous	02 01 10, 12 01 03, 12 01 04, 15 01 04, 15 01 11*, 16 01 18, 17 04 07, 17 04 09*, 19 10 02, 19 12 03, 20 01 40
+Scrap television tubes	10 11 11*, 16 02 13*, 19 12 11*, 20 01 21*
+Scrap zinc	10 05 10*, 10 05 11, 11 05 01, 17 04 04, 19 12 03
+Screens - computer	10 11 11*, 16 02 13*, 19 12 11*, 20 01 21*
+Sealant n/o/s	08 04 09*, 08 04 10, 20 01 27*, 20 01 28
+Sealants - halogenated	08 04 09*, 20 01 27*
+Secondary sludge	19 08 05, 19 08 11*, 19 08 12, 19 08 13*, 19 08 14
+Selenium compounds	06 03 13*, 06 03 15*, 06 04 05*
+Septic tank sludge	20 03 04
+Settees	20 03 07
+Settled sludge	04 01 06, 04 01 07, 04 02 19*, 04 02 20, 05 01 09*, 05 01 10, 06 05 02*, 06 05 03, 07 01 11*, 07 01 12, 07 02 11*, 07 02 12, 07 03 11*, 07 03 12, 07 04 11*, 07 04 12, 07 05 11*, 07 05 12, 07 06 11*, 07 06 12, 07 07 11*, 07 07 12, 10 01 20*, 10 01 21, 19 02 05*, 19 02 06, 19 08 05, 19 08 11*, 19 08 12, 19 08 13*, 19 08 14, 19 09 02, 19 09 03, 19 11 05*, 19 11 06, 20 03 04
+Sewage	19 08 01, 19 08 05, 19 08 11*, 19 08 12
+Sewage sludge	19 08 01, 19 08 05, 19 08 11*, 19 08 12
+Sewage sludge - digested	19 08 01, 19 08 05, 19 08 11*, 19 08 12
+Shampoo and other hair products	20 01 30
+Sharps - animal treatment	18 02 01
+Sharps - human treatment	18 01 01
+Shavings - wood	03 01 04*, 03 01 05
+Sheep	02 01 02
+Sheep	02 01 02, 02 02 02, 02 02 03
+Shellfish processing waste	02 02 03
+Ships	16 01 04*, 16 01 06
+Shoddy	04 02 22, 19 12 08
+Shopping trolleys	20 01 40
+Shotblast residue	12 01 16*, 12 01 17
+Silk waste	04 02 22, 15 01 09, 19 12 08, 20 01 11
+Silt	17 05 05*, 17 05 06
+Silt – contaminated	17 05 05*, 17 05 06
+Silver - scrap	09 01 06*, 09 01 07, 09 01 13*
+Silver compounds	09 01 06*, 09 01 07, 09 01 13*
+Silver dross (thermal metallurgy)	10 07 02
+Silver skimmings (thermal metallurgy)	10 07 02
+Silver slags	10 07 01
+Skimmings - copper (thermal metallurgy)	10 06 02
+Skins - animal	02 01 02, 02 02 02, 04 01 01
+Skip waste (mixed)	17 09 04, 20 03 01
+Slag - blast furnace	10 02 01, 10 02 02
+Slag – furnace	10 02 01, 10 02 02
+Slag from iron and steel manufacture	10 02 01, 10 02 02
+Slags - aluminium	10 03 04*, 10 03 08*
+Slags - n/o/s	10 01 01, 10 01 14*, 10 01 15
+Slags - zinc	10 05 01
+Slaked lime (calcium hydroxide)	06 02 01*, 10 13 04
+Slate	01 01 02, 01 04 08
+Sleepers - railway (timber)	17 02 01, 17 02 04*
+Sludge - biological dewatered effluent treatment	02 02 04, 02 03 05, 02 04 03, 02 05 02, 02 06 03, 02 07 05, 03 03 11, 04 01 06, 04 01 07, 04 02 19*, 04 02 20, 05 01 09*, 05 01 10, 06 05 02*, 06 05 03, 07 01 11*, 07 01 12, 07 02 11*, 07 02 12, 07 03 11*, 07 03 12, 07 04 11*, 07 04 12, 07 05 11*, 07 05 12, 07 06 11*, 07 06 12, 07 07 11*, 07 07 12, 10 01 20*, 10 01 21, 10 11 19*, 10 11 20, 10 12 13, 19 11 05*, 19 11 06
+Sludge - contaminated	04 02 19*, 05 01 02*, 05 01 03*, 05 01 04*, 05 01 06*, 05 01 09*, 06 05 02*, 06 05 03, 06 07 03*, 07 01 11*, 07 02 11*, 07 03 11*, 07 04 11*, 07 05 11*, 07 06 11*, 07 07 11*, 08 01 13*, 08 01 15*, 08 03 14*, 08 04 11*, 08 04 13*, 10 01 20*, 10 01 22*, 10 02 13*, 10 03 25*, 10 04 07*, 10 05 06*, 10 06 07*, 10 08 17*, 10 11 13*, 10 11 17*, 11 01 08*, 11 01 09*, 11 01 15*, 11 02 02*, 12 01 14*, 12 01 18*, 13 05 02*, 13 05 03*, 13 08 01*, 14 06 04*, 14 06 05*, 19 02 05*, 19 08 07*, 19 08 11*, 19 08 13*, 19 11 05*
+Sludge - crude oil desalter	05 01 02*, 13 08 01*
+Sludge - ferric	10 02 13*, 10 02 14, 10 02 15
+Sludge - grinding	10 11 13*, 12 01 18*
+Sludge - primary	19 08 05, 19 08 11*, 19 08 12
+Sludge - secondary	19 08 05, 19 08 11*, 19 08 12, 19 08 13*, 19 08 14
+Sludge - settled	04 01 06, 04 01 07, 04 02 19*, 04 02 20, 05 01 09*, 05 01 10, 06 05 02*, 06 05 03, 07 01 11*, 07 01 12, 07 02 11*, 07 02 12, 07 03 11*, 07 03 12, 07 04 11*, 07 04 12, 07 05 11*, 07 05 12, 07 06 11*, 07 06 12, 07 07 11*, 07 07 12, 10 01 20*, 10 01 21, 19 02 05*, 19 02 06, 19 08 05, 19 08 11*, 19 0812, 19 08 13*, 19 08 14, 19 09 02, 19 09 03, 19 11 05*, 19 11 06, 20 03 04
+Sludge - sewage	19 08 01, 19 08 05, 19 08 11*, 19 08 12
+Sludge - waste water treatment	19 08 01, 19 08 05, 19 08 11*, 19 08 12
+Sludge from settling tanks and interceptors	13 05 03*
+Soap	16 03 05*
+Sodium chloride	01 01 02
+Sodium cyanide	06 03 11*, 11 03 01*
+Sodium hydroxide	06 02 04*
+Sodium hypochlorite	16 09 04*
+Sodium lamps	16 02 13*
+Soil	02 04 01, 17 05 03*, 17 05 04, 20 02 02
+Soil – contaminated	17 05 03*, 17 05 04
+Soil and stones (mixed)	17 05 03*, 17 05 04, 20 02 02
+Soil from vegetable washing	02 04 01
+Soiled dressings	18 01 03*, 18 01 04, 18 02 02*, 18 02 03
+Soiled swabs	18 01 03*, 18 01 04, 18 02 02*, 18 02 03
+Solvent contaminated rags	15 02 02*
+Solvent extraction waste	02 03 03
+Solvent-based adhesives	08 04 09*, 20 01 27*
+Solvent-based photographic developer	09 01 03*
+Solvents - chlorinated (mixed)	14 06 02*
+Solvents - non-chlorinated (mixed)	14 06 03*
+Solvents and thinners (mixed)	14 06 02*, 14 06 03*
+Soot	06 13 05*
+Spray booth waste (paint)	08 01 11*, 08 01 12, 08 01 13*, 08 01 14
+Stainless steel waste and scrap	02 01 10, 12 01 01, 12 01 02, 15 01 04, 16 01 17, 17 04 05, 17 04 09*, 19 01 02, 19 10 01, 19 12 02, 20 01 40
+Steel	02 01 10, 12 01 01, 12 01 02, 15 01 04, 16 01 17, 17 04 05, 17 04 09*, 19 01 02, 19 10 01, 19 12 02, 20 01 40
+Steel (of reinforced concrete)	17 04 05, 19 10 01, 19 12 02, 20 01 40
+Steel - scrap	02 01 10, 12 01 01, 12 01 02, 15 01 04, 16 01 17, 17 04 05, 17 04 09*, 19 01 02, 19 10 01, 19 12 02, 20 01 40
+Steel cans	15 01 04
+Steel cladding	02 01 10, 12 01 01, 12 01 02, 15 01 04, 16 01 17, 17 04 05, 17 04 09*, 19 01 02, 19 10 01, 19 12 02, 20 01 40
+Steel drums	15 01 04, 15 01 10*
+Steel pipes	17 04 05, 17 04 09*, 20 01 40
+Steel wool	17 04 05, 17 04 09*, 19 12 02, 20 01 40
+Stoma bags (used)	18 01 03*, 18 01 04
+Stone	01 04 13, 17 05 03*, 17 05 04, 19 12 09, 20 02 02
+Stone cutting dust	01 04 07*, 01 04 13
+Stone cutting powder	01 04 07*, 01 04 13
+Straw	02 01 06
+Street sweepings	20 03 03
+Strippings using methylene chloride	08 01 17*, 08 01 18
+Styrene	16 03 05*
+Sub soil	17 05 03*, 17 05 04, 20 02 02
+Sulphides	01 03 04*, 06 06 02*, 06 06 03
+Sulphur	05 01 16, 05 07 02
+Sulphuric acid	06 01 01*, 10 01 09*, 20 01 14*
+Surfactant - ethoxylated alkyl	20 01 29*, 20 01 30
+Swabs - soiled	18 01 03*, 18 01 04, 18 02 02*, 18 02 03
+Swarf (non-ferrous)	12 01 03, 12 01 04
+Swarf - metal	12 01 01, 12 01 02, 12 01 03, 12 01 04
+Sweepings - floor	20 03 01
+Synthetic fibre waste	04 02 22, 15 01 09, 19 12 08, 20 01 11
+Syringes	18 01 01, 18 02 01
+Tailings - metalliferous minerals	01 03 04*, 01 03 05*, 01 03 06
+Tampons	18 01 03*, 18 01 04
+Tank cleaning residue	16 07 08*, 16 07 09*, 16 07 99
+Tanning sludge	04 01 04, 04 01 05, 04 01 06, 04 01 07
+Tar residues	05 01 07*, 05 01 08*, 05 06 01*, 05 06 03*, 10 03 17*, 10 08 12*, 17 03 01*, 17 03 03*
+Tarmacadam	17 03 01*, 17 03 02
+Tea	02 03 04
+Telephones	16 02 14
+Television sets	16 02 13*, 16 02 14
+Television tubes (scrap)	16 02 15*
+Textile - finishing waste	04 01 09, 04 02 14*, 04 02 15
+Textile fibres (processed) - animal	04 02 22, 15 01 09, 19 12 08, 20 01 11
+Textile fibres (processed) - mixed	04 02 22, 15 01 09, 19 12 08, 20 01 11
+Textile fibres (processed) - synthetic	04 02 22, 15 01 09, 19 12 08, 20 01 11
+Textile fibres (processed) - vegetable	04 02 22, 15 01 09, 19 12 08, 20 01 11
+Textile fibres (unprocessed) - animal	04 02 21
+Textile fibres (unprocessed) - mixed	04 02 21
+Textile fibres (unprocessed) - synthetic	04 02 21
+Textiles (oiled)	15 02 02*
+Textiles - cotton	04 02 22, 15 01 09, 19 12 08, 20 01 11
+Textiles - woollen	04 02 22, 15 01 09, 19 12 08, 20 01 11
+Textiles n/o/s	04 02 22, 15 01 09, 19 12 08, 20 01 11
+Thermosetting plastics	07 02 13
+Thinner - paint	14 06 03*
+Tiles (floor) - ceramic	10 12 08, 17 01 03, 17 01 06*, 19 12 09
+Tiles (floor) - slate	10 12 08, 17 01 03, 17 01 06*, 19 12 09
+Tiles (roof) - clay	10 12 08, 17 01 03, 17 01 06*, 19 12 09
+Tiles (roof) - slate	10 12 08, 17 01 03, 17 01 06*, 19 12 09
+Timber - treated	03 01 04*, 17 02 04*, 19 12 06*, 20 01 37*
+Timber - untreated	03 01 05, 15 01 03, 17 02 01, 19 12 07, 20 01 38
+Tin – scrap	17 04 06, 19 12 03, 20 01 40
+Tin compounds	06 03 13*, 06 03 15*, 06 04 05*
+Tin waste and scrap	17 04 06, 19 12 03, 20 01 40
+Tins - paint	15 01 02, 15 01 04, 15 01 10*
+Tissue - human	18 01 02, 18 01 03*
+Tissue - plant	02 01 03, 02 01 07, 20 02 01
+Tissues	03 03 08, 15 01 01, 19 12 01, 20 01 01
+Tissues and rags - contaminated	15 02 02*, 15 02 03
+Titanium filter cake	06 11 01
+Tobacco - processed	02 03 04
+Tobacco - unprocessed	02 03 01, 02 03 04
+Toilet - chemical waste	20 03 04
+Toluene	14 06 03*, 16 05 06*, 16 05 08*
+Toner cartridges	08 03 17*, 08 03 18
+Toothbrushes - disposable	07 02 13, 20 01 39
+Top soil	02 04 01, 17 05 04, 20 02 02
+Towels (paper) - used	15 02 02*, 15 02 03, 18 01 03*, 18 01 04, 18 02 02*, 18 02 03
+Toys	20 01 39, 20 01 40, 20 03 07
+Transformers (with PCBs or PCTs)	16 02 09*
+Transformers (without PCBs or PCTs)	16 02 13*, 16 02 14
+Transformers with oil cooling systems	16 02 13*
+Transition metal catalysts	16 08 01, 16 08 02*, 16 08 03
+Trees	02 01 03, 02 01 07, 20 02 01
+Tributyltin waste	03 02 03*
+Trichlorethane	14 06 02*
+Trichloroethylene	14 06 02*
+Trichlorotrifluoroethylene	14 06 01*
+Trimmings - hedge and tree	20 02 01
+Trolleys - shopping	20 01 40
+Tubes - fluorescent	20 01 21*
+Tubes - fluorescent (crushed)	20 01 21*
+Tubes - lighting	20 01 21*
+Tubes - sodium vapour	16 02 13*
+Tubes/lamps - mercury vapour	20 01 21*
+Turpentine	14 06 03*
+TVs	16 02 13*, 16 02 14
+Tyres - intact	16 01 03
+Tyres - shredded	16 01 03, 19 12 04
+UPVC cut-offs	17 02 03
+Used stoma bags	18 01 03*, 18 01 04
+UV curing inks	08 03 12*, 08 03 13, 20 01 27*, 20 01 28
+Vacuum cleaners	16 02 14
+Vanadium compounds	06 03 13*, 06 03 15*, 06 04 05*
+Vanadium pentoxide catalyst	16 08 02*
+Varnish	08 01 11*, 08 01 12, 08 01 17*, 08 01 18
+Varnish - halogenated	08 01 11*, 08 01 17*
+varnish remover	08 01 21*
+Vegetable oil	19 08 09*, 20 01 25
+Vegetable oil and water	19 08 09*, 20 01 25
+Vegetable waste	02 01 03, 02 03 04, 20 01 08
+Vegetation	02 01 03, 20 02 01
+Vehicle brake shoes - asbestos	16 01 11*
+Vehicle components	16 01 08*, 16 01 09*, 16 01 10*, 16 01 21*, 16 01 22
+Vehicle parts	16 01 08*, 16 01 09*, 16 01 10*, 16 01 21*, 16 01 22
+Vehicles - cars	16 01 04*, 16 01 06
+Vehicles - commercial	16 01 04*, 16 01 06
+Vehicles - lorries	16 01 04*, 16 01 06
+Vehicles - motor	16 01 04*, 16 01 06
+Vermiculite	01 04 09, 17 05 04, 20 02 02
+Vermin	18 02 02*, 18 02 03
+Video recorders	16 02 14
+Vinyl acetate	16 03 05*
+Vinyl chloride resins	07 02 13, 17 02 03, 19 12 04
+Visual display units	16 02 15*
+Vitreous enamels	10 11 12, 17 02 02, 19 12 05, 20 01 02
+Vitrified ash	19 04 02*
+Washing machines	16 02 14
+Washing waste - food	02 01 01, 02 02 01, 02 03 01, 02 04 01, 02 07 01
+Washings - agrochemical containers	02 01 08*, 02 01 09, 15 01 10*, 16 07 09*
+Waste from markets	20 03 02
+Waste water treatment sludge	19 08 01, 19 08 05, 19 08 11*, 19 08 12
+Water heater elements	17 04 01, 17 04 05
+Water-based adhesives	08 04 10, 20 01 28
+Water/oil mixtures	10 02 11*, 10 03 27*, 10 04 09*, 10 05 08*, 10 06 09*, 10 07 07*, 10 08 19*, 13 04 01*, 13 04 02*, 13 04 03*, 13 05 02*, 13 05 07*, 16 07 08*, 19 08 09*, 19 08 10*, 19 11 03*
+Wax - paraffin	20 01 26*
+Wax - petroleum	16 03 06
+Waxes and fats	12 01 12*
+Weeds	02 01 03, 20 02 01
+Welding waste	12 01 13
+White spirit	14 06 03*
+Windows (metal)	17 04 02, 17 04 07
+Windscreens	16 01 20
+Wire (galvanised coated) soft and hard drawn	17 04 10*, 17 04 11
+Wire (plastic coated) soft and hard drawn	17 04 10*, 17 04 11
+Wire - electrical	17 04 10*, 17 04 11
+Wood	02 01 03, 02 01 07, 03 01 04*, 03 01 05, 03 03 01, 15 01 03, 17 02 01, 17 02 04*, 19 12 06*, 19 12 07, 20 01 37*, 20 01 38, 20 02 01
+Wood cuttings	02 01 03, 02 01 07, 03 01 04*, 03 01 05, 03 03 01, 17 02 01, 17 02 04*, 19 12 06*, 19 12 07, 20 01 37*, 20 01 38, 20 02 01
+Wood preservatives - organometallic	03 02 03*
+Wooden containers - contaminated	15 01 03, 15 01 10*
+Wool	04 02 22, 15 01 09, 19 12 08, 20 01 11
+Wool grease	04 02 10
+Wool scouring sludge	04 02 10, 04 02 19*
+X-ray equipment	16 02 13*, 16 02 14
+Xylene	14 06 03*, 16 05 06*, 16 05 08*
+Yeast	02 06 01
+Yoghurt	02 05 01
+Zinc - scrap	11 05 01, 12 01 03, 12 01 04, 17 04 04, 19 12 03, 20 01 40
+Zinc ashes and residues	11 05 02
+Zinc blast furnace slag	10 05 01
+Zinc compounds	06 03 13*, 06 03 15*, 06 04 05*, 10 11 11*
+Zinc dross (thermal metallurgy)	10 05 10*, 10 05 11
+Zinc slags	10 05 01
+Zinc waste and scrap	11 05 01, 12 01 03, 12 01 04, 17 04 04, 19 12 03, 20 01 40
+Zirconia	16 08 03
+Zirconium compounds	06 03 13*, 06 03 15*, 06 04 05*

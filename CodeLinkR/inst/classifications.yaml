@@ -93,3 +93,12 @@ classifications:
       dataFile: SITC_Rev_3_english_structure.txt
       version: '3'
       colnames: 'Code,Description'
+  - name: EWC
+    type: Waste
+    versions:
+    - dataFile: ./inst/classifications/EWC/LoW_Waste_Thesaurus.txt
+      version: '2002'
+      colnames: 'Waste,Codes'
+    - dataFile: ./inst/classifications/EWC/LoW_Classification.txt
+      version: '2002'
+      colnames: 'Code,Description,Examples'

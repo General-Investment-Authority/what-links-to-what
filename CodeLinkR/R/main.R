@@ -25,6 +25,7 @@ if (createDescriptions){
   parse_NHM()
   parse_PRODCOM()
   parse_SITC()
+  parse_EWC()
 }
 # 2) creating links between classifications
 if (createConcordances){
