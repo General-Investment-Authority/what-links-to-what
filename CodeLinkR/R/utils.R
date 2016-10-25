@@ -70,7 +70,7 @@ add_skos_concept_node <- function(ontStore, conceptId,
                     data = altLabel)
   }
 
-  if (example != ""){
+  if (example != "" & example != " "){
     add.data.triple(ontStore,
                     subject=conceptId,
                     predicate = "http://www.w3.org/2004/02/skos/core#example",
