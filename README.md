@@ -54,6 +54,7 @@ Which specific versions of the classification codes have been linked:
 * CN - [Combined Nomenclature](http://ec.europa.eu/taxation_customs/customs/customs_duties/tariff_aspects/combined_nomenclature/index_en.htm)
 * CPA - [Statistical Classification of Products by Activity](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=CPA_2_1&StrLanguageCode=EN&IntPcKey=&StrLayoutCode=HIERARCHIC)
 * CPC - [Central Product Classification](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=ACT_OTH_DFLT_LAYOUT&StrNom=CPC_2_1&StrLanguageCode=EN)
+* GSIN - [Goods and Services Identification Number](https://buyandsell.gc.ca/procurement-data/goods-and-services-identification-number/gsin)
 * HS - Harmonized System
 * NAPCS - North American Product Classification System
 * NHM - [Harmonised Commodity Code 'Nomenclature harmonisée des marchandises'](http://ec.europa.eu/eurostat/ramon/other_documents/nhm/index.cfm?TargetUrl=DSP_NHM)
