@@ -66,6 +66,7 @@ Which specific versions of the classification codes have been linked:
 
 #### Patents
 * CPC - [Cooperative Patent Classification](http://www.uspto.gov/web/patents/classification/cpc/html/cpc-A.html).  This is used to classify patents by the USPTO.
+  * [Concordances](http://www.cooperativepatentclassification.org/cpcConcordances.html) from CPC to IPC and ECLA.
 
 
 ## How?
