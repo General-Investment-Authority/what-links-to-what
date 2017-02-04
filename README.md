@@ -67,7 +67,7 @@ Which specific versions of the classification codes have been linked:
 #### Patents
 * CPC - [Cooperative Patent Classification](http://www.uspto.gov/web/patents/classification/cpc/html/cpc-A.html).  This is used to classify patents by the USPTO.
   * [Concordances](http://www.cooperativepatentclassification.org/cpcConcordances.html) from CPC to IPC and ECLA.
-
+* IPC - [International Patent Classification](http://www.wipo.int/classifications/ipc/en/)
 
 ## How?
 The data is represented using the [graphviz dot format](http://www.graphviz.org/content/dot-language) in the file `WhatLinksToWhat.dot.m4`.  We additionally use [m4](http://www.gnu.org/software/m4/m4.html) to help replace variable names with colors representing the different types of classifications.
