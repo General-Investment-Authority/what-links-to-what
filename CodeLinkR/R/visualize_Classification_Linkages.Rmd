@@ -7,9 +7,10 @@ output: html_document
 
 
 ```{r, message=FALSE}
+options(stringsAsFactors = FALSE)
 library(yaml)
 library(ggplot2)
-library(cowplot)
+library(SPARQL)
 
 # change where the images are saved
 knitr::opts_chunk$set(
@@ -76,7 +77,7 @@ p1 = ggplot(simplifiedEdgeList, aes(x=toMainCode, y=fromMainCode, fill=LinkType)
   geom_tile(colour = "black", size=0.5) + 
   xlab("") + ylab("") + 
   ggtitle("Links Between Classification Codes")
-ggdraw(switch_axis_position(p1 + theme_gray(), axis = 'x'))
+print(p1)
 ```
 
 ```{r AdjMatrix, fig.width=10, fig.height=7}
@@ -84,7 +85,6 @@ p2 = ggplot(edgeList, aes(x=to, y=from, fill=LinkType)) +
   geom_tile(colour="black", size=0.5) + 
   xlab("") + ylab("") + 
   ggtitle("Links Between Classification Codes")
-ggdraw(switch_axis_position(p2 + theme_gray(), axis = 'x'))
-
+print(p2)
 ```
 
