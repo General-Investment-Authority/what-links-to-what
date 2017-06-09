@@ -1,7 +1,7 @@
 ---
 title: "Visualizing Classification Linkages"
 author: "Chris Davis"
-date: "April 20, 2016"
+date: "June 9, 2017"
 output: html_document
 ---
 
@@ -76,7 +76,7 @@ simplifiedEdgeList = simplifiedEdgeList[!duplicated(simplifiedEdgeList),]
 p1 = ggplot(simplifiedEdgeList, aes(x=toMainCode, y=fromMainCode, fill=LinkType)) + 
   geom_tile(colour = "black", size=0.5) + 
   xlab("") + ylab("") + 
-  ggtitle("Links Between Classification Codes")
+  ggtitle("Links Between Classification Codes") + scale_x_discrete(position="left")
 print(p1)
 ```
 
@@ -84,7 +84,7 @@ print(p1)
 p2 = ggplot(edgeList, aes(x=to, y=from, fill=LinkType)) + 
   geom_tile(colour="black", size=0.5) + 
   xlab("") + ylab("") + 
-  ggtitle("Links Between Classification Codes")
+  ggtitle("Links Between Classification Codes") + scale_x_discrete(position="left")
 print(p2)
 ```
 
