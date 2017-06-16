@@ -63,7 +63,7 @@ Which specific versions of the classification codes have been linked:
 * NST/R - [Standard Goods Classification for Transport Statistics/Revised](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=NSTR_1967&StrLanguageCode=EN&IntPcKey=&StrLayoutCode=HIERARCHIC)
 * PRODCOM - [PRODuction COMmunautaire](http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM&StrGroupCode=CLASSIFIC&StrLanguageCode=EN&IntFamilyCode=&TxtSearch=prodcom&IntCurrentPage=1)
 * SITC - Standard International Trade Classification
-* SRS - [Substance Registry Services](https://iaspub.epa.gov/sor_internet/registry/substreg/home/overview/home.do) - classification of substances (U.S. EPA)
+* SRS - [Substance Registration System](https://www.fda.gov/forindustry/datastandards/substanceregistrationsystem-uniqueingredientidentifierunii/)
 * UNSPSC - [United Nations Standard Products and Services Code](https://www.unspsc.org/)
 
 #### Patents
