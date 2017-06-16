@@ -1,5 +1,6 @@
 digraph G {
 rankdir=LR
+concentrate=true
 
 /*
 I'm bad at colors, someone should figure out a better scheme:
@@ -16,10 +17,14 @@ http://colorbrewer2.org/ helps a lot
 
 
 
+
+
+
 /****** Define all the Types of Nodes and their colors here ******/ 
 
+
 /*** Industrial Classifications **/
-node [fillcolor = "#d7191c", style=filled]
+node [fillcolor = "#d73027", style=filled]
 NACE
 ISIC
 NAICS
@@ -27,27 +32,50 @@ ANZSIC
 "Categories.xml"
 IPPC
 SIC
+SNAP97
+"NACE/CLIO"
 JSIC /* Japanese Standard Industrial Classification */
 
+
 /*** Product or Flow Classifications **/
-node [fillcolor = "#fdae61", style=filled]
+node [fillcolor = "#f46d43", style=filled]
 BEC
+BTN
 CAS
+CCT
 CN
+COICOP
 CPA
 CPC
-EWC
+EBOPS
 HS
-LOW
+LALL
 NAPCS /** https://en.wikipedia.org/wiki/North_American_Product_Classification_System **/
 NHM
 NIMEXE
+NIPRO
+NST
 "NST/R"
 PRODCOM
 SITC
 
-/** LCA Data Sets **/
-node [fillcolor = "#ffffbf", style=filled]
+
+node [fillcolor = "#4575b4", style=filled]
+EWC
+LOW
+
+
+node [fillcolor = "#abd9e9", style=filled]
+NUTS
+WGS84
+
+
+node [fillcolor = "#74add1", style=filled]
+"Domestic IO"
+"International IO"
+
+
+node [fillcolor = "#fdae61", style=filled]
 EcoInvent
 USDA
 CPM
@@ -55,20 +83,21 @@ NREL
 ELCD
 NEEDS
 
-/** Facility-level Data **/
-node [fillcolor = "#abd9e9", style=filled]
-EPRTR
+
+node [fillcolor = "#fee090", style=filled]
+"E-PRTR"
 LCPD
 "National Business Registries"
 TRI
 
-/** IS Case Studies **/
-node [fillcolor = "#2c7bb6", style=filled]
+
+node [fillcolor = "#e0f3f8", style=filled]
 "Global Synergy Database"
 "ie.tudelft.nl"
 "NISP Case Studies"
 "ISDATA open material synergy DB"
 "International Survey on Eco-Industrial Parks"
+
 
 /** Default color for everything else **/
 node [style=filled, fillcolor=white]
@@ -85,39 +114,50 @@ LOW -> NACE [dir="both"]  /** TODO where does this occur? **/
 ANZSIC -> ISIC [dir="both"]
 NAICS -> NAPCS [dir="both"]
 /** LCA Data Sets **/
-ISIC -> EcoInvent [label="dcterms:isReferencedBy"]
-CAS -> EcoInvent [label="dcterms:isReferencedBy"]
+ISIC -> EcoInvent 
+CAS -> EcoInvent 
 USDA -> ISIC
-"Categories.xml" -> NREL [label="dcterms:isReferencedBy"]
-"Categories.xml" -> NEEDS [label="dcterms:isReferencedBy"]
+"Categories.xml" -> NREL 
+"Categories.xml" -> NEEDS 
 /** Other Data Sets **/
-SIC -> TRI [label="dcterms:isReferencedBy"]
-NAICS -> TRI [label="dcterms:isReferencedBy"]
+SIC -> TRI 
+NAICS -> TRI 
+/*
 TRI -> "Pollution Prevention Activity Codes"
-TRI -> "Geo Data"
-EPRTR -> "Geo Data"
-NACE -> EPRTR [label="dcterms:isReferencedBy"]
-NUTS -> EPRTR [label="dcterms:isReferencedBy"]
-IPPC -> EPRTR [label="dcterms:isReferencedBy"]
-"NUTS" -> "Geo Data"
+*/
+TRI -> WGS84
+"E-PRTR" -> WGS84
+NACE -> "E-PRTR" 
+NUTS -> "E-PRTR" 
+IPPC -> "E-PRTR" 
+"NUTS" -> WGS84
 "ISDATA open material synergy DB" -> NACE
 "ISDATA open material synergy DB" -> EWC	
-CPA -> "SE IO" [label="dcterms:isReferencedBy"]
-NACE -> "SE IO" [label="dcterms:isReferencedBy"]
-NACE -> "Domestic IO" [label="dcterms:isReferencedBy"]
-NACE -> "International IO" [label="dcterms:isReferencedBy"]
-NACE -> "National Business Registries" [label="dcterms:isReferencedBy"]
-"National Business Registries" -> "Geo Data"
+/* 
+CPA -> "SE IO" 
+NACE -> "SE IO" 
+*/
+NACE -> "Domestic IO" 
+NACE -> "International IO" 
+NACE -> "National Business Registries" 
+"National Business Registries" -> WGS84
+/*
 "National Business Registries" -> "Economic Data"
-NACE -> "Eurostat" [label="dcterms:isReferencedBy"]
+*/
+/*
+NACE -> "Eurostat" 
 "Eurostat" -> "Economic Data"
 "Eurostat" -> "Social Data"
+*/
+/*
 LCPD -> "Heat Output"
+*/
 "Domestic IO" -> "International IO"
+/*
 "Domestic IO" -> "SE IO"
-"Best Available Technologies"
-"International Survey on Eco-Industrial Parks" -> "Geo Data"
-"ie.tudelft.nl" -> "Geo Data"
+*/
+"International Survey on Eco-Industrial Parks" -> WGS84
+"ie.tudelft.nl" -> WGS84
 
 BEC -> CN
 BEC -> SITC
@@ -164,16 +204,19 @@ SNAP97 -> NACE
 SIC -> ISIC
 SIC -> NACE
 
-HS -> "Product Complexity Index - Observatory of Economic Complexity"
+/* HS -> "Product Complexity Index - Observatory of Economic Complexity" */
 
 // CD: Don't know how to move this to the top right corner
-subgraph cluster_01 { 
+
+subgraph cluster_legend { 
     label = "Legend";
-	"Industrial Classifications" [fillcolor = "#d7191c", style=filled]
-	"Product/Flow Classifications" [fillcolor = "#fdae61", style=filled]
-	"LCA Databases" [fillcolor = "#ffffbf", style=filled] 
-	"Facility-level Data" [fillcolor = "#abd9e9", style=filled]
-	"IS Case Studies" [fillcolor = "#2c7bb6", style=filled]
+	"Industrial Classifications" [fillcolor = "#d73027", style=filled]
+	"Product/Flow Classifications" [fillcolor = "#f46d43", style=filled]
+	"LCA Databases" [fillcolor = "#fdae61", style=filled] 
+	"Facility-level Data" [fillcolor = "#fee090", style=filled]
+	"IS Case Studies" [fillcolor = "#e0f3f8", style=filled]
+	"Geo Data" [fillcolor = "#abd9e9", style=filled]
+	"Waste Classification" [fillcolor = "#4575b4", style=filled]
   }
 
 
