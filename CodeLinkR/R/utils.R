@@ -101,15 +101,15 @@ determine_skos_linking_predicate <- function(codes1, codes2, index){
   linkingPredicate_code1_code2 = "http://www.w3.org/2004/02/skos/core#relatedMatch"
   linkingPredicate_code2_code1 = "http://www.w3.org/2004/02/skos/core#relatedMatch"
 
-  if (numCode1 == numCode2){
+  if (numCode1 == numCode2){ # 1:1 mapping
     linkingPredicate_code1_code2 = "http://www.w3.org/2004/02/skos/core#exactMatch"
     linkingPredicate_code2_code1 = "http://www.w3.org/2004/02/skos/core#exactMatch"
-  } else if (numCode1 == 1 & numCode2 > 1){
-    linkingPredicate_code1_code2 = "http://www.w3.org/2004/02/skos/core#narrowMatch"
-    linkingPredicate_code2_code1 = "http://www.w3.org/2004/02/skos/core#broadMatch"
-  } else if (numCode1 > 1 & numCode2 == 1){
+  } else if (numCode1 == 1 & numCode2 > 1){ # 2nd code must point to multiple codes in codes1
     linkingPredicate_code1_code2 = "http://www.w3.org/2004/02/skos/core#broadMatch"
     linkingPredicate_code2_code1 = "http://www.w3.org/2004/02/skos/core#narrowMatch"
+  } else if (numCode1 > 1 & numCode2 == 1){ # 1st code must point to multiple codes in codes2
+    linkingPredicate_code1_code2 = "http://www.w3.org/2004/02/skos/core#narrowMatch"
+    linkingPredicate_code2_code1 = "http://www.w3.org/2004/02/skos/core#broadMatch"
   } # otherwise there's some sort of overlap between the codes - many to many mapping
 
   return(c(linkingPredicate_code1_code2, linkingPredicate_code2_code1))
